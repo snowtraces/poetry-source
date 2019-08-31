@@ -1,20 +1,32 @@
 # poetry-source
-全唐诗数据，json格式，两个不同来源的版本
+所有文件均为json格式
++ 全唐诗，两个不同来源的版本
++ 幽梦影
++ 诗经
 
-## 数据来源
-### 郑州大学 全唐诗库
-- 文件夹：ZZU_JSON_chs
-- 简体中文
-- 地址：http://www3.zzu.edu.cn/qts/
+## 全唐诗
+### 来源
+| 数据来源 | 郑州大学-全唐诗库           | 中国哲学书电子化计划              |
+|----------|-----------------------------|-----------------------------------|
+| 文件夹   | ZZU_JSON_chs                | CText_JSON_cht                    |
+| 语言     | 简体中文                    | 繁体中文                          |
+| 源地址   | http://www3.zzu.edu.cn/qts/ | https://ctext.org/quantangshi/zhs |
 
-### 中国哲学书电子化计划
-- 文件夹：CText_JSON_cht
-- 繁体中文
-- 地址：https://ctext.org/quantangshi/zhs
+### 数据格式
+| 属性 | volume | sequence | title | author | content |
+|------|--------|----------|-------|--------|---------|
+| 描述 | 分卷   | 序号     | 标题  | 作者   | 内容    |
 
-## 数据格式说明
-- volume：分卷
-- sequence：序号
-- title：标题
-- author：作者
-- content：内容
+## 幽梦影
+
+### 数据格式
+| 属性 | content | comment |
+|------|--------|----------|
+| 描述 | 内容   | 评论     |
+
+## 诗经
+
+### 数据格式
+| 属性 | title | chapter | section | content |
+|------|--------|----------|-------|--------|
+| 描述 | 标题   | 章节     | 分部  | 内容   |
