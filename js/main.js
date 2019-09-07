@@ -1,0 +1,1 @@
+let TANG_IDX_KEY = 'tang_idx_key'

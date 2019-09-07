@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button id="download">下载索引</button>
+    <script src="./js/saveData.js"></script>
+    <script>
+        let log = console.log.bind(console)
+
+        // 异步请求
+        let httpRequest = function (url) {
+            return new Promise((resolve, reject) => {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", url, true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+                        resolve(xhr.responseText);
+                    }
+                }
+                xhr.send();
+            })
+        }
+
+        let fullIndex = {}
+        for (let i = 1; i < 901; i++) {
+            let url = `./全唐诗/ZZU_JSON_chs/zhs_${(i + '').padStart(4, '0')}.json`
+            // log(name)
+            httpRequest(url)
+                .then(data => {
+                    data = JSON.parse(data)
+                    let index = {}
+                    data.map(p => {
+                        index[`${p.title}-${p.author}`] = `${p.volume}-${p.sequence}`
+                    })
+                    return index
+                }).then(data => {
+                    Object.assign(fullIndex, data)
+                })
+        }
+
+        download.onclick = function () {
+            saveData.setDataConver({ name: '全唐诗索引.json', data: JSON.stringify(fullIndex, null, 2) })
+        }
+
+    </script>
+</body>
+
+</html>
