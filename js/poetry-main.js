@@ -1,0 +1,73 @@
+{
+    let view = {
+        el: '#poetry',
+        template: `
+        <div class="title-wraper">
+            <h2 class="poetryTitle">\${data.title}</h2>
+            <div class="poetryAuthor">\${data.author}</div>
+        </div>
+        <div class="poetryParagraph">
+            \${
+                data.content.map(p => '<p>' + p.replace(/(，|。|？|！)/g, ' ') + '</p>')
+                    .join('')
+            }
+        </div> `,
+        render(data) {
+            el(this.el).innerHTML = evalTemplate(this.template, data)
+        },
+    }
+
+    let model = {
+        data: {
+            "volume": 21,
+            "sequence": 24,
+            "title": "相和歌辞·春江花月夜",
+            "author": "张若虚",
+            "content": [
+                "春江潮水连海平，海上明月共潮生。",
+                "滟滟随波千万里，何处春江无月明。",
+                "江流宛转绕芳甸，月照花林皆似霰。",
+                "空里流霜不觉飞，汀上白沙看不见。",
+                "江天一色无纤尘。皎皎空中孤月轮。",
+                "江畔何人初见月，江月何年初照人。",
+                "人生代代无穷已，江月年年望相似。",
+                "不知江月待何人，但见长江送流水。",
+                "白云一片去悠悠，青枫浦上不胜愁。",
+                "谁家今夜扁舟子，何处相思明月楼。",
+                "可怜楼上月裴回，应照离人妆镜台。",
+                "玉户帘中卷不去，捣衣砧上拂还来。",
+                "此时相望不相闻，愿逐月华流照君。",
+                "鸿雁长飞光不度，鱼龙潜跃水成文。",
+                "昨夜闲潭梦落花，可怜春半不还家。",
+                "江水流春去欲尽，江潭落月复西斜。",
+                "斜月沉沉藏海雾，碣石潇湘无限路。",
+                "不知乘月几人归，落月摇情满江树。"
+            ]
+        },
+    }
+
+    let controller = {
+        init(view, model) {
+            this.view = view
+            this.model = model
+            this.view.render(this.model.data)
+            this.bindEvents()
+            this.bindEventHub()
+        },
+        bindEvents() {
+        },
+        bindEventHub() {
+            eventHub.on('clickSearchResult', (data) => {
+                let url = `./全唐诗/ZZU_JSON_chs/zhs_${(data.volume + '').padStart(4, '0')}.json`
+                httpRequest(url).then(result => {
+                    result = JSON.parse(result)
+                    return result[data.sequence - 1]
+                }).then(data => {
+                    this.view.render(data)
+                })
+            })
+        }
+    }
+
+    controller.init(view, model)
+}

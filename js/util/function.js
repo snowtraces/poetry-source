@@ -24,7 +24,7 @@ window.Snow = (function (window, Snow) {
                 const _list = elAll(selector)
                 _list.forEach(
                     item => {
-                        if (_e.target === item) {
+                        if (_e.target === item ||item.contains(_e.target)) {
                             func.call(item)
                         }
                     }
@@ -127,7 +127,46 @@ window.Snow = (function (window, Snow) {
         return msg
     }
 
+    /**
+     * 抖动处理
+     */
+    const debounce = function(func, delay) {
+        let timeout = null
+        return function () {
+            clearTimeout(timeout)
+            timeout = setTimeout(() => {
+                func.call()
+            }, delay || 300)
+        }
+    }
+
+    /**
+     * 字符串模板动态执行
+     */
+    const evalTemplate = function(template, ...params){
+        let _template = 'return \`' + template + '\`'
+        let func = new Function('data', _template)
+        return func(params[0])
+    }
+
+    /**
+     * 异步请求
+     */
+    let httpRequest = function (url) {
+        return new Promise((resolve, reject) => {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    resolve(xhr.responseText);
+                }
+            }
+            xhr.send();
+        })
+    }
+
     const func = {
+        $: el,
         el: el,
         elAll: elAll,
         registEvent: registEvent,
@@ -137,6 +176,9 @@ window.Snow = (function (window, Snow) {
         log: log,
         errorMsg: errorMsg,
         successMsg: successMsg,
+        debounce: debounce,
+        evalTemplate: evalTemplate,
+        httpRequest: httpRequest
     }
     for (const _func in func) {
         Snow[_func] = func[_func]

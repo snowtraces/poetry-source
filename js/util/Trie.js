@@ -1,6 +1,7 @@
-let Trie = function (key) {
+let Trie = function (key, cacheDict) {
     this.root = {}
-    this.key = key
+    this.key = key,
+    this.cacheDict = cacheDict === undefined ? true : cacheDict
 }
 
 Trie.prototype.push = function (word, data) {
@@ -17,6 +18,7 @@ Trie.prototype.push = function (word, data) {
 }
 
 Trie.prototype.search = function (word, caseSensitive) {
+    caseSensitive = caseSensitive === null ? true : caseSensitive
     let node = this.root
     if (!caseSensitive) {
         // 大小写不敏感
@@ -44,10 +46,12 @@ Trie.prototype.search = function (word, caseSensitive) {
 }
 
 Trie.prototype.save2Local = function () {
-    localStorage.setItem(this.key, JSON.stringify(this.root))
+    if (this.cacheDict) {
+        localStorage.setItem(this.key, JSON.stringify(this.root))
+    }
 }
 
-Trie.prototype.init = function (data) {
+Trie.prototype.init = function (path, data) {
     let trieNodes = localStorage.getItem(this.key)
     if (trieNodes) {
         this.loadDataTrie(trieNodes)
@@ -55,7 +59,7 @@ Trie.prototype.init = function (data) {
     } else {
         if (data) {
             let dictJS = document.createElement('script')
-            dictJS.src = './js/dict.js'
+            dictJS.src = path
             el('body').appendChild(dictJS)
 
             dictJS.onload = () => {
@@ -83,7 +87,7 @@ Trie.prototype.loadDataJSON = function (data) {
         this.push(k, data[k])
     }
     this.save2Local()
-    successMsg('词典加载成功')
+    // successMsg('词典加载成功')
 }
 
 Trie.prototype.findWord = function (base, result, limit) {

@@ -1,0 +1,140 @@
+* {
+    margin: 0; 
+    border: 0;
+    box-sizing: border-box;
+}
+ul, uo {
+    list-style: none;
+    padding: 0;
+}
+
+html, body, #BG {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+#BG {
+    position: relative;
+    z-index: -1;
+   
+}
+#BG #SVG {
+    mix-blend-mode: multiply;
+    height: calc(100vh - 30px);
+    transition: all 2s;
+}
+
+/* main */
+main {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    z-index: 0;
+}
+
+main #poetry {
+    padding: 64px;
+    border-radius: 5px;
+    color: #fff;
+    writing-mode: vertical-lr;
+    transition: all .3s;
+}
+
+main #poetry .title-wraper {
+    font-family: KaiTi ;
+    padding-right: 10px;
+}
+
+main #poetry .title-wraper .poetryTitle {
+    font-size: 25px;
+}
+
+main #poetry .title-wraper .poetryAuthor {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .6);
+    margin-top: 5px;
+}
+
+main #poetry .poetryParagraph p {
+    padding: 2px 5px 0 12px;
+    font-family: KaiTi ;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+}
+
+/* aside */
+aside{
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    height: 100vh;
+    width: 0;
+    background: rgba(0, 0 ,0, .9);
+    box-shadow: 0 0 5px 1px rgba(0, 0 ,0, .5);
+    transition: width .2s;
+}
+aside.active{
+    width: 40vw;
+    padding: 24px;
+}
+#search-wrapper .searchResult {
+    color: #e4e4e4;
+    width: 100%;
+    overflow: hidden;
+    font-family: KaiTi;
+    font-size: 19px;
+    margin-top: 16px; 
+}
+#search-wrapper .searchResult li {
+    padding: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+#search-wrapper .searchResult li:hover {
+    background: rgba(255, 255, 255, .1)
+}
+#search-wrapper .searchResult li > .author {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, .6); 
+}
+#search-wrapper #keyword {
+    padding: 5px 8px;
+    width: 100%;
+    font-size: inherit;
+    outline: none;
+    border-radius: 3px;
+}
+
+#asideBar {
+    position: absolute;
+    padding: 12px;
+    bottom: 0;
+    right: 100%;
+    background: rgba(0, 0, 0, .2); 
+    cursor: pointer;
+}
+#asideBar > *{
+    display: none;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    
+}
+
+#asideBar > *.active {
+    display: block;
+}
+
+#asideBar > * > svg {
+    fill: rgba(255, 255, 255, .4);
+    width: 32px;
+    height: 32px;
+}
