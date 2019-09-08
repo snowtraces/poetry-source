@@ -1,4 +1,5 @@
 {
+    const LAST_POETRY_KRY = 'last_poetry'
     let view = {
         el: '#poetry',
         template: `
@@ -18,7 +19,8 @@
     }
 
     let model = {
-        data: {
+        data: null,
+        defaultData: {
             "volume": 21,
             "sequence": 24,
             "title": "相和歌辞·春江花月夜",
@@ -44,13 +46,20 @@
                 "不知乘月几人归，落月摇情满江树。"
             ]
         },
+        fetchLastData() {
+            let lastData = localStorage.getItem(LAST_POETRY_KRY)
+            return lastData ? JSON.parse(lastData) : this.defaultData
+        },
+        setLastData(data) {
+            localStorage.setItem(LAST_POETRY_KRY, JSON.stringify(data))
+        }
     }
 
     let controller = {
         init(view, model) {
             this.view = view
             this.model = model
-            this.view.render(this.model.data)
+            this.view.render(this.model.fetchLastData())
             this.bindEvents()
             this.bindEventHub()
         },
@@ -64,6 +73,7 @@
                     return result[data.sequence - 1]
                 }).then(data => {
                     this.view.render(data)
+                    this.model.setLastData(data)
                 })
             })
         }
