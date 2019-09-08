@@ -4126,7 +4126,7 @@ document
     .setAttribute("style", "width:" + MEM.windx + "px");
 
 // update(); //  TODO 调试模式
-// setTimeout(update, 500)
+setTimeout(update, 500)
 
 // 水平滚动
 // document.documentElement.scrollTo(0, 0);
