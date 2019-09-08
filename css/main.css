@@ -24,7 +24,6 @@ body {
 #BG #SVG {
     mix-blend-mode: multiply;
     height: calc(100vh - 30px);
-    transition: all 2s;
 }
 
 /* main */
@@ -65,6 +64,7 @@ main #poetry .poetryParagraph p {
     font-size: 22px;
     letter-spacing: 2px;
     border-right: 1px solid rgba(255, 255, 255, .5);
+    display: table;
 }
 
 /* aside */
