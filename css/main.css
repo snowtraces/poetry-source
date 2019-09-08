@@ -50,6 +50,7 @@ main #poetry .title-wraper {
 
 main #poetry .title-wraper .poetryTitle {
     font-size: 25px;
+    max-height: 12em;
 }
 
 main #poetry .title-wraper .poetryAuthor {
@@ -76,7 +77,7 @@ aside{
     width: 0;
     background: rgba(0, 0 ,0, .9);
     box-shadow: 0 0 5px 1px rgba(0, 0 ,0, .5);
-    transition: width .2s;
+    transition: all .3s;
 }
 aside.active{
     width: 40vw;
