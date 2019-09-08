@@ -17,10 +17,10 @@ window.Snow = (function (window, Snow) {
         )
     }
 
-    const registEventForce = function (selector, event, func) {
+    const registEventForce = function (selector, event, func, delegation) {
         let eventList = event.split(' ').map(e => e.trim())
         eventList.forEach(e => {
-            document.addEventListener(e, (_e) => {
+            (delegation ? el(delegation) : document).addEventListener(e, (_e) => {
                 const _list = elAll(selector)
                 _list.forEach(
                     item => {

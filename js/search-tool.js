@@ -69,7 +69,7 @@
             registEventForce('.searchResult > li', 'click', function(){
                 let dataIdx = this.getAttribute('data-idx').split('-')
                 eventHub.emit('clickSearchResult', {volume: dataIdx[0], sequence: dataIdx[1]})
-            })
+            }, '.searchResult')
         }
     }
 
