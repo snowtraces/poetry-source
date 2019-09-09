@@ -17,13 +17,15 @@ body {
 }
 
 #BG {
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: -1;
-   
 }
 #BG #SVG {
+    /* position: fixed; */
     mix-blend-mode: multiply;
-    height: calc(100vh - 30px);
+    height: 100%;
+    width: 100%;
 }
 
 /* main */
@@ -36,6 +38,7 @@ main {
 
 main #poetry {
     padding: 64px;
+    margin: 0 32px 32px 0;
     border-radius: 5px;
     color: #fff;
     writing-mode: vertical-lr;
@@ -73,7 +76,7 @@ aside{
     top: 0;
     right: 0;
     
-    height: 100vh;
+    height: 100%;
     width: 0;
     background: rgba(0, 0 ,0, .9);
     box-shadow: 0 0 5px 1px rgba(0, 0 ,0, .5);
@@ -81,6 +84,7 @@ aside{
 }
 aside.active{
     width: 40vw;
+    min-width: 300px;
     padding: 24px;
 }
 #search-wrapper .searchResult {

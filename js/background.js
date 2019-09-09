@@ -4121,9 +4121,6 @@ var btnHoverCol = "rgba(0,0,0,0.1)";
 
 //----------------------------------------
 MEM.lasttick = new Date().getTime();
-document
-    .getElementById("BG")
-    .setAttribute("style", "width:" + MEM.windx + "px");
 
 // update(); //  TODO 调试模式
 setTimeout(update, 500)
