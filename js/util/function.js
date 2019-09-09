@@ -2,11 +2,21 @@ window.Snow = (function (window, Snow) {
     const log = console.log.bind(console)
     const error = console.error.bind(console)
 
-    const el = (selector) => { return document.querySelector(selector) }
-    const elAll = (selector) => { return document.querySelectorAll(selector) }
+    /**
+     * dom选择
+     */
+    const el = (selector) => document.querySelector(selector)
+    const elAll = (selector) => document.querySelectorAll(selector)
 
+    /**
+     * 事件绑定
+     */
     const registEvent = (selector, event, func) => {
         const nodeList = elAll(selector)
+        if (!nodeList || nodeList.length === 0) {
+            registEventForce(selector, event, func)
+            return false
+        }
         let eventList = event.split(' ').map(e => e.trim())
         nodeList.forEach(
             node => {
@@ -17,6 +27,9 @@ window.Snow = (function (window, Snow) {
         )
     }
 
+    /**
+     * 事件绑定委托，默认使用document处理event
+     */
     const registEventForce = function (selector, event, func, delegation) {
         let eventList = event.split(' ').map(e => e.trim())
         eventList.forEach(e => {
@@ -24,7 +37,7 @@ window.Snow = (function (window, Snow) {
                 const _list = elAll(selector)
                 _list.forEach(
                     item => {
-                        if (_e.target === item ||item.contains(_e.target)) {
+                        if (_e.target === item || item.contains(_e.target)) {
                             func.call(item)
                         }
                     }
@@ -78,7 +91,7 @@ window.Snow = (function (window, Snow) {
         }, 800)
     }
 
-    const buildMsgEl = function() {
+    const buildMsgEl = function () {
         if (el('#snowMsg')) {
             return el('#snowMsg')
         }
@@ -130,7 +143,7 @@ window.Snow = (function (window, Snow) {
     /**
      * 抖动处理
      */
-    const debounce = function(func, delay) {
+    const debounce = function (func, delay) {
         let timeout = null
         return function () {
             clearTimeout(timeout)
@@ -143,7 +156,7 @@ window.Snow = (function (window, Snow) {
     /**
      * 字符串模板动态执行
      */
-    const evalTemplate = function(template, ...params){
+    const evalTemplate = function (template, ...params) {
         let _template = 'return \`' + template + '\`'
         let func = new Function('data', _template)
         return func(params[0])
