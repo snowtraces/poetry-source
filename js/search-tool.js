@@ -31,7 +31,7 @@
         }
     }
     let model = {
-        tree: new Trie(TANG_IDX_KEY, false),
+        tree: new Trie(TANG_IDX_KEY),
         init() {
             this.tree.init('./js/index/tang_poetry_idx.js', 'tangIdx')
         }

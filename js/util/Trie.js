@@ -45,16 +45,16 @@ Trie.prototype.search = function (word, caseSensitive) {
     return node
 }
 
-Trie.prototype.save2Local = function () {
+Trie.prototype.save2Local = function (jsonData) {
     if (this.cacheDict) {
-        localStorage.setItem(this.key, JSON.stringify(this.root))
+        localStorage.setItem(this.key, JSON.stringify(jsonData))
     }
 }
 
 Trie.prototype.init = function (path, data) {
-    let trieNodes = localStorage.getItem(this.key)
-    if (trieNodes) {
-        this.loadDataTrie(trieNodes)
+    let jsonData = localStorage.getItem(this.key)
+    if (jsonData) {
+        this.loadDataJSON(jsonData)
         log('--- 从storage中加载数据 ---')
     } else {
         if (data) {
@@ -64,8 +64,10 @@ Trie.prototype.init = function (path, data) {
 
             dictJS.onload = () => {
                 this.loadDataJSON(window[data])
-                window[data] = null
+                this.save2Local(window[data])
+                // window[data] = null
                 log('--- 从js文件中加载数据 ---')
+                // successMsg('词典加载成功')
             }
         } else {
             localStorage.setItem(this.key, JSON.stringify(this.root))
@@ -86,8 +88,7 @@ Trie.prototype.loadDataJSON = function (data) {
     for (let k in data) {
         this.push(k, data[k])
     }
-    this.save2Local()
-    // successMsg('词典加载成功')
+ 
 }
 
 Trie.prototype.findWord = function (base, result, limit) {
