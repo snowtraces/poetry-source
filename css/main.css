@@ -3,7 +3,7 @@
     border: 0;
     box-sizing: border-box;
 }
-ul, uo {
+ul, ol {
     list-style: none;
     padding: 0;
 }
@@ -75,7 +75,6 @@ aside{
     position: fixed;
     top: 0;
     right: 0;
-    
     height: 100%;
     width: 0;
     background: rgba(0, 0 ,0, .9);
@@ -84,12 +83,11 @@ aside{
 }
 aside.active{
     width: 40vw;
-    min-width: 300px;
-    padding: 24px;
 }
 #search-wrapper .searchResult {
     color: #e4e4e4;
-    width: 100%;
+    width: calc(100% - 40px);
+    margin: 20px;
     overflow: hidden;
     font-family: KaiTi;
     font-size: 19px;
@@ -112,7 +110,8 @@ aside.active{
 }
 #search-wrapper #keyword {
     padding: 5px 8px;
-    width: 100%;
+    width: calc(100% - 40px);
+    margin: 20px 20px 0 20px;
     font-size: inherit;
     outline: none;
     border-radius: 3px;
@@ -142,4 +141,10 @@ aside.active{
     fill: rgba(255, 255, 255, .4);
     width: 32px;
     height: 32px;
+}
+
+@media(max-width: 600px) {
+    aside.active {
+        width: 300px;
+    }
 }
