@@ -25,7 +25,6 @@ var Prng = new function () {
             redo();
         }
         Prng.s = y;
-        console.log(["int seed", Prng.s]);
         for (var i = 0; i < 10; i++) {
             Prng.next();
         }
@@ -45,8 +44,6 @@ var Prng = new function () {
         for (var i = 0; i < 10000000; i++) {
             chart[Math.floor(F() * 10)] += 1;
         }
-        console.log(chart);
-        console.log("finished in " + (new Date().getTime() - t0));
         return chart;
     };
 }();
@@ -70,7 +67,6 @@ function parseArgs(key2f) {
         try {
             key2f[e[0]](e[1]);
         } catch (e) {
-            console.log(e);
         }
     }
 }
@@ -209,8 +205,6 @@ var PolyTools = new function () {
         return plist.reduce(
             function (acc, v) {
                 /*       if (v == undefined || acc == undefined){
-              console.log("ERRR");
-              console.log(plist)
               return [0,0]
             } */
                 return [v[0] / plist.length + acc[0], v[1] / plist.length + acc[1]];
@@ -359,8 +353,6 @@ var PolyTools = new function () {
                 try {
                     var mid = PolyTools.midPt([plist[ind], plist[nind]]);
                 } catch (err) {
-                    console.log(plist);
-                    console.log(err);
                     return [];
                 }
                 return shatter([plist[ind], mid, plist[lind]], a).concat(
@@ -3723,7 +3715,6 @@ function mountplanner(xmin, xmax) {
                 return false;
             }
         }
-        console.log("+");
         reg.push(r);
         return true;
     }
@@ -3777,7 +3768,6 @@ function mountplanner(xmin, xmax) {
             chadd(r);
         }
     }
-    console.log([xmin, xmax]);
     for (var i = xmin; i < xmax; i += xstep) {
         if (MEM.planmtx[Math.floor(i / xstep)] == 0) {
             //var r = {tag:"redcirc",x:i,y:700}
@@ -3830,8 +3820,6 @@ function dummyloader(xmin, xmax) {
 function chunkloader(xmin, xmax) {
     var add = function (nch) {
         if (nch.canv.includes("NaN")) {
-            console.log("gotcha:");
-            console.log(nch.tag);
             nch.canv = nch.canv.replace(/NaN/g, -1000);
         }
         if (MEM.chunks.length == 0) {
@@ -3853,13 +3841,9 @@ function chunkloader(xmin, xmax) {
                 }
             }
         }
-        console.log("EH?WTF!");
-        console.log(MEM.chunks);
-        console.log(nch);
     };
 
     while (xmax > MEM.xmax - MEM.cwid || xmin < MEM.xmin + MEM.cwid) {
-        console.log("generating new chunk...");
 
         var plan;
         if (xmax > MEM.xmax - MEM.cwid) {
@@ -3986,7 +3970,6 @@ function viewupdate() {
     try {
         document.getElementById("SVG").setAttribute("viewBox", calcViewBox());
     } catch (e) {
-        console.log("not possible");
     }
     //setTimeout(viewupdate,100)
 }
@@ -4127,8 +4110,7 @@ setTimeout(update, 500)
 
 // 水平滚动
 // document.documentElement.scrollTo(0, 0);
-// console.log(["SCROLLX", window.scrollX]);
-// present(); // 
+//// present(); // 
 // draw();
 
 // -----------------------------------
