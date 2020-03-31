@@ -1,5 +1,5 @@
 # poetry-source
-![example](example1.jpg)
+![example](example.jpg)
 
 ## 项目结构
 <pre>
