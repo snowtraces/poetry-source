@@ -143,6 +143,23 @@ aside.active{
     height: 32px;
 }
 
+#github {
+    color: #c6cbd1;
+    position: absolute;
+    top: 20px;
+    left: -57px;
+    line-height: 1;
+    font-size: 12px;
+}
+
+#github:hover {
+    color: #959da5;
+}
+
+#github path {
+    fill: currentColor;
+}
+
 @media(max-width: 600px) {
     aside.active {
         width: 300px;
