@@ -43,6 +43,7 @@ main #poetry {
     color: #fff;
     writing-mode: vertical-lr;
     transition: all .3s;
+    max-height: calc(100vh - 64px);
 }
 
 main #poetry .title-wraper {
@@ -52,7 +53,7 @@ main #poetry .title-wraper {
 
 main #poetry .title-wraper .poetryTitle {
     font-size: 25px;
-    max-height: 12em;
+    max-height: 16em;
 }
 
 main #poetry .title-wraper .poetryAuthor {
@@ -68,6 +69,7 @@ main #poetry .poetryParagraph p {
     letter-spacing: 2px;
     border-right: 1px solid rgba(255, 255, 255, .5);
     display: table;
+    line-height: 1.5em;
 }
 
 /* aside */
