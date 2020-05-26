@@ -35,7 +35,7 @@
     let model = {
         init() {
             let dictJS = document.createElement('script')
-            dictJS.src = './js/index/full_data_index.js'
+            dictJS.src = './js/index/main_data_index.js'
             el('body').appendChild(dictJS)
 
             dictJS.onload = () => {
@@ -63,9 +63,9 @@
                         let re = new RegExp(`${keyword}`);
                         let findResult = {};
                         let result_cnt = 0;
-                        for (let summary in full_data_index) {
+                        for (let summary in search_data_index) {
                             if (re.test(summary)) {
-                                findResult[summary] = full_data_index[summary];
+                                findResult[summary] = search_data_index[summary];
                                 result_cnt++;
                             }
                             if (result_cnt >= 20) {

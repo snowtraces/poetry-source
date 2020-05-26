@@ -46,6 +46,8 @@
             return minIdx;
         }
 
+        let main_author = ["苏轼", "李白", "陆游", "王维", "杜甫", "杜牧", "屈原", "柳永", "李煜", "王勃", "李贺", "秦观", "曹操", "曹植", "李商隐", "辛弃疾", "李清照", "白居易", "陶渊明", "温庭筠", "欧阳修", "晏几道", "刘禹锡", "孟浩然"]
+        let is_main_index = true
 
         let fullIndex = {}
         file_path_idx.forEach((path, f_idx) => {
@@ -54,9 +56,18 @@
                 console.log(data.length)
                 let currIndex = {}
                 data.map((item, i_idx) => {
-                    currIndex[
-                        `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
-                    ] = `${f_idx}-${i_idx}`
+                    if (is_main_index) {
+                        if (main_author.includes(item.authorName)) {
+                            currIndex[
+                                `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
+                            ] = `${f_idx}-${i_idx}`
+                        }
+                    } else {
+                        currIndex[
+                            `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
+                        ] = `${f_idx}-${i_idx}`
+                    }
+
                 })
 
                 return currIndex
