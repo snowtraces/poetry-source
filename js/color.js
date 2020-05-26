@@ -41,15 +41,6 @@ var colorCold = [
 
 var colorWarm = [
     {
-        r: 234,
-        g: 231,
-        b: 243,
-        _r: 206,
-        _g: 20,
-        _b: 22,
-        _a: .75
-    },
-    {
         r: 251,
         g: 249,
         b: 247,
@@ -81,7 +72,7 @@ var colorWarm = [
 
 let colors = colorCold.concat(colorWarm)
 
-let color_idx = 5;
+let color_idx = colorWarm.length + 1;
 color_idx = Math.floor(Math.random() * Math.floor(colors.length))
 
 let _color = colors[color_idx]
