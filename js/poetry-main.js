@@ -76,7 +76,11 @@
                     let content = []
                     data.content.forEach(p => {
                         let pArray = p.match(/[^。！？]+[。！？]/g);
-                        pArray.forEach(_p => content.push(_p))
+                        if (pArray && pArray.length > 0) {
+                            pArray.forEach(_p => content.push(_p))
+                        } else {
+                            content.push(p)
+                        }
                     })
                     data.content = content
 

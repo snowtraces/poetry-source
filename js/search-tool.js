@@ -2,7 +2,7 @@
     let view = {
         el: '#search-wrapper',
         template: `
-        <input type='search' name='keyword' id='keyword'>
+        <input type='search' name='keyword' id='keyword' autocomplete="off" >
         <ul class='searchResult'>
         </ul>
         `,
