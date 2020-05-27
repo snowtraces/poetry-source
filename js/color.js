@@ -72,15 +72,7 @@ var colorWarm = [
 
 let colors = colorCold.concat(colorWarm)
 
-let color_idx = colorWarm.length + 1;
+let color_idx = colors.length + 1;
 color_idx = Math.floor(Math.random() * Math.floor(colors.length))
 
-let _color = colors[color_idx]
-let color = {}
-for (const key in _color) {
-    if (key.startsWith('_') && key !== '_a') {
-        color[key] = _color[key]
-    } else {
-        color[key] = _color[key]
-    }
-}
+let color = colors[color_idx]

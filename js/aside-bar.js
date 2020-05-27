@@ -18,17 +18,17 @@
             el(this.el).innerHTML = this.template
         },
         toggle(){
-            let isHidden = $(`${this.el}  .svg-left`).classList.contains('active')
+            let isHidden = $.el(`${this.el}  .svg-left`).classList.contains('active')
             if (isHidden) {
-                $(`${this.el}  .svg-left`).classList.remove('active')
-                $(`${this.el}  .svg-right`).classList.add('active')
+                $.el(`${this.el}  .svg-left`).classList.remove('active')
+                $.el(`${this.el}  .svg-right`).classList.add('active')
 
-                $('aside').classList.add('active')
+                $.el('aside').classList.add('active')
             } else {
-                $(`${this.el}  .svg-right`).classList.remove('active')
-                $(`${this.el}  .svg-left`).classList.add('active')
+                $.el(`${this.el}  .svg-right`).classList.remove('active')
+                $.el(`${this.el}  .svg-left`).classList.add('active')
                 
-                $('aside').classList.remove('active')
+                $.el('aside').classList.remove('active')
             }
         }
     }
@@ -44,7 +44,7 @@
             this.bindEventHub()
         },
         bindEvents() {
-            registEvent(this.view.el, 'click', () => {
+            $.bindEvent(this.view.el, 'click', () => {
                 this.view.toggle()
             })
 

@@ -54,7 +54,7 @@
         },
         bindEvents() {
             // 关键词搜索
-            registEvent(`${this.view.el} #keyword`, 'keyup', () => {
+            $.bindEvent(`${this.view.el} #keyword`, 'keyup', () => {
                 debounce(function () {
                     let keyword = el('#keyword').value
                     if (!keyword) {
@@ -79,14 +79,15 @@
                         }
                     }
                 }.bind(this), 1000)()
+            });
+            // 点击列表，展示数据
+            $.bindEvent('.searchResult > li', 'click', function () {
+                let dataIdx = this.getAttribute('data-idx').split('-')
+                eventHub.emit('clickSearchResult', { file: dataIdx[0], index: dataIdx[1] })
             })
         },
         bindEventHub() {
-            // 点击列表，展示数据
-            registEventForce('.searchResult > li', 'click', function () {
-                let dataIdx = this.getAttribute('data-idx').split('-')
-                eventHub.emit('clickSearchResult', { file: dataIdx[0], index: dataIdx[1] })
-            }, '.searchResult')
+
         }
     }
 

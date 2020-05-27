@@ -145,11 +145,13 @@ aside.active{
     height: 32px;
 }
 
+/* github icon*/
 #github {
     color: #c6cbd1;
     position: absolute;
     top: 20px;
-    left: -57px;
+    right: 100%;
+    margin-right: 20px;
     line-height: 1;
     font-size: 12px;
 }
@@ -160,6 +162,28 @@ aside.active{
 
 #github path {
     fill: currentColor;
+}
+
+/* color */
+#color-selector {
+    position: absolute;
+    top: 75px;
+    right: 100%;
+    margin-right: 24px;
+    line-height: 1;
+    font-size: 12px;
+}
+#color-selector > div {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    opacity: .35;
+    border-radius: 2px;
+    transition: all .2s;
+}
+#color-selector > div.active, #color-selector > div:hover {
+    opacity: .75;
 }
 
 @media(max-width: 600px) {

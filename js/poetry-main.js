@@ -69,8 +69,7 @@
         bindEventHub() {
             eventHub.on('clickSearchResult', (data) => {
                 let url = `/source/${file_path_idx[data.file]}`
-                httpRequest(url).then(result => {
-                    result = JSON.parse(result)
+                $.get(url).then(result => {
                     return result[data.index]
                 }).then(data => {
                     let content = []

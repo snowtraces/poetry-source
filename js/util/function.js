@@ -1,4 +1,4 @@
-window.Snow = (function (window, Snow) {
+window.$ = (function (window, $) {
     const log = console.log.bind(console)
     const error = console.error.bind(console)
 
@@ -11,36 +11,28 @@ window.Snow = (function (window, Snow) {
     /**
      * 事件绑定
      */
-    const registEvent = (selector, event, func) => {
+    const bindEvent = (selector, event, func) => {
         const nodeList = elAll(selector)
         if (!nodeList || nodeList.length === 0) {
-            registEventForce(selector, event, func)
-            return false
+            bindEventForce(selector, event, func)
+        } else {
+            let eventList = event.split(' ').map(e => e.trim())
+            nodeList.forEach(
+                node => eventList.forEach(e => node.addEventListener(e, func, false))
+            )
         }
-        let eventList = event.split(' ').map(e => e.trim())
-        nodeList.forEach(
-            node => {
-                eventList.forEach(e => {
-                    node.addEventListener(e, func, false)
-                })
-            }
-        )
     }
 
     /**
      * 事件绑定委托，默认使用document处理event
      */
-    const registEventForce = function (selector, event, func, delegation) {
+    const bindEventForce = function (selector, event, func, delegation) {
         let eventList = event.split(' ').map(e => e.trim())
         eventList.forEach(e => {
             (delegation ? el(delegation) : document).addEventListener(e, (_e) => {
                 const _list = elAll(selector)
                 _list.forEach(
-                    item => {
-                        if (_e.target === item || item.contains(_e.target)) {
-                            func.call(item)
-                        }
-                    }
+                    item => (_e.target === item || item.contains(_e.target)) && func.call(item, _e)
                 )
             }, false)
         })
@@ -54,17 +46,23 @@ window.Snow = (function (window, Snow) {
     /**
      * 复制文本
      */
-    const copy = function (targetEL) {
-        if (!targetEL || !targetEL.value) {
-            error('无可复制内容！')
-            return false
-        }
+    const copy = function (text) {
+        return new Promise((resolve, reject) => {
+            var targetEL = document.createElement("textarea")
+            targetEL.style.position = "fixed"
+            targetEL.style.left = "-9999px"
+            targetEL.style.top = "0"
+            document.body.append(targetEL)
+            targetEL.textContent = text
 
-        targetEL.focus()
-        targetEL.setSelectionRange(0, target.value.length)
-        document.execCommand("copy")
-        targetEL.blur()
-        return true
+            targetEL.focus()
+            targetEL.setSelectionRange(0, targetEL.value.length)
+            document.execCommand('copy')
+            targetEL.blur()
+            targetEL.remove()
+
+            resolve()
+        })
     }
 
     /**
@@ -109,7 +107,7 @@ window.Snow = (function (window, Snow) {
                 position: fixed;
                 left: 0;
                 right: 0;
-                top: 50px;
+                top: 30px;
                 z-index: 999999;
                 width: auto;
                 max-width: 200px;
@@ -122,15 +120,12 @@ window.Snow = (function (window, Snow) {
                 display: none;
                 z-index: -1;
             }
-
             #snowMsg.error-msg {
                 background-color: #f00;
             }
-
             #snowMsg.success-msg {
                 background-color: #2196F3;
             }
-
             #snowMsg.active {
                 display: block;
                 z-index: 1;
@@ -165,25 +160,68 @@ window.Snow = (function (window, Snow) {
     /**
      * 异步请求
      */
-    let httpRequest = function (url) {
+    const get = function (url, data) {
         return new Promise((resolve, reject) => {
             var xhr = new XMLHttpRequest();
-            xhr.open("GET", url, true);
+            if (data) {
+                url = url + '?' + Object.keys(data).map(key => `${key}=${data[key]}`).join('&')
+            }
+            xhr.open('GET', url, true);
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4) {
-                    resolve(xhr.responseText);
+                    if (xhr.status >= 200 && xhr.status < 400) {
+                        if (xhr.responseText
+                            && (xhr.responseText.charAt(0) === '[' || xhr.responseText.charAt(0) === '{')) {
+                            let result = JSON.parse(xhr.responseText)
+                            resolve(result);
+                        } else {
+                            resolve(xhr.responseText)
+                        }
+                    } else {
+                        reject ? reject() : errorMsg(result.msg || '失败')
+                    }
                 }
             }
-            xhr.send();
+            xhr.send(null);
+        })
+    }
+    const post = function (url, data) {
+        return new Promise((resolve, reject) => {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', url, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    if (xhr.status >= 200 && xhr.status < 400) {
+                        if (xhr.responseText
+                            && (xhr.responseText.charAt(0) === '[' || xhr.responseText.charAt(0)) === '{') {
+                            let result = JSON.parse(xhr.responseText)
+                            resolve(result);
+                        } else {
+                            resolve(xhr.responseText)
+                        }
+                        successMsg(result.msg || '成功')
+                    } else {
+                        reject ? reject() : errorMsg(result.msg || '失败')
+                    }
+                }
+            }
+            xhr.send(json2FormData(data));
         })
     }
 
+    const json2FormData = function (data) {
+        let formData = new FormData()
+        for (let key in data) {
+            formData.set(key, data[key])
+        }
+        return formData
+    }
+
     const func = {
-        $: el,
         el: el,
         elAll: elAll,
-        registEvent: registEvent,
-        registEventForce: registEventForce,
+        bindEvent: bindEvent,
+        bindEventForce: bindEventForce,
         firstUpperCase: firstUpperCase,
         copy: copy,
         log: log,
@@ -191,11 +229,12 @@ window.Snow = (function (window, Snow) {
         successMsg: successMsg,
         debounce: debounce,
         evalTemplate: evalTemplate,
-        httpRequest: httpRequest
+        post: post,
+        get: get,
     }
     for (const _func in func) {
-        Snow[_func] = func[_func]
+        $[_func] = func[_func]
         window[_func] = func[_func]
     }
-    return Snow
-})(window, window.Snow || {})
+    return $
+})(window, window.$ || {})
