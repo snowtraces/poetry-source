@@ -46,7 +46,12 @@
             return minIdx;
         }
 
-        let main_author = ["苏轼", "李白", "陆游", "王维", "杜甫", "杜牧", "屈原", "柳永", "李煜", "王勃", "李贺", "秦观", "曹操", "曹植", "李商隐", "辛弃疾", "李清照", "白居易", "陶渊明", "温庭筠", "欧阳修", "晏几道", "刘禹锡", "孟浩然"]
+        let main_author = [
+            "苏轼", "李白", "陆游", "王维", "杜甫", "杜牧", "屈原", "柳永", "李煜",
+            "王勃", "李贺", "秦观", "曹操", "曹植", "李商隐", "辛弃疾", "李清照", "白居易",
+            "陶渊明", "温庭筠", "欧阳修", "晏几道", "刘禹锡", "孟浩然", "张若虚",
+            "陈子昂", "贺知章", "王昌龄", "孟郊", "贾岛", "周邦彦", "晏殊", "姜夔", "纳兰性德"
+        ]
         let is_main_index = true
 
         let fullIndex = {}
@@ -79,7 +84,11 @@
 
         download.onclick = function () {
             // saveData.setDataConver({ name: 'full_data_index.json', data: JSON.stringify(fullIndex, null, 2) })
-            saveData.setDataConver({ name: 'full_data_index.json', data: JSON.stringify(fullIndex) })
+            saveData.setDataConver({
+                name: `${is_main_index ? 'main' : 'full'}_data_index.js`,
+                data: 'search_data_index = ' + JSON.stringify(fullIndex)
+            }
+            )
         }
 
     </script>
