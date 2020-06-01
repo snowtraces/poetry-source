@@ -74,7 +74,7 @@
                 }).then(data => {
                     let content = []
                     data.content.forEach(p => {
-                        let pArray = p.match(/[^。！？]+[。！？]/g);
+                        let pArray = p.match(/[^。！]+[。！]/g);
                         if (pArray && pArray.length > 0) {
                             pArray.forEach(_p => content.push(_p))
                         } else {
