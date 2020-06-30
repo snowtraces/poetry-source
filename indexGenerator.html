@@ -11,6 +11,8 @@
 <body>
 
     <button id="download">下载索引</button>
+    <button id="downloadAuthorSql">下载作者表结构</button>
+    <button id="downloadPoetrySql">下载内容表结构</button>
     <script src="./js/util/saveData.js"></script>
     <script src="./js/index/file_path_idx.js"></script>
     <script>
@@ -86,8 +88,10 @@
         }
 
         download.onclick = function () {
+            fullIndex = {}
+            dealFileCount = 0
             buildFullIndex()
-        
+
             let timer = setInterval(() => {
                 if (dealFileCount !== fileCount) {
                     log("等待解析中..." + dealFileCount + "/" + fileCount)
@@ -102,8 +106,58 @@
             }, 500)
 
             // saveData.setDataConver({ name: 'full_data_index.json', data: JSON.stringify(fullIndex, null, 2) })
-            
         }
+
+
+        function sqlNormalize(inStr) {
+            if (Array.isArray(inStr)) {
+                inStr = inStr.join("\n")
+            }
+
+            return inStr.replace(/\r?\n/g, "\\n")
+                .replace(/'/g, "\\'")
+        }
+
+        function sqlBuilder(tableName, titleList, data) {
+            let columnSeg = titleList.map(title => `\`${title}\``).join(', ')
+            return data.map(author => titleList.map(title => author[title] ? `'${sqlNormalize(author[title])}'` : 'null').join(', '))
+                .map(seg => `insert into ${tableName} (${columnSeg}) values (${seg});`)
+                .join('\n');
+        }
+
+        downloadAuthorSql.onclick = function () {
+            let titleList = ['id', 'name', 'dynasty', 'birthYear', 'deathYear', 'desc']
+            httpRequest('source/作者.json').then(data => {
+                let sql = sqlBuilder('t_author', titleList, data)
+                saveData.setDataConver({
+                    name: `author.sql`,
+                    data: sql
+                })
+            })
+        }
+
+        downloadPoetrySql.onclick = function () {
+            let titleList = ['id', 'title', 'authorName', 'authorId', 'dynasty', 'appreciation', 'content', 'comment', 'translation', 'intro', 'foreword', 'annotation']
+
+            let sqlList = []
+            let sql_file_idx = 0
+            file_path_idx.forEach((path, f_idx) => {
+                httpRequest(`/source/${path}`).then(data => sqlBuilder('t_work', titleList, data))
+                .then(sql => {
+                    dealFileCount++
+                    sqlList.push(sql)
+                    if (dealFileCount === fileCount) {
+                        saveData.setDataConver({
+                            name: `work_${sql_file_idx}.sql`,
+                            data: sqlList.join('\n')
+                        })
+                        sql_file_idx++
+                        sqlList = []
+                    }
+                })
+            });
+        }
+
 
     </script>
 </body>
