@@ -55,40 +55,54 @@
         let is_main_index = true
 
         let fullIndex = {}
-        file_path_idx.forEach((path, f_idx) => {
-            httpRequest(`/source/${path}`).then(data => {
-                console.log(path)
-                console.log(data.length)
-                let currIndex = {}
-                data.map((item, i_idx) => {
-                    if (is_main_index) {
-                        if (main_author.includes(item.authorName)) {
+        let fileCount = file_path_idx.length
+        let dealFileCount = 0
+        function buildFullIndex() {
+            file_path_idx.forEach((path, f_idx) => {
+                httpRequest(`/source/${path}`).then(data => {
+                    // console.log(path)
+                    // console.log(data.length)
+                    let currIndex = {}
+                    data.map((item, i_idx) => {
+                        if (is_main_index) {
+                            if (main_author.includes(item.authorName)) {
+                                currIndex[
+                                    `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
+                                ] = `${f_idx}-${i_idx}`
+                            }
+                        } else {
                             currIndex[
                                 `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
                             ] = `${f_idx}-${i_idx}`
                         }
-                    } else {
-                        currIndex[
-                            `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
-                        ] = `${f_idx}-${i_idx}`
-                    }
 
+                    })
+                    return currIndex
+                }).then(idx_list => {
+                    Object.assign(fullIndex, idx_list)
+                    dealFileCount++
                 })
-
-                return currIndex
-            }).then(idx_list => {
-                Object.assign(fullIndex, idx_list)
-            })
-        });
-
+            });
+        }
 
         download.onclick = function () {
+            buildFullIndex()
+        
+            let timer = setInterval(() => {
+                if (dealFileCount !== fileCount) {
+                    log("等待解析中..." + dealFileCount + "/" + fileCount)
+                } else {
+                    clearInterval(timer);
+                    log("已解析完成..." + dealFileCount + "/" + fileCount)
+                    saveData.setDataConver({
+                        name: `${is_main_index ? 'main' : 'full'}_data_index.js`,
+                        data: 'search_data_index = ' + JSON.stringify(fullIndex)
+                    })
+                }
+            }, 500)
+
             // saveData.setDataConver({ name: 'full_data_index.json', data: JSON.stringify(fullIndex, null, 2) })
-            saveData.setDataConver({
-                name: `${is_main_index ? 'main' : 'full'}_data_index.js`,
-                data: 'search_data_index = ' + JSON.stringify(fullIndex)
-            }
-            )
+            
         }
 
     </script>
