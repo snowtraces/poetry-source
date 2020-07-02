@@ -118,9 +118,14 @@
                 .replace(/'/g, "\\'")
         }
 
-        function sqlBuilder(tableName, titleList, data) {
+        function sqlBuilder(tableName, titleList, data, defaultMap) {
             let columnSeg = titleList.map(title => `\`${title}\``).join(', ')
-            return data.map(author => titleList.map(title => author[title] ? `'${sqlNormalize(author[title])}'` : 'null').join(', '))
+            return data.map(
+                    item => titleList.map(
+                        title => item[title] ? `'${sqlNormalize(item[title])}'` : 
+                            defaultMap[title] ? `'${sqlNormalize(defaultMap[title])}'` : 'null'
+                    ).join(', ')
+                )
                 .map(seg => `insert into ${tableName} (${columnSeg}) values (${seg});`)
                 .join('\n');
         }
@@ -137,12 +142,13 @@
         }
 
         downloadPoetrySql.onclick = function () {
-            let titleList = ['id', 'title', 'authorName', 'authorId', 'dynasty', 'appreciation', 'content', 'comment', 'translation', 'intro', 'foreword', 'annotation']
+            let titleList = ['id', 'title', 'authorName', 'authorId', 'dynasty', 'appreciation', 'content', 'comment', 'translation', 'intro', 'foreword', 'annotation', 'kindCN']
 
             let sqlList = []
             let sql_file_idx = 0
             file_path_idx.forEach((path, f_idx) => {
-                httpRequest(`/source/${path}`).then(data => sqlBuilder('t_work', titleList, data))
+                let kindCN = path.substr(0, 1)
+                httpRequest(`/source/${path}`).then(data => sqlBuilder('t_work', titleList, data, {kindCN: kindCN}))
                 .then(sql => {
                     dealFileCount++
                     sqlList.push(sql)
