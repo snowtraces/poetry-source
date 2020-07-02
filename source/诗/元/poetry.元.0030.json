@@ -1,104 +1,5 @@
 [
   {
-    "id": "c16655dfb00a8bf472e138d7346e1c1a",
-    "title": "偶成",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "疏帘日午花阴直，高柳清风语燕闲。",
-      "默坐焚香点周易，软红不到小屏山。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4dcf34f6307e3545a",
-    "title": "秋夜闻笛",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "何人吹笛秋风外，北固山前月色寒。",
-      "亦有江南未归客，徘徊终夜倚阑干。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4387b2758853718e1",
-    "title": "寄鹤林休上人",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "上人才思塞胸次，强欲禁之无不鸣。",
-      "一日相望吐奇句，满林光彩照山精。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4696d134482aa592b",
-    "title": "逢托克托景颜",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "市酒泻糟清似水，湖鱼出网白如银。",
-      "买鱼沽酒丹阳郭，落日江南逢故人。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4c4ab03f42d55f915",
-    "title": "宿丹阳普照院",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "闭门三月听秋雨，酒醒丹阳客未归。",
-      "明日新晴练湖去，藕花无数落红衣。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4c4ab03f44bcfcf78",
-    "title": "宿丹阳普照院",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "灯火僧房伴寂寥，小凉天气入青袍。",
-      "夜深为倚西廊柱，药杵一声秋月高。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf486d7b47ce92df419",
-    "title": "题隐上人房",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "练湖秋水霜眼碧，坐对茅盈山色青。",
-      "白日散花天女降，夜深钟磬尚闻经。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4229c4cc055024b7d",
-    "title": "赠歌者号梅芳二首",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "露骨江南冰雪肌，断肠塞上锦绷儿。",
-      "春酸一点留无住，却是成阴结子时。"
-    ]
-  },
-  {
-    "id": "c16655dfb00a8bf4229c4cc04963ef2f",
-    "title": "赠歌者号梅芳二首",
-    "authorName": "萨都剌",
-    "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
-    "dynasty": "元",
-    "content": [
-      "玉骨冰清过岁寒，可怜蜂蝶已成团。",
-      "如何不解相如渴，散尽江南一点酸。"
-    ]
-  },
-  {
     "id": "c16655dfb00a8bf41469bdafa1f9824a",
     "title": "寄金坛元鲁宣差行操二年兄",
     "authorName": "萨都剌",
@@ -670,7 +571,7 @@
     ]
   },
   {
-    "id": "c16655dfb00a8bf4dc53c57856a7af14",
+    "id": "c16655dfb00a8bf4dc53c57869281b4c",
     "title": "送丁太初赴永嘉学正十八韵",
     "authorName": "萨都剌",
     "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
@@ -688,7 +589,7 @@
       "旧家疑寂寞，遗业想流传。",
       "会看声华盛，应知德业全。",
       "高情何特达，朦目共周旋。",
-      "春著花间屐，秋乘柳下船。",
+      "春着花间屐，秋乘柳下船。",
       "篇章微点染，山水自清妍。",
       "荐豆登霜柚，充厨载海鲜。",
       "洞箫吹月下，玉树立风前。",
@@ -3030,7 +2931,7 @@
     ]
   },
   {
-    "id": "c16655dfb00a8bf414ff44eae1a9e845",
+    "id": "c16655dfb00a8bf414ff44eaf2189b91",
     "title": "快雪轩",
     "authorName": "萨都剌",
     "authorId": "c16655dfb00a8bf47810ccd4b8c27b7a",
@@ -3041,7 +2942,7 @@
       "梨花云湿飞难起，晓来化作湘江水。",
       "娟娟美人耐高寒，对此心开几千里。",
       "山阴夜冷沙棠小，归来狂兴犹孤悄。",
-      "古春吹到矮茅茨，香浮茗椀滋诗脾。"
+      "古春吹到矮茅茨，香浮茗碗滋诗脾。"
     ]
   },
   {
@@ -3895,7 +3796,7 @@
     ]
   },
   {
-    "id": "c16655dfb21d02b4d84144512d59ac24",
+    "id": "c16655dfb21d02b4d8414451a0c4c8bb",
     "title": "志古溪堂",
     "authorName": "李思衍",
     "authorId": "c16655dfb21d02b4d1457b72d1457b72",
@@ -3903,7 +3804,7 @@
     "content": [
       "堂成合入《辋川图》，尘隔香红九轨衢。",
       "诗泄骚情风格老，棋藏活著路头苏。",
-      "梅黄著雨惊莺染，竹醉薰风倩鹤扶。",
+      "梅黄着雨惊莺染，竹醉薰风倩鹤扶。",
       "一片丹青谁画得，吟肠恼断老耕夫。"
     ]
   },
@@ -5509,19 +5410,6 @@
     ]
   },
   {
-    "id": "c16655dfb2505d1c3601d9b148cf28bf",
-    "title": "次张抚军韵二首",
-    "authorName": "丁鹤年",
-    "authorId": "c16655dfb2505d1cd1457b72d1457b72",
-    "dynasty": "元",
-    "content": [
-      "先公昔镇西南日，几拜殊恩出御筵。",
-      "桃李门墙宾客盛，芝兰庭砌子孙贤。",
-      "百年遗爱齐民服，一代鸿勋信史编。",
-      "最是抚军能接武，桃灯夜读十三篇。"
-    ]
-  },
-  {
     "id": "c16655dfb2505d1c3601d9b1be735569",
     "title": "次张抚军韵二首",
     "authorName": "丁鹤年",
@@ -5873,19 +5761,6 @@
     ]
   },
   {
-    "id": "c16655dfb2505d1c9cb36bc3a10e56c1",
-    "title": "题悠然轩",
-    "authorName": "丁鹤年",
-    "authorId": "c16655dfb2505d1cd1457b72d1457b72",
-    "dynasty": "元",
-    "content": [
-      "香消静室定回时，真趣忘言只自知。",
-      "云淡风轻天荡荡，鸢飞鱼跃昼迟迟。",
-      "传来西竺元无法，坐对南山或有诗。",
-      "不是渊明来入社，百年谁与共襟期。"
-    ]
-  },
-  {
     "id": "c16655dfb2505d1c4c119e8949ce11dd",
     "title": "清胜轩",
     "authorName": "丁鹤年",
@@ -5964,13 +5839,13 @@
     ]
   },
   {
-    "id": "c16655dfb2505d1cf2e51305e9bd851e",
+    "id": "c16655dfb2505d1cf2e5130544b0f587",
     "title": "次义上人韵",
     "authorName": "丁鹤年",
     "authorId": "c16655dfb2505d1cd1457b72d1457b72",
     "dynasty": "元",
     "content": [
-      "冥栖九陇傍云松，茗盌熏炉取次供。",
+      "冥栖九陇傍云松，茗碗熏炉取次供。",
       "月满长空秋放鹤，雨昏大海昼降龙。",
       "病中普施诸方食，定里长闻上界钟。",
       "明哲古来多玩世，不妨随处舞三筇。"
@@ -6509,13 +6384,13 @@
     ]
   },
   {
-    "id": "c16655dfb2505d1c4b8f248c4fb19d33",
+    "id": "c16655dfb2505d1c4b8f248c1a64b846",
     "title": "雨窗宴坐与表兄论作诗写字之法各一首",
     "authorName": "丁鹤年",
     "authorId": "c16655dfb2505d1cd1457b72d1457b72",
     "dynasty": "元",
     "content": [
-      "南窗薄暮雨如丝，茗盌熏炉共论诗。",
+      "南窗薄暮雨如丝，茗碗熏炉共论诗。",
       "天趣悠悠人意表，忘言相对坐多时。"
     ]
   },
@@ -7203,7 +7078,7 @@
     ]
   },
   {
-    "id": "c16655dfb2505d1cee754c580d3fe831",
+    "id": "c16655dfb2505d1cee754c58db53c269",
     "title": "采莲曲",
     "authorName": "丁鹤年",
     "authorId": "c16655dfb2505d1cd1457b72d1457b72",
@@ -7216,7 +7091,7 @@
       "采莲复采莲，湖水清且深。徒能照妾面，不能照妾心。",
       "采莲复采莲，下有孤鸳鸯。秋花不结实，夜夜守空房。",
       "莲开花覆水，莲谢藕在泥。不学青萍叶，随波东复西。",
-      "朝采并蒂莲，暮绾同心结。不学杨柳枝，含嚬送离别。",
+      "朝采并蒂莲，暮绾同心结。不学杨柳枝，含颦送离别。",
       "莲舟何处来，同住西湖口。郎怜波上花，妾爱泥中藕。",
       "藕有青白节，花有艳冶容。郎心异妾心，三叹掩归篷。"
     ]
@@ -8569,7 +8444,7 @@
     "id": "c16655dfb407cc56fd176cf031f60316",
     "title": "丁未岁哀越民",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "越壤吴江左，州民泰伯馀。",
@@ -8582,7 +8457,7 @@
     "id": "c16655dfb407cc56f657d11add3b41aa",
     "title": "秋晚",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "门望晴山远，风寒落木初。",
@@ -8595,7 +8470,7 @@
     "id": "c16655dfb407cc569939c66b22797910",
     "title": "酒醒试野服",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "酒醒微风入，天高白鹤飞。",
@@ -8608,7 +8483,7 @@
     "id": "c16655dfb407cc56b613e7206a81025f",
     "title": "见虹",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "返照馀光白，斜虹带雨长。",
@@ -8621,7 +8496,7 @@
     "id": "c16655dfb407cc56c3ef41d44d3f83d6",
     "title": "春夜对月",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "夜色春仍好，楼虚满月华。",
@@ -8634,7 +8509,7 @@
     "id": "c16655dfb407cc56c3ac10c5f89d0911",
     "title": "戊申二月八日春社",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "宰肉陈平老，祈年旧礼传。",
@@ -8647,7 +8522,7 @@
     "id": "c16655dfb407cc56b51c01052e3c6321",
     "title": "好雨",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "好雨来还歇，霏霏入暮多。",
@@ -8660,7 +8535,7 @@
     "id": "c16655dfb407cc5657909c896c6bb721",
     "title": "戊申嘉稔",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "南亩晨烟白，西风万宝成。",
@@ -8673,7 +8548,7 @@
     "id": "c16655dfb407cc56e67e857bda520619",
     "title": "胡穆仲挽歌词",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "出处嗟吾道，穷经独暮年。",
@@ -8686,7 +8561,7 @@
     "id": "c16655dfb407cc5603c6e8b7bb56bfa1",
     "title": "种竹",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "近种墙阴竹，幽人此见分。",
@@ -8699,7 +8574,7 @@
     "id": "c16655dfb407cc56093ea68ae0d265fb",
     "title": "除夜雪中",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "万火千门俗，浮天万井烟。",
@@ -8712,7 +8587,7 @@
     "id": "c16655dfb407cc56522020550e0b09f3",
     "title": "王复元挽歌词",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "昔赴公车日，官占忤大臣。",
@@ -8725,7 +8600,7 @@
     "id": "c16655dfb407cc5611bb4936e8a43227",
     "title": "仇仁父解秩建康有新文曰金渊集",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "老去陶元亮，归来向子平。",
@@ -8738,7 +8613,7 @@
     "id": "c16655dfb407cc56ab35792d1d0941cd",
     "title": "周达可随奉使过真腊国作书纪风俗因赠三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "裸壤无霜雪，西南极目天。",
@@ -8751,7 +8626,7 @@
     "id": "c16655dfb407cc56ab35792d19c223ff",
     "title": "周达可随奉使过真腊国作书纪风俗因赠三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "绝域通南舶，炎方接海涛。",
@@ -8764,7 +8639,7 @@
     "id": "c16655dfb407cc56ab35792dc3562503",
     "title": "周达可随奉使过真腊国作书纪风俗因赠三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "汉界逾铜柱，蛮邦近越裳。",
@@ -8777,7 +8652,7 @@
     "id": "c16655dfb407cc567d15376715666b5d",
     "title": "初月",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "初月浮新彩，秋清过雨沾。",
@@ -8790,7 +8665,7 @@
     "id": "c16655dfb407cc56e9c06fbd83392cb2",
     "title": "中秋玩月初阳台有约不往夜分有作明日寄同约诸公",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "今夜仙台月，清寒发夜深。",
@@ -8803,7 +8678,7 @@
     "id": "c16655dfb407cc56513a15aad8a66558",
     "title": "月色",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "月色今宵好，当空一鉴全。",
@@ -8816,7 +8691,7 @@
     "id": "c16655dfb407cc562219ec0ba167f98e",
     "title": "闻蝉",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "城郭南风里，今朝始听蝉。",
@@ -8829,7 +8704,7 @@
     "id": "c16655dfb407cc564bc03b85d4ad6416",
     "title": "如上人字月印诗",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "海色涵天碧，金波湛玉壶。",
@@ -8842,7 +8717,7 @@
     "id": "c16655dfb407cc56f657d11af36a61b8",
     "title": "秋晚",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "入夜寒砧作，秋虫语亦哀。",
@@ -8855,7 +8730,7 @@
     "id": "c16655dfb407cc56f6f14c93995c2e21",
     "title": "挽裴德游府君",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "萧飒西风绿野秋，琅玕摧折凤雏愁。",
@@ -8868,7 +8743,7 @@
     "id": "c16655dfb407cc565231723af9028d34",
     "title": "香囊",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "蝉翼轻绡玉缕稀，碧花瑶草斗芳菲。",
@@ -8881,7 +8756,7 @@
     "id": "c16655dfb407cc567648ea97910701ed",
     "title": "暮岁即事",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "北风竟日吹寒雨，云湿天低鸟不飞。",
@@ -8894,7 +8769,7 @@
     "id": "c16655dfb407cc56dafa4cc28a4bb145",
     "title": "送人归隐",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "郭台贤梦远黄金，奕奕良才竟陆沉。",
@@ -8907,7 +8782,7 @@
     "id": "c16655dfb407cc56cec38c6fef79eb08",
     "title": "画眉效李商隐",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "东风晓镜照桃花，蛾绿初调印浅纱。",
@@ -8920,7 +8795,7 @@
     "id": "c16655dfb407cc5634b952f03a1ce431",
     "title": "题杨氏竹石",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "梅石森平野，丛篁隐石根。",
@@ -8931,7 +8806,7 @@
     "id": "c16655dfb407cc56acda1e5fd5e77d70",
     "title": "暮烟效韦苏州",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "冉冉浮素空，悠悠隔秋树。",
@@ -8942,7 +8817,7 @@
     "id": "c16655dfb407cc560321c9aa3485388c",
     "title": "题吴孟郯画溪山雨霁图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "雨过西风晚，阴晴向此分。",
@@ -8953,7 +8828,7 @@
     "id": "c16655dfb407cc5685ffb461b675deae",
     "title": "陈渭叟赠新茶",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "新茶细细黄金色，葛水仙人赠所知。",
@@ -8964,7 +8839,7 @@
     "id": "c16655dfb407cc56d160465f124ca292",
     "title": "梨花鸲鹆图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "三月花开雪满枝，肯将春色让黄鹂。",
@@ -8975,7 +8850,7 @@
     "id": "c16655dfb407cc5691037e750779d7c1",
     "title": "梦回",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "梦里看花锦绣城，浅深桃杏五霞明。",
@@ -8986,7 +8861,7 @@
     "id": "c16655dfb407cc5643f232a22ad014cb",
     "title": "杨寺洞中吹箫",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "独携凤管入岩扉，树拂春风草拂衣。",
@@ -8997,7 +8872,7 @@
     "id": "c16655dfb407cc56b94c0ca049744aad",
     "title": "赠打碑吴居士二绝句",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "天上琅文网绛纱，垂芒廓落字聱牙。",
@@ -9008,7 +8883,7 @@
     "id": "c16655dfb407cc56b94c0ca06c9c2d9f",
     "title": "赠打碑吴居士二绝句",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "曾于水火识阴阳，拂拂玄虚道乃彰。",
@@ -9019,7 +8894,7 @@
     "id": "c16655dfb407cc567e536f22b7bc7795",
     "title": "题牡丹图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "九天霞色染精神，高与群芳别帝臣。",
@@ -9030,7 +8905,7 @@
     "id": "c16655dfb407cc56c94c612ed9386d9d",
     "title": "仙人蓝采和像",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "紫府仙人号采和，酒垆曾见几回过。",
@@ -9041,7 +8916,7 @@
     "id": "c16655dfb407cc56a350acef8670f873",
     "title": "白描倦绣图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "烟茸雾态玉芙蓉，啼鸟无声小院空。",
@@ -9052,7 +8927,7 @@
     "id": "c16655dfb407cc56f57510ba443a5018",
     "title": "汉会稽铜虎符",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "牙璋旧制此能存，铭刻昭昭汉后元。",
@@ -9063,7 +8938,7 @@
     "id": "c16655dfb407cc56db65a827f83db3c0",
     "title": "铜韦皋像",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "贞元美化出成都，遗爱文翁道岂殊。",
@@ -9074,7 +8949,7 @@
     "id": "c16655dfb407cc566ca7bb45e400d70c",
     "title": "洪崖图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "神物相随似六丁，千年一到洛阳城。",
@@ -9085,7 +8960,7 @@
     "id": "c16655dfb407cc56cf5206b9e89cd10f",
     "title": "题阙",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "徐市楼船入紫烟，咸阳宫殿梦三泉。",
@@ -9096,7 +8971,7 @@
     "id": "c16655dfb407cc5612357cca5afe1d6a",
     "title": "桃源",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "避世成仙岂怨秦，翠霞丹霭景长春。",
@@ -9107,7 +8982,7 @@
     "id": "c16655dfb407cc56e2fe103fbb3198e4",
     "title": "海棠",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "困雨愁烟湿锦丝，脂痕轻染最娇枝。",
@@ -9118,7 +8993,7 @@
     "id": "c16655dfb407cc5612418d6f6f378968",
     "title": "雨后",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "小桥一夜生春水，得意鸬鹚弄浅深。",
@@ -9129,7 +9004,7 @@
     "id": "c16655dfb407cc5618f483588e07f155",
     "title": "初夏",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "竹树吹凉满槛前，南风收雨淡无烟。",
@@ -9141,7 +9016,7 @@
     "id": "c16655dfb407cc562383d4673600ed15",
     "title": "长江巨浪图",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "卷中秋色似江皋，已觉轩窗走六鳌。",
@@ -9152,7 +9027,7 @@
     "id": "c16655dfb407cc56440d6edec97c8307",
     "title": "大涤洞天二十韵",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "九锁神仙地，灵踪隔世纷。",
@@ -9181,7 +9056,7 @@
     "id": "c16655dfb407cc56ce38cefe48aeca5d",
     "title": "藏云阁",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "凌空结飞甍，历览周远山。",
@@ -9194,7 +9069,7 @@
     "id": "c16655dfb407cc56aa9ee3b301297662",
     "title": "龙吟轩",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "四山若龙盘，精庐剡溪曲。",
@@ -9207,7 +9082,7 @@
     "id": "c16655dfb407cc5665ae70b032b82637",
     "title": "送谢卿游北",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "黄鹄振六翮，一举凌苍穹。",
@@ -9226,7 +9101,7 @@
     "id": "c16655dfb407cc56edda64085912a9c8",
     "title": "送金华何道心",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "公侯秉鉴悬清空，群材照影青云中。",
@@ -9244,7 +9119,7 @@
     "id": "c16655dfb407cc562b2819888bed95cd",
     "title": "答蒋弘父会稽莫春见寄",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "我有谢公志，游山好名山。尝时把酒醉风景，此心遂与烟云闲。",
@@ -9261,7 +9136,7 @@
     "id": "c16655dfb407cc565019ee3fe57cf061",
     "title": "制羽服成有作",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "我爱王子晋，飘然恣天游。",
@@ -9285,7 +9160,7 @@
     "id": "c16655dfb407cc56ff25a75e29940a35",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "羲和日驭鞭苍龙，璇玑夜转行天东。",
@@ -9295,13 +9170,13 @@
     ]
   },
   {
-    "id": "c16655dfb407cc56ff25a75ee6138f7d",
+    "id": "c16655dfb407cc56ff25a75e9bbb4408",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
-      "晴光漾漾琉璃波，垂杨扫黛嚬青蛾。",
+      "晴光漾漾琉璃波，垂杨扫黛颦青蛾。",
       "紫丝步障芳草陌，薄露春香蝉翼罗。",
       "莺簧吹笙教春语，花落无云过烟雨。",
       "传头舞红鹦鹉杯，东风燕尾参差开。"
@@ -9311,7 +9186,7 @@
     "id": "c16655dfb407cc56ff25a75e5a60a644",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "红枝彩树金流苏，笼香染露开九衢。",
@@ -9324,7 +9199,7 @@
     "id": "c16655dfb407cc56ff25a75e63e8b7cd",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "依微绿雨冥蒙天，圆荷散水青莲钱。",
@@ -9337,7 +9212,7 @@
     "id": "c16655dfb407cc56ff25a75ea87b6523",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "石榴花始红，菖蒲花浅碧。",
@@ -9350,7 +9225,7 @@
     "id": "c16655dfb407cc56ff25a75e465bce15",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "南山日色红，火云山下起。",
@@ -9363,7 +9238,7 @@
     "id": "c16655dfb407cc56ff25a75e642f8641",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "迎新凉，对华月，桐阶风来月如雪。草根虫声催捣衣，铜龙怨寒千里思，银河影长更漏迟。"
@@ -9373,7 +9248,7 @@
     "id": "c16655dfb407cc56ff25a75e7b10d47f",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "桐阴间玉砌，金井生凉云。",
@@ -9386,7 +9261,7 @@
     "id": "c16655dfb407cc56ff25a75e24b3a335",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "铅花飞霜满枯草，摇落风来楚山老。海神收水无泪痕，鸿飞古树啼老猿，云低昼檐秋影昏。"
@@ -9396,7 +9271,7 @@
     "id": "c16655dfb407cc56ff25a75ed30a689e",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "北风吹云昼阴短，锦画屏风兽香暖。",
@@ -9409,7 +9284,7 @@
     "id": "c16655dfb407cc56ff25a75ed5f337d5",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "飞沙走寒几千里，霞丝不起罗纹紫。",
@@ -9422,7 +9297,7 @@
     "id": "c16655dfb407cc56ff25a75e7b2aa8b2",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "风惊雁阵鸣寒天，迎春燕彩飞联翩。",
@@ -9435,7 +9310,7 @@
     "id": "c16655dfb407cc56ff25a75e5cb5df02",
     "title": "十二月乐辞十三首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "新春迟迟旧春改，日积馀分几分在。",
@@ -9446,7 +9321,7 @@
     "id": "c16655dfb407cc565a4e60365db425ea",
     "title": "如意篇",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "世巧吾所后，玄金起尘泥。",
@@ -9465,7 +9340,7 @@
     "id": "c16655dfb407cc5676e084f1d9c2dff4",
     "title": "赠宋道夫诗并叙",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "神圣睹河洛，造化穷阴阳。",
@@ -9482,7 +9357,7 @@
     "id": "c16655dfb407cc567a3d065895512e3f",
     "title": "朱仲山买李生琴",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "吴客抱绿绮，玉弦响冰丝。",
@@ -9502,7 +9377,7 @@
     "id": "c16655dfb407cc56309206aae562c0a6",
     "title": "陈公辅听雨轩",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "帝子吟潇湘，潇湘云烟竟茫茫。楚客歌洞庭，洞庭木叶空秋声。",
@@ -9518,7 +9393,7 @@
     "id": "c16655dfb407cc56387313cb145d98c5",
     "title": "西瓜诗",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "萍实浮楚江，楚人乃见疑。",
@@ -9534,7 +9409,7 @@
     "id": "c16655dfb407cc56a7eafa33c7cf5520",
     "title": "洞山吟",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "君不见愚公移山山不移，夸娥负山山不知。君不见钓鳌人归龙伯国，三山依然镇东极。",
@@ -9549,7 +9424,7 @@
     "id": "c16655dfb407cc56825fae7c47ef4bf6",
     "title": "夏日睡起言志",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "布谷啼稍歇，修篁满西轩。",
@@ -9568,7 +9443,7 @@
     "id": "c16655dfb407cc5690061ca3c11f461a",
     "title": "书陈道士止酒诗后",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "真乐不在酒，高吟岂为狂。谁能采菊似陶令，篱东若待江州王。",
@@ -9583,7 +9458,7 @@
     "id": "c16655dfb407cc56723876ea440f5ba7",
     "title": "洛城晓",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "洛阳晓气浮春空，花风漾暖香蒙蒙。",
@@ -9598,7 +9473,7 @@
     "id": "c16655dfb407cc56d451cacf05010aa1",
     "title": "送商继显",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "昔送春水别，悠悠岁华迁。廉车忽东来，清风满长川。",
@@ -9613,7 +9488,7 @@
     "id": "c16655dfb407cc56d3c86cf0268bf697",
     "title": "马虚中为庐山黄尊师画西湖烟雨",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "湖山秀绝钱塘西，六鳌截岸开云霓。",
@@ -9632,7 +9507,7 @@
     "id": "c16655dfb407cc56daa1df72fe66d78a",
     "title": "因上人以所画陶隐居留别",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "真僧寄人间，云影落大地。",
@@ -9653,7 +9528,7 @@
     "id": "c16655dfb407cc5682290499be57d610",
     "title": "演上人归雪峰",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "昔诵梁苑赋，雪山峙西方。",
@@ -9671,7 +9546,7 @@
     "id": "c16655dfb407cc5679cccb6a7b4ce72a",
     "title": "宣城陈公辅晓访赠镜",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "古镜若宝剑，千年有光芒。",
@@ -9689,7 +9564,7 @@
     "id": "c16655dfb407cc564bf45bc1bb34fd68",
     "title": "莫种树",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "莫种树，种树阴我屋。长大如盖青茫茫，何用春风暂时绿。"
@@ -9699,7 +9574,7 @@
     "id": "c16655dfb407cc565b0aab8fe5cc4156",
     "title": "休洗红",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "休洗红，洗红红在水。旧红因水来，今复水中弃。长安少年多负恩，漂毋犹自哀王孙。"
@@ -9709,7 +9584,7 @@
     "id": "c16655dfb407cc5609745295b3543bd1",
     "title": "方寿父赠桂珠篇",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "嫦娥采香广寒陌，兔杵摇空响秋碧。",
@@ -9724,7 +9599,7 @@
     "id": "c16655dfb407cc565dad11eda5a4429e",
     "title": "送陆静复游张公石室",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "骑驴入石璧，我闻古仙人。",
@@ -9741,7 +9616,7 @@
     "id": "c16655dfb407cc5669ac0845f58d8d30",
     "title": "桃花雨乐府一章寄翼之",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "秦源春梦阳台晚，风散惊红作秋苑。",
@@ -9754,7 +9629,7 @@
     "id": "c16655dfb407cc56e4411f710eb1f5f2",
     "title": "古诗一首送翼之回吴",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "游子动归思，南风起秋声。",
@@ -9772,7 +9647,7 @@
     "id": "c16655dfb407cc563bc41e87dcdb87e6",
     "title": "菌耳遍沃野",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "菌耳遍沃野，琼芝亦芬芳。",
@@ -9787,7 +9662,7 @@
     "id": "c16655dfb407cc56ad3eaab51c67b9cf",
     "title": "晚凉曲",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "南风吹云散天碧，高槐无声暮蝉寂。",
@@ -9800,7 +9675,7 @@
     "id": "c16655dfb407cc56ad1566372ecbec1d",
     "title": "仙兴",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "天风无声起苍茫，道人骑鹤方翱翔。",
@@ -9811,7 +9686,7 @@
     "id": "c16655dfb407cc5639f413d05909a741",
     "title": "金鱼曲二首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "锦霓散影飞海空，霞浆浩饮酣群龙。",
@@ -9825,7 +9700,7 @@
     "id": "c16655dfb407cc5639f413d0e8253ad4",
     "title": "金鱼曲二首",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "仙人剪霞掷波浅，红玉依微锦光晚。",
@@ -9835,16 +9710,16 @@
     ]
   },
   {
-    "id": "c16655dfb407cc56b9ddb0c79576bc81",
+    "id": "c16655dfb407cc56b9ddb0c7e2abfe79",
     "title": "密雪歌",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "长天雪低海鹏翼，飞璚成花晓阶白。",
       "网帏斜揭螭尾衔，不放龙绡障春色。",
       "阳春按彻秦曲断，酒色鹅黄兽香暖。",
-      "锟铻未照璀璨光，月彩先浮碧云盌。",
+      "锟铻未照璀璨光，月彩先浮碧云碗。",
       "梨花飞晴白日下，香老黄花絮飞野。",
       "馀春不散流水风，房结幽寒自兰麝。",
       "春来春去花乱蜂，六花意与梨花同。",
@@ -9857,7 +9732,7 @@
     "id": "c16655dfb407cc56ad826eb6997e5ac2",
     "title": "七夕歌",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "瑶鬟初妆晚云绿，金雀低飞凤凰玉。",
@@ -9871,7 +9746,7 @@
     "id": "c16655dfb407cc5694dbaa9f37797324",
     "title": "将进酒",
     "authorName": "吾丘衍",
-    "authorId": "c16655dfb407cc565dcaa8f37bb06076",
+    "authorId": "c16655dfb407cc5692b6e9d57bb06076",
     "dynasty": "元",
     "content": [
       "年少不再得，朱颜易凋零。春浓不作赏春去，春风亦笑人无情。",
@@ -10980,13 +10855,13 @@
     ]
   },
   {
-    "id": "c16655dfb4baa417362d23877db93a25",
+    "id": "c16655dfb4baa417362d23873c060945",
     "title": "题段郁文雪石",
     "authorName": "胡长孺",
     "authorId": "c16655dfb4baa417d1457b72d1457b72",
     "dynasty": "元",
     "content": [
-      "白云飞来著春空，翕霍变化生奇峰。",
+      "白云飞来着春空，翕霍变化生奇峰。",
       "朝曦照耀舒复卷，碧华忽拥玻瓈宫。",
       "秋潮初壮明于雪，千雷动地吴山裂。",
       "涛头出海夕阳微，百炼青铜浮玉玦。",
@@ -11788,17 +11663,6 @@
     ]
   },
   {
-    "id": "c16655dfb718eb393e578908e12a2bfb",
-    "title": "过江绝句",
-    "authorName": "王奕",
-    "authorId": "c16655dfb718eb39d1457b72d1457b72",
-    "dynasty": "元",
-    "content": [
-      "玉勒金台逐去尘，十年多少渡江民。",
-      "中流试扣金山老，曾有深衣过鲁人。"
-    ]
-  },
-  {
     "id": "c16655dfb718eb39ba9c1bc09d2b43b7",
     "title": "泰山",
     "authorName": "王奕",
@@ -12071,7 +11935,7 @@
     ]
   },
   {
-    "id": "c16655dfb718eb39f2aa736cac2c6777",
+    "id": "c16655dfb718eb39f2aa736cd9627d8d",
     "title": "金馀元遗山来拜祖庭有纪行十首遂倚歌之先后殊时感慨一也和元遗山三首",
     "authorName": "王奕",
     "authorId": "c16655dfb718eb39d1457b72d1457b72",
@@ -12085,7 +11949,7 @@
       "筑室今不多，驰跸古应少。",
       "春秋泉壤幽，日月天地晓。",
       "洙桥一线流，渗注入万沼。",
-      "入陵见金椀，公相计不早。",
+      "入陵见金碗，公相计不早。",
       "父乾兮母坤，白骨无寿夭。",
       "衔冤绝归鹤，谁复欣华表。",
       "九原信可作，两观事未了。"
@@ -12830,13 +12694,13 @@
     ]
   },
   {
-    "id": "c16655dfb7c1dfb91e706df442cc1d7d",
+    "id": "c16655dfb7c1dfb91e706df47ac42934",
     "title": "送人之剑阁倅",
     "authorName": "虞集",
     "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
     "dynasty": "元",
     "content": [
-      "往年登剑阁，快马著春衫。",
+      "往年登剑阁，快马着春衫。",
       "设险怀前赋，摩崖觅旧劖。",
       "乡人游雪界，郡倅试冰衔。",
       "归道观新政，春江不挂帆。"
@@ -13607,6 +13471,162 @@
       "思亲浩荡江波远，恋阙迟回苑树低。",
       "望鹤楼前移彩鹢，吟诗花底听黄鹂。",
       "归来尚觉春风早，雁字充庭玉笋齐。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9fcbe0544b844e148",
+    "title": "赋石竹",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "积雪初消萼绿华，东风吹动绛绡霞。",
+      "龙嘘石气千年润，鹤过林阴一径斜。",
+      "刻字欲寻金错落，析旌如织翠交加。",
+      "绮窗坐对吹笙暖，未觉人间岁月赊。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9c947342a5d0177c4",
+    "title": "奉同吴宗师赋蔡七祖新斋",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "城南烟树听莺啼，石上莓苔觅旧题。",
+      "自有琴心传内景，更将书帙事幽栖。",
+      "晚来相鹤风生竹，雨过笼鹅水满溪。",
+      "蜀客草玄成底事，萧条白发愧青藜。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9280b7162ec1a4f3c",
+    "title": "寄来鹤亭主人",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "德清旧馆何时到，雨后春泉定满池。",
+      "绿字久无弘景信，紫苔应长少霞碑。",
+      "数峰烟树天垂野，千顷鸥波雨散丝。",
+      "海内交游多老去，为谁溪上放船迟。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9bd7c2f0547661e95",
+    "title": "送张兵部巡视运河",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "画桥冰泮动龙舟，鸭绿粼粼出御沟。",
+      "使者旌旗穿柳过，人家凫雁傍溪浮。",
+      "桃花吹雨春牵缆，江水平堤夜唱筹。",
+      "应有馀波方浩荡，不令归楫恨淹留。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9792cbbf3438b25d8",
+    "title": "谢吴宗师惠墨",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "念我衰年不废书，锦囊古墨送幽居。",
+      "明窗尘影丹同熟，玄圃云英玉不如。",
+      "敢为文章胜虎豹，只应笺注到虫鱼。",
+      "研磨不尽人间老，传与儿孙尚有馀。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb94bb33a4d6c1b29d1",
+    "title": "三用韵答巢翁就以奎章赐墨赠之",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "邻父长思长史书，不辞频谒恼巢居。",
+      "临池三月玄霜尽，对月千篇白雪如。",
+      "赋敌洛波翔翠羽，歌成湘浦媵文鱼。",
+      "故分泸石松烟色，犹是奎章旧赐馀。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb99815141a6a1fe846",
+    "title": "题著色山图",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "江树重重江水深，楚王宫殿在山阴。",
+      "白云窈窕生春浦，翠黛婵娟对晚岑。",
+      "宋玉少时多讽咏，江淹老去倦登临。",
+      "扁舟却上巴陵去，闲听孤猿月下吟。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9503c6f89ba47962e",
+    "title": "题画",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "缉熙殿里御屏风，零落谁收百岁中。",
+      "锦树总含春雨露，画桥犹是旧青红。",
+      "花开陌上怀归燕，潮落江头送去鸿。",
+      "何似绿波生太液，绛桃风急彩船东。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9f64fb997548ffb95",
+    "title": "寄海南故将军",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "海上风来五月秋，晚凉应上木兰舟。",
+      "金盘丹荔生南国，玉碗清冰出北州。",
+      "狂客醉时花作阵，美人歌罢月如钩。",
+      "期门旧识将军面，从猎还披翠羽裘。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9f1898a3c9310c1a6",
+    "title": "次韵宋诚甫学士城南访病暮归",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "骑马城南觅旧题，飘萧席帽碧云低。",
+      "东风花柳过韦曲，落日儿童唱大堤。",
+      "绣阁岂无和玉髓，锦囊还有铸金蹄。",
+      "归来吟转楼头月，池冷芙蓉翡翠栖。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb94c39f4c7542c5833",
+    "title": "抚郡天宁明极觉讲主陪敬斋监郡奉祠华盖特有高咏三读敬叹仆偶共清游辄复次韵衰退不工聊资笑粲",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "三峰宫殿接新桥，十月长斋陟翠峣。",
+      "朝步仍垂苍玉佩，登歌还引紫琼箫。",
+      "千枝绛蜡连虹贯，五色香云向日飘。",
+      "赖有高人陪后乘，轻清诗句似参寥。"
+    ]
+  },
+  {
+    "id": "c16655dfb7c1dfb9c6b30d7c4fb0e59b",
+    "title": "秋日同朋游北塔山",
+    "authorName": "虞集",
+    "authorId": "c16655dfb7c1dfb97810ccd4c73dfe6c",
+    "dynasty": "元",
+    "content": [
+      "归田多病故人疏，好客相逢乐有馀。",
+      "老去深杯那解饮，诗成大字尚能书。",
+      "门生去上青骢马，道士归骑赤鲤鱼。",
+      "如此馀闲多乐事，谁能七十始悬车。"
     ]
   }
 ]
