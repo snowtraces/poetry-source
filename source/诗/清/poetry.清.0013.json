@@ -1,9 +1,1161 @@
 [
   {
+    "id": "adcfe4db3f0050bf6fea85684434e7cf",
+    "title": "和留仙女史集句",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "芙蓉巷里木犀门，霞佩香风缟袂温。",
+      "何事欲攀尘外契，也容河鼓过天孙。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf55c7d38f61c3eb4a",
+    "title": "秋柳",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "荏苒轻盈不自持，东门曾斗舞腰肢。",
+      "那堪摇落秋江上，正是芙蓉得意时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfad0a3b6cd151f600",
+    "title": "周公瑾",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "赤壁矶头战舰烧，军声百万付寒潮。",
+      "谁知顾曲风流客，伯业东南启六朝。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4d70bda3fedf6431",
+    "title": "汉武帝",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "天马西来自大宛，极东郡县及真番。",
+      "版图拓到要荒外，消得山呼万岁尊。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4d70bda3209ca91d",
+    "title": "汉武帝",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "临朝尽绌百家言，独表崇儒雅意存。",
+      "对策春秋居第一，菑川牧豕相公孙。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4d70bda3b2aff406",
+    "title": "汉武帝",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "上书献赋满金门，争及官家藻思繁。",
+      "汾水秋风传绝唱，依稀楚客咏兰荪。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bffc8204e6d3e61f79",
+    "title": "孔融",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "独立朝端不屈挠，曹瞒侧目避讥嘲。",
+      "暂时延得金刀祚，终见遗孤泣破巢。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9b1dab904a520865",
+    "title": "偶从报上见云从寄赠诗，次韵答之",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "烟波浩淼道途修，久矣华胥托梦游。",
+      "漫笑院门持钵去，新亭何处哭神州！"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfb69e2af5b191930f",
+    "title": "冬笋",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "孝子精诚草木知，霜林忽见笋离离。",
+      "临风暗咒休成竹，正是高堂进膳时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf0e30f48dc3400461",
+    "title": "观穫稻",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "打稻家家趁早冬，寒郊游眺一携筇。",
+      "村童拾穗归来晚，笑指斜阳挂远峰。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf0e30f48d87eb391c",
+    "title": "观穫稻",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "篝车声起又初冬，山下人家半业农。",
+      "闲踏前村红叶去，寻他田叟话丰凶。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf50028148fb52b210",
+    "title": "买花",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "一生花里蝶翩翩，愿得群芳在眼前。",
+      "旧梦扬州犹未觉，甘心十万解腰缠。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4cb0cbb7b77fa277",
+    "title": "蜀后主",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "平襄疏远奉车升，钟邓西来隙可乘。",
+      "汉火伤心从此灭，改元空自号炎兴。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1b0e2e4a02",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "敛得粗心细若丝，晴窗砥墨麝香吹。",
+      "近来爱仿簪花格，亲录金荃集内词。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1bc71821e6",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "合势分锋要适宜，眠时画腹尚沉思。",
+      "只愁秃笔埋成冢，终逊闺中卫茂猗。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1b3c7cc30a",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "花映纱窗白日迟，纸光玉版砚红丝。",
+      "墨猪笔虎关名誉，珍重濡毫欲写时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1b47947d09",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "信笔涂鸦识者嗤，何须伏案苦无师。",
+      "笼鹅去换羲之帖，驻马来观索靖碑。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1bbc39e831",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "书苑千秋笔数枝，真行草隶各争奇。",
+      "成名恐落钟王后，远仿周秦以上碑。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8c260e1bbb53ff7f",
+    "title": "学书",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "姜芽敛手人非拙，珠玉挥毫我太痴。",
+      "便恐求书穿户限，何须远过永禅师。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfd7b043eb45150686",
+    "title": "阿片",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "一炬珠江竟不然，纷纷贾舶下西天。",
+      "睡狮二百馀年睡，何日烟霞痼疾捐。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf2101ccf4f051750e",
+    "title": "袁世凯",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "又向燕都见子之，欺人寡妇与孤儿。",
+      "只今秦患方西起，未是奸雄高卧时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf2101ccf4a75fdf73",
+    "title": "袁世凯",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "优诏东山起视师，负恩倒把太阿持。",
+      "禅台筑罢尧城筑，千古纲常扫地时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf505cd698d6f3919d",
+    "title": "山行",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "万树松杉倚碧山，更无人处鸟间关。",
+      "不知身与诸天近，俯视邱陵总等闲。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf48086a167142ad14",
+    "title": "孙逸仙",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "早重民权唱自由，黄袍加体视如疣。",
+      "漫将拿破仑相比，专制终为法国忧。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf48086a16b2734d78",
+    "title": "孙逸仙",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "共和新国耀寰球，名冠中华四百州。",
+      "才学征诛还揖让，亦为尧舜亦商周。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf48086a16dd2941b8",
+    "title": "孙逸仙",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "新君丹穴不须求，一舸迎归自美洲。",
+      "扫尽五千年帝政，伫看黄种出人头。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf011c92d328104f78",
+    "title": "暑雨",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "飒飒声来菡萏池，小楼连日苦催诗。",
+      "炎埃扫尽嫌泥泞，好事难兼在一时。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bff70e6e79a2af9e7d",
+    "title": "夏木",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "绿森森处乱蝉多，忍遣樵夫用斧柯。",
+      "无限道旁人病暍，帡幪一失欲如何。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf757a48abf89a6704",
+    "title": "笨港进香词",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "几度人间易市朝，朝天宫殿尚苕峣。",
+      "果然玉女神通大，长共开山社不祧。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf757a48ab82c39a99",
+    "title": "笨港进香词",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "金宇红旗绣进香，落花风里寿筵张。",
+      "璇宫不见灵来去，惟见天魔舞一场。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf3c7362c724acce3b",
+    "title": "墨莲",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "沦落红颜黑劫中，当时恨不嫁东风。",
+      "无端竟避淤泥染，争笑濂溪论未公。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf3c1012764fd37904",
+    "title": "旧历日",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "灾祥占候事原痴，况复陈编六甲推。",
+      "留与儿孙知汉腊，兔园册子任人嗤。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf3c1012763e4a233e",
+    "title": "旧历日",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "不分匆匆正朔移，案头旧历忍重披。",
+      "分明一卷陶潜集，甲子前朝纪义熙。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bff529361298f4fb38",
+    "title": "泥",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "滑滑春郊好鸟鸣，陶家埏埴器初成。",
+      "郑泉一语真堪笑，贮酒为壶祝后生。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf55e92ed22f7f799a",
+    "title": "和仲衡留别园亭花木",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "蕉心雨展三分碧，柳眼春开一缝青。",
+      "何用园官亲看管，花间小犬系金铃。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf7ceacc0246e951b0",
+    "title": "老鹤",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "独守梅花过暮年，嶙峋风骨瘦犹坚。",
+      "素衣只恐缁尘化，清浅蓬莱忆众仙。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bff29dfe81b0da07da",
+    "title": "聚星楼观海",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "无数归帆趁晚潮，渔歌起处海门遥。",
+      "鲻鱼秋尽将分子，更约楼头酒一瓢。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bff29dfe8109543ffd",
+    "title": "聚星楼观海",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "拍天波浪卷前朝，古迹空传利济桥。",
+      "欲问福公泊船处，水花风叶暮潇潇。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9b6fa4156c956a60",
+    "title": "过涂城故址",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "秋草萋萋废垒平，廿年前是伏波营。",
+      "古榕树下闲扪虱，旧事能谈有老兵。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9b6fa4159591d3f3",
+    "title": "过涂城故址",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "太息沧桑久变更，颓垣谁识汉家营？",
+      "海疆今但须游徼，儿戏还嗤灞上兵。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9b6fa4157256c64d",
+    "title": "过涂城故址",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "戈船下濑此屯兵，锁甲沈枪一代荣。",
+      "古树夕阳鸦阵合，更无人记亚夫营。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4e68c36b45a42f68",
+    "title": "戏赠柳田君钓鱼二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "晓出垂纶汴水涯，溪清石瘦见鱼虾。",
+      "入城午饭妻儿待，归趁田翁薄笨车。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf4e68c36b8780abf0",
+    "title": "戏赠柳田君钓鱼二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "七日才逢一放衙，钓鱼沽酒好归家。",
+      "临溪已近孤山宅，恨不打门来吃茶。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfa101f845d18c3419",
+    "title": "题故郎中叔莱园梅树",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "水边竹外影横斜，春入孤山处士家。",
+      "肠断夜台无驿使，凭谁为寄一枝花。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf18897671a67eb972",
+    "title": "奉赠维新元老板垣伯爵阁下",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "妖雾千年翳紫微，手扶皇极日重辉。",
+      "断鳌鍊石功成后，两袖清风林下归。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf18897671db6e2824",
+    "title": "奉赠维新元老板垣伯爵阁下",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "黄扉一到即抽身，回首青云满后尘。",
+      "却向人间作生佛，德星照处物皆春。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf1889767126e348b6",
+    "title": "奉赠维新元老板垣伯爵阁下",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "神州政治局新翻，汗血功名历史存。",
+      "今日明堂参末议，后生饮水合思源。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf18897671365e8dc5",
+    "title": "奉赠维新元老板垣伯爵阁下",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "百八钟声警睡乡，遥遥彼岸待慈航。",
+      "墨家兼爱无差等，肯使恩波阻一方？"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf42b4766b9f24ecbb",
+    "title": "飞行机",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "蜻蜓四翼乍凌空，列子泠然善御风。",
+      "巨炮可从天外落，宋城何待木鸢攻。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfbac9e95431605219",
+    "title": "画蟹",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "锦石堆沙破簖凉，芦花几笔澹秋光。",
+      "画屏坐对江南景，欲发樽前吏部狂。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfbac9e95496e43430",
+    "title": "画蟹",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "枫林斜日落鱼庄，不见黄头采捕郎。",
+      "记得双螯好风味，春申江畔过重阳。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf97a3269c150fb785",
+    "title": "星郎先生挽词",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "曾下元方拜，余先识阿群。",
+      "辖投怀畅饮，扫榻忆论文。",
+      "谊以忘年写，情缘世好殷。",
+      "佯狂偏爱我，老病却忧君。",
+      "一别经芳岁，相思隔暮云。",
+      "素书犹问候，凶讯忽惊闻。",
+      "太息仪型远，谁知著作勤。",
+      "词章吾友绍，德行里人尊。",
+      "印岫舒霞绮，房溪漾縠纹。",
+      "回瞻游宴处，长怆死生分。",
+      "礼欠灵软送，神驰宿草坟。",
+      "写哀诗满幅，寄侑纸钱焚。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf0f382def747ef90c",
+    "title": "开元寺双塔歌",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "娲皇补天遗石在，神官鞭驱置东海。异僧手持鬼斧来，斫成双塔碧崔嵬。",
+      "东塔八角摩苍穹，西塔五层齐华、嵩。天擎得此两巨柱，触倒不复愁共工。",
+      "绝技通神神呵护，露盘白日罩烟雾。赵颠、朱蹶八百年，对峙苍苍尚如故。",
+      "我游开元惊创见，两两塔尖金碧眩。人间若有青云梯，从此乘风登月殿。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bff860fc010af42dd0",
+    "title": "清源山",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "名山近在城东道，隔年游兴今朝果。",
+      "不乘肩舆不跨马，病馀一试腰脚好。",
+      "山花含笑谷鸟啼，引人步步登天梯。",
+      "不知置身高几许，渐觉对面紫帽低。",
+      "半山亭子一回首，俯视孤城大于斗。",
+      "城中双塔笔露尖，城下长江一线走。",
+      "更行更高喜欲狂，眼底直欲穷蛮荒。",
+      "越王一去二千载，当年驻马知何方？",
+      "却寻裴公尸解处，烟霞古洞黄冠住。",
+      "炉香飘出石门来，时有游人占梦去。",
+      "神仙有无我不知，榕根小憩亦支颐。",
+      "一杯山茶解我渴，使我两腋清风吹。",
+      "更登绝顶望沧海，云涛浩渺家何在？",
+      "乘风我欲便东归，惆怅故乡人事改。",
+      "搔首峰头泪满巾，何时海底更扬尘？",
+      "朗吟飞下千峰去，故国江山愁杀人。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf83a8f176a2bcbcf6",
+    "title": "久雨",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "掣电引雷车，阴霾蔽天宇。怨杀李花风，吹来榆荚雨。",
+      "霢霂近五旬，太阳难数睹。檐端瀑布悬，阶上水苔聚。",
+      "灶灌生蛙虾，栗烂化飞蛊。流潦哀旅人，隙漏怜蓬户。",
+      "阴阳失调和，致此淫霖苦。燮理今属谁？莫让伊、周辅。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf50c71a65add14f1e",
+    "title": "五日登清源山望海，醉后作",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "去年登山近重九，今朝登山属端阳。流光冉冉何太速？前度木叶今青苍。",
+      "青苍满径径屈曲，盘空高陟恣遥瞩。南风吹上蜕岩颠，俯视沧溟如一粟。",
+      "沧溟尽处是吾家，当日龙舟斗水涯。邻曲馈来九子粽，闺房绣出五时花。",
+      "瀛洲盛事分明在，谁料桑田变沧海。蓬根流落客怀悲，梓里凄凉风俗改。",
+      "凭高东望思无穷，回首西山落日红。座上非无佳客在，眼前休放酒杯空！",
+      "酒樽入手万虑绝，诸蛮山水樽前列。坐爱风光胜故乡，何辞酩酊酬佳节。",
+      "玉壶酒尽动归心，下山大笑发狂吟。吟声飘荡入云际，化作诸天鸾鹤音。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf36f17a3a67150079",
+    "title": "游仙诗二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "天风吹云车，直上九万里。当头阊阖开，来往古仙子。",
+      "麻姑骖鸾行，白发垂两耳。知阅几沧桑？朱颜非昔比。",
+      "仙家日月长，衰老亦如此。却笑下界人，采药求不死。",
+      "天路逢安期，邀余浮绿蚁。大醉踏月归，托宿瑶池里。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf36f17a3a3d0cc1d6",
+    "title": "游仙诗二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "瑶池非人世，户牖生云霞。",
+      "中有两玉女，颜色如桃花。",
+      "赠我一丸药，五色有光华。",
+      "饵药脱尘网，纵情在幽遐。",
+      "朝登阆风顶，暮至云娥家。",
+      "赤足踏天门，只手回日车。",
+      "俯望八纮内，蛮触纷喧哗。",
+      "长啸吸沆瀣，要使寿无涯。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfca06f1dccaa77919",
+    "title": "戏作醉中哭笑歌",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "哭莫哀于嗣宗，笑莫善于士龙。千秋哭笑推二公，我窃其技逃酒中。",
+      "酒中世界无纤尘，苍天为室地为茵。日月为煊烛，云霞为衣巾。",
+      "风伯吹我垢，雨师沐我身，昆仑玄圃栖我神。浑浑噩噩，厥境幽独，俯视人寰，可笑可哭。",
+      "佩锵锵，冠峨贩。筋骨束，性真磨。修饰边幅，顾影自豪。",
+      "拜跪俯仰，有如桔槔。黄标紫标，一心贪恋。狗苟蝇营，至死不变。",
+      "名利如钓，痴人入钓。察其情形，可发一笑！富家大贾，玉楼金屋。",
+      "婢仆厌文绣，犬马厌梁肉。谁怜饥寒人？枕藉死山谷。",
+      "厝大积薪，人谓不然。大声疾呼，反怒其颠。古风变改，世事危殆。",
+      "悲天而悯人，一哭动山海。一哭哭不已，一笑笑不止。",
+      "哭声与笑声，喧聒旁人耳。旁人耳聒旁人嗤，我聒旁人我不知。",
+      "曹腾又入酒中地，不使旁人知我哭笑意。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfddec3b2e23cf9cce",
+    "title": "八月十四夕作",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "树头饥鸟啼吓客，夜半开门黄叶积。",
+      "庭花欲断不断香，江月将圆未圆夕。",
+      "风撼边城沉鼓鼙，露零别院响刀尺。",
+      "有家不归今二秋，我心安得顽如石！"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf5103d835f5161790",
+    "title": "下里歌",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "嗟馀避乱萍踪浮，愤时怀里兼悲秋。欲凭佳境破旅愁，出郭遂作下里游。",
+      "下里里中风景幽，五步十步一阁楼。粉墙画栋丹青稠，窗网绿罗帘如钓。",
+      "象床角枕纱帏帱，中有无数鸾凤俦。玉作容颜星作眸，裙衣纤纤新笋抽。",
+      "欲出朱门不自由，门前江水西北流。浪人万里无归舟，池鱼塞雁两悠悠。",
+      "愁泪滴在鸳鸯裯，良宵宴客召倡优。丝管排闷声啁啾，华堂张灯罗珍羞。",
+      "鹦鹉螺杯牙酒筹，纷白黛绿递劝酬。倾壶倒榼情绸缪，此时乐可轻王侯。",
+      "顾盻何止消百忧，来日苦短去日遒。人生欢娱在黑头，吁嗟是乡足温柔。",
+      "托身白云将安求，斯须山月腾玉球。树影落地风萧{風穸}，风流薮泽不可留。",
+      "城门未锁早归休，毋使霜露沾衣裘。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf21c7ced5b44228b7",
+    "title": "客中述怀二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "李白千金裘，杜甫三百钱。",
+      "无论奢与俭，能醉即为贤。",
+      "小子不自量，窃亦慕酒仙。",
+      "常邀同心子，买醉官舍边。",
+      "欢呼震四壁，百壶飞蝉联。",
+      "有时醉红裙，丝管喧绮筵。",
+      "东街西街人，谁不谓我颠。",
+      "我颠我自咎，我颠我自怜。",
+      "有家不归去，作客年复年。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf21c7ced522dd1944",
+    "title": "客中述怀二首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "城东有老僧，怜我厌兵革。",
+      "投诗说六如，劝作空门客。",
+      "我感老僧心，未忍弃巾帻。",
+      "往往访兰若，谈禅忘日夕。",
+      "路熟不厌行，事惯遂成癖。",
+      "啖饭饱伊蒲，听经伴顽石。",
+      "渐觉俗念灰，何但乡愁释！",
+      "会心在不遥，木樨香处索。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf574bae6566c4ece2",
+    "title": "自獭江东渡，寄家兄荫堂",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "书剑飘零逐转蓬，闽南三度荔枝红。",
+      "千金散尽貂裘敝，一笑归帆挂海风。",
+      "海风浩浩海天暮，击汰扬舲从此渡。",
+      "渔郎有意住仙源，桃源暗认重来路。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfce5fe7dc0752ba6f",
+    "title": "归故居三首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "劳劳走风尘，一身为形役。",
+      "飞蓬寻本根，暂返山中宅。",
+      "叹息陵谷迁，人事亦变易。",
+      "交情一雀罗，世味两鸡肋。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfce5fe7dcf570595a",
+    "title": "归故居三首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "我居楠木堂，堂后旧栽竹。",
+      "去时如人长，归来长过屋。",
+      "苍翠扑人衣，依依娱醉目。",
+      "爱之抱瓮浇，何暇嗔懒仆。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfce5fe7dc75b6c4c5",
+    "title": "归故居三首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "枯荷聚秋声，西风来何骤。",
+      "回归曾几时，月圆惊已又。",
+      "抚事多慨伤，泪落满衣袖。",
+      "为人驱烦忧，有味是醇酎。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf35cab22825424ed6",
+    "title": "杂诗",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "犬吠出深巷，鸡鸣上树木。",
+      "月黑四无人，胡尘眯人目。",
+      "顷者五诸侯，兵败于函谷。",
+      "苏君无相权，赂秦地遂蹙。",
+      "遗民念旧主，千家齐夜哭。",
+      "男儿重意气，大雠须报复。",
+      "专诸善烹鱼，要离能击筑。",
+      "嬴政非王僚，成败恐难卜。",
+      "子房游下邳，白龙改鱼服。",
+      "桥边受异书，人前不敢读。",
+      "于留遇真龙，运筹得秦鹿。",
+      "英雄灭虎狼，万姓受其福。",
+      "当其未遇时，亡命亦雌伏。",
+      "古来非常人，厄穷天使独。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff553c789a1b1",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "离家才三年，故园遂将芜。",
+      "拨草寻花径，荒葛罥我途。",
+      "可怜杨柳树，啼杀旧时乌。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff553f72bf6de",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "门前三青榕，幽人去时种。",
+      "幸不遭斧斤，枝干遂疏纵。",
+      "殷勤展好阴，视汝为帡幪。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff5533696ff6c",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "可怜夹竹桃，深红间浅绿。",
+      "水边篱落间，飘飘绝拘束。",
+      "此君入仙源，风韵自然足。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff553008f7578",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "我行临方池，方池多泥滓。",
+      "草盛水又深，群鱼性所喜。",
+      "埋没芙蓉花，西风与扶起。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff553344785a8",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "伯也好栽兰，栽兰盈九畹。",
+      "开时君不来，荏苒岁将晚。",
+      "蝴蝶尔何为，穿花长往返。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff55328385079",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "薄言采桂花，终朝不盈掬。采之欲遗谁？所思在空谷。",
+      "空谷无佳人，但见樵与牧。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf415ff5530a58c8cc",
+    "title": "观园中花木杂咏七首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "初秋菊未花，叶亦不任摘。",
+      "莫信爱花心，柔枝都爱惜。",
+      "尽日东篱边，庶几遇彭泽。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9317579727c44caa",
+    "title": "咏史五首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "三晋本一家，龙战无时闲。",
+      "秦人待其敝，拱手收河山。",
+      "鹬蚌相持久，渔翁得意还。",
+      "不知蜗角上，何用分触蛮！"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf931757979fc96552",
+    "title": "咏史五首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "下床卧许汜，上床卧陈登。",
+      "求田复问舍，咄咄何足称。",
+      "燕雀不知鹄，莺鸠翻笑鹏。",
+      "世事久反覆，俗论讵堪凭。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf931757977ec86309",
+    "title": "咏史五首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "下邳圯上人，广柳车中客。",
+      "进履久埋名，卖饼深藏迹。",
+      "两贤岂不伟，屈身为贱役。",
+      "天心何悠悠，英雄例屯厄。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf931757970c9100a6",
+    "title": "咏史五首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "楚有无双士，重瞳不相识。",
+      "一朝走归汉，天子推衣食。",
+      "龙性本难驯，骏马岂受勒？",
+      "君看架上鹰，亦有凌风翼。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf9317579726773b00",
+    "title": "咏史五首",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "燋兔追阳乌，催人成老朽。",
+      "黄金高南山，买得青春否？",
+      "生前贵适意，身后复何有？",
+      "达哉张季鹰，开怀向杯酒。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfd3f0b0f4df32c8c3",
+    "title": "出门即事",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "出门多路歧，天荆连地棘。",
+      "群山当眼前，俱含憔悴色。",
+      "万树无鸟飞，深藏避弹弋。",
+      "兽蹄交康衢，前去恐不测。",
+      "回车凛然归，羲光渐西昃。",
+      "萧萧风吹衣，取道花林北。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf5f692eccea4dd2f2",
+    "title": "将往晋江，先有此作",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "蹩躠登高山，失身落泥滓。",
+      "豺虎游道旁，耽耽向人视。",
+      "却行归故居，已非旧邑里。",
+      "昔日桑麻田，强半成海水。",
+      "无数蛟与蜺，率族来踞此。",
+      "眼看平地上，浩荡风波起。",
+      "我欲施钓纶，惜哉无钓饵。",
+      "谁能逐狂澜，走入鱼腹死。",
+      "近者陶元亮，招我桃源里。",
+      "芦中呼扁舟，萍浮长往矣。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf57bd70cd64f3f24f",
+    "title": "八月八日在舟中作",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "桂落三山开琐院，群雄此日校文战。邹、郭同分市骏金，由基独试吟猿箭。",
+      "有人抱璞涉风波，云是当年旧卞和。怅望玉门难自献，回思刖足一高歌。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf8996bee194b80c38",
+    "title": "獭江曾节妇歌",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "獭江江水无纤垢，獭江奇女世希有。米清昔重林宜人，玉洁今传曾节妇。",
+      "节妇贫家娘，十七嫁林郎。林郎系亦出曾子，少为林嗣从林氏。",
+      "朱然先世本宗施，徐绩由来非姓李。底事牵丝月下人？",
+      "错教同姓结婚姻。周公制礼鲁公犯，谁识斯人独认真。",
+      "斯人守礼足千古，洞房逃去不言苦。任将沟水流东西，羞学鸳鸯交颈股。",
+      "从此想思天一偶，鳏鱼骠泊雌凤孤。使君有妇如无妇，罗敷有夫难见夫。",
+      "夫君去后翁姑老，夫少弟妇鲜兄嫂。举目无亲可奈何，相怜惟有阿姊好。",
+      "阿姊与妇同阿爷。贫难相助空咨嗟。一男一女继夫后，啼饥号寒常牙牙。",
+      "饥寒苦况难尽述，尘生甑底磬悬室。朝缫夜织博饔飧，二十七年如一日。",
+      "邻翁断弦家多金，知夫客死来委禽。妇言偷活因二老，岂为多财移寸心。",
+      "寸心如铁又如石，永誓柏舟不改适。终身长作女儿身，昔也鬓青今发白。",
+      "白发皤然姑尚存，承欢仍不缺晨昏。赐金难遇淮阳守，行义未旌桓女门。",
+      "皮金剪字久明志，含笑寻夫入九地。山埋贞骨亦生香，人谈苦节皆流泪。",
+      "吁嗟节妇节最奇，令夫亦算奇男儿。此夫此妇两难得，表贤励俗知是谁？"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf2a397fddf7e5f3c9",
+    "title": "自台湾来晋江寓舍独坐，怀兄子铨",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "昔去榴花红，今来芦絮白。",
+      "入门不见君，云作榕城客。",
+      "榕城在天未，水遮山复隔。",
+      "雁飞不到南，书素徒盈尺。",
+      "孤馆掩凄清，候虫当户织。",
+      "忆昨艳阳时，咏花同倚石。",
+      "如今阶下苔，已上题诗壁。",
+      "空庭木叶飞，思君此何极！"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf5e106859bad193ae",
+    "title": "题彭春苓参军诗卷后",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "翰林校书金根误，赀郎独奏凌云赋。世人顶礼千佛经，焉知网漏珊瑚树。",
+      "君不见洞庭湖南彭夫子，白少镕经兼铸史。文章馀事作诗人，掷地盐锵叶宫徵。",
+      "骚坛个个握灵蛇，如此才华有几家？不是梦中曾夺锦，便应笔底解生花。",
+      "蟾宫高织登科记，咄咄吾贤遭弃置。柳汁当春不染衣，九州虽阔无扬意。",
+      "薄海频年海畔游，芙蓉幕府竞徵求。囊中自有济时策，早晚君王召马周。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf62e89968d8860db6",
+    "title": "答幼春",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "繁华过眼吹石火，我未弃世世弃我。",
+      "乌衣巷里封胡辈，相从东山唯汝可。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf62e899687f32339f",
+    "title": "答幼春",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "白也谪仙恺之痴，江湖颇传醉后诗。",
+      "谁知雁行揖坡谷，吾家阿买非常儿。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf62e89968f78e799a",
+    "title": "答幼春",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "春风汐社斗吟笔，南北甘陵初合一。",
+      "惜哉骚坛射雕手，大敌当前亦臂失。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bf62e899683a2c42a5",
+    "title": "答幼春",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "丈夫得志乘长风，画壁旗亭安足雄。",
+      "且取珊瑚归铁网，同声相应莫相攻。"
+    ]
+  },
+  {
+    "id": "adcfe4db3f0050bfa59e0066109e94b3",
+    "title": "次幼春韵呈绍尧",
+    "authorName": "林朝崧",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
+    "dynasty": "清",
+    "content": [
+      "君胡为者发鬅松，求诗驱疟檄愈风？",
+      "凋残文集覆酱瓿，丛杂药裹填筠筒。",
+      "听君悲吟似有意，毋乃蒂芥盈心胸。",
+      "大贤自古困陋巷，栾布贱时曾卖佣。",
+      "何况平生慕嵇阮，寂寞政可养惰慵。",
+      "眼前无数首阳岭，随地尽有桐庐江。",
+      "食鱼茹蕨不饿死，何用富与程郑同？",
+      "忧能伤心语不妄，少年一宿成老翁。",
+      "劝君强起加餐食，收悲敛涕牛衣中。",
+      "战国干戈斗未已，七雄胜负纷鸡虫。",
+      "但闻苍梧远巡狩，未见舜陛鸣笙镛。",
+      "人间可哀非一事，愿君毋为药店龙。"
+    ]
+  },
+  {
     "id": "adcfe4db3f0050bf7e7a1d6ff5e85ffa",
     "title": "重九夜偕庄竹书孝廉",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "凉风起蘋末，日落林塘幽。",
@@ -20,7 +1172,7 @@
     "id": "adcfe4db3f0050bf2c4c3f50f4364363",
     "title": "次韵和绍尧短歌行",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "神龟长介族，性灵寿亦长。一朝落人手，桑火来见伤。",
@@ -33,7 +1185,7 @@
     "id": "adcfe4db3f0050bfa826839870b3b3c6",
     "title": "筱云山庄看菊，赠厚庵秀才",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我性颇爱菊，手栽满东篱。苦遭风雨妒，花事今年衰。",
@@ -53,7 +1205,7 @@
     "id": "adcfe4db3f0050bf84212313b22ba878",
     "title": "戏赠亦仙",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "亦仙天麒麟，不可加鞿勒。",
@@ -82,7 +1234,7 @@
     "id": "adcfe4db3f0050bfffa5323842a243fc",
     "title": "哭梁钝庵大令",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "家无儋石忧天下，今人未见如君者。",
@@ -99,7 +1251,7 @@
     "id": "adcfe4db3f0050bffdea5369317943aa",
     "title": "书怀赠松坞居士",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "男儿不富贵，炼丹驻年貌。",
@@ -120,7 +1272,7 @@
     "id": "adcfe4db3f0050bff7e5cdf6fa018d3e",
     "title": "久旱喜雨",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "蕴隆何虫虫？赫羲烧大地。五行水干土，咎徵肥遗至。",
@@ -138,7 +1290,7 @@
     "id": "adcfe4db3f0050bf61202fd5df7e26a2",
     "title": "仲春偕诸子游瀚溪有感而作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "城东散步去，良伴来相追。",
@@ -165,7 +1317,7 @@
     "id": "adcfe4db3f0050bfcf0fe659c896c0d1",
     "title": "寄上海俞生子渊",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "西望登高楼，申浦三千里。",
@@ -184,7 +1336,7 @@
     "id": "adcfe4db3f0050bf0ddc669a205c4c20",
     "title": "醉后言志，寄绍尧",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "男儿处草莽，有志无由伸。",
@@ -207,7 +1359,7 @@
     "id": "adcfe4db3f0050bf40efb8833fb61825",
     "title": "寄铨侄日本",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "天运穷百六，劫尘飞蓬壶。",
@@ -237,7 +1389,7 @@
     "id": "adcfe4db3f0050bf7ee14e63d8026e6a",
     "title": "与吕生厚庵、沈生祝澄、侄幼春夜话作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "掩关东郭外，懒拙世所轻。",
@@ -260,7 +1412,7 @@
     "id": "adcfe4db3f0050bf0fa705e5dceaee7d",
     "title": "山堂小集分韵得至字",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "门掩麦秋雨，雀噪故人至。",
@@ -273,7 +1425,7 @@
     "id": "adcfe4db3f0050bfbcbffe865bdfcbe7",
     "title": "赖二留精舍数日重有此赠",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "之子佩琼华，红颜齿编贝。",
@@ -292,7 +1444,7 @@
     "id": "adcfe4db3f0050bf39ada5f5c3530726",
     "title": "二叔祖母罗太恭人七十晋一寿诗四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "觥觥太守公，我之王父行。",
@@ -315,7 +1467,7 @@
     "id": "adcfe4db3f0050bf39ada5f557b9c709",
     "title": "二叔祖母罗太恭人七十晋一寿诗四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "丹山凤将雏，养成毛彩异。",
@@ -336,7 +1488,7 @@
     "id": "adcfe4db3f0050bf39ada5f550e212a9",
     "title": "二叔祖母罗太恭人七十晋一寿诗四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "秦时巴寡妇，世擅丹穴赀。",
@@ -357,7 +1509,7 @@
     "id": "adcfe4db3f0050bf39ada5f547cae10a",
     "title": "二叔祖母罗太恭人七十晋一寿诗四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "羽人重服食，谓可获高年。",
@@ -381,7 +1533,7 @@
     "id": "adcfe4db3f0050bf305760f09d52396c",
     "title": "哀鸿篇",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "鸿雁从何来，来自沧海滨。",
@@ -404,7 +1556,7 @@
     "id": "adcfe4db3f0050bff3ea61f1202956b4",
     "title": "忆昔答洪月樵",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "忆昔游泮池，词场结交盛。",
@@ -467,7 +1619,7 @@
     "id": "adcfe4db3f0050bf2f463c12d6c6e9b4",
     "title": "对酒用太白韵和沈生祝澄二首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "采薇入西山，抱石沉东海。",
@@ -481,7 +1633,7 @@
     "id": "adcfe4db3f0050bf2f463c122520e3dc",
     "title": "对酒用太白韵和沈生祝澄二首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "青春流惊湍，一去不再来。",
@@ -497,7 +1649,7 @@
     "id": "adcfe4db3f0050bfeaab24ee634c634d",
     "title": "日边行，送绍尧东游",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "东有瀛洲西弱水，埋头世网井蛙耳。羡君能乘破浪风，入手扁舟行万里。",
@@ -513,7 +1665,7 @@
     "id": "adcfe4db3f0050bf8b7c53713cba8991",
     "title": "送侄幼春过海游学",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "吾兄膝上王文度，不减谢庭之宝树。",
@@ -542,7 +1694,7 @@
     "id": "adcfe4db3f0050bf15b228ce4954a27f",
     "title": "次韵答抚松处士",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "富贵百年内，一霎优昙华。",
@@ -559,7 +1711,7 @@
     "id": "adcfe4db3f0050bfc353a5d352e3da92",
     "title": "往石螺潭道中作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "肩舆出里门，一望皆稻畦。",
@@ -577,7 +1729,7 @@
     "id": "adcfe4db3f0050bf02e4ee623a48f394",
     "title": "示乌溪筑陂者",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "久雨陂塘溃，田水绝涓滴。",
@@ -594,7 +1746,7 @@
     "id": "adcfe4db3f0050bfa77d7cc2b9390284",
     "title": "和抚松处士井底蛙",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "井蛙拘于墟，何足语溟渤！",
@@ -615,7 +1767,7 @@
     "id": "adcfe4db3f0050bf7c56d6662a1ebf3f",
     "title": "阴历六月二十六夜大风雨，诗以志异",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "赤云夹日翔，飓母空中舞。",
@@ -639,7 +1791,7 @@
     "id": "adcfe4db3f0050bf232b985fa7810f77",
     "title": "饮酒放言，步沧玉席上见赠韵",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "朝菌无晦朔，蟪蛄无春秋。",
@@ -666,7 +1818,7 @@
     "id": "adcfe4db3f0050bf0983d5b5872c2558",
     "title": "十宜楼夜集作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "不饮鹿溪水，弹指俄三秋。鹿溪多诗人，云集十宜楼。",
@@ -689,7 +1841,7 @@
     "id": "adcfe4db3f0050bf13349ce66fccfe8a",
     "title": "拟鲍参军行路难",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "黄姑织女隔天河，虽则异居心靡他。不知君心别后变，相逢犹道故情多。",
@@ -701,7 +1853,7 @@
     "id": "adcfe4db3f0050bf6b7fe90778faf8ef",
     "title": "小东山草堂歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "谢先生有好奇癖，避喧诛茆向绝壁。堂成自署小东山，希风乃祖老安石。",
@@ -718,7 +1870,7 @@
     "id": "adcfe4db3f0050bf9206579b46bdbc64",
     "title": "寄居三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "寄居阮家林，贫贱谁记忆？",
@@ -733,7 +1885,7 @@
     "id": "adcfe4db3f0050bf9206579bf39a9372",
     "title": "寄居三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "误著缝掖衣，治生失其道。",
@@ -748,7 +1900,7 @@
     "id": "adcfe4db3f0050bf9206579b6c5cc667",
     "title": "寄居三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "言念我同父，寥落晨星少。",
@@ -763,7 +1915,7 @@
     "id": "adcfe4db3f0050bff837124a7cb6101a",
     "title": "赠傅锡祺秀才",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "傅子醇谨人，家风万古亚。",
@@ -796,7 +1948,7 @@
     "id": "adcfe4db3f0050bf61232c60370360c3",
     "title": "戏赠月汀、君定",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "宁逢恶宾，不逢故人。此语闻自汉平津。我乃故人兼恶宾，驱车访君过十驿，不待折柬招频频。",
@@ -815,7 +1967,7 @@
     "id": "adcfe4db3f0050bfa5744f95142ac266",
     "title": "过嘉义",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "斗大诸罗城，雄扼南北道。八掌与牛栏，双溪左右抱。",
@@ -837,7 +1989,7 @@
     "id": "adcfe4db3f0050bf7a42139635190ba2",
     "title": "魁斗山五妃庙",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "遥望魁斗山，累累尽荒冢。",
@@ -867,7 +2019,7 @@
     "id": "adcfe4db3f0050bf292ebb9782833485",
     "title": "谒延平王祠",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "国能独立无小大，蜂虿有毒谁敢害？",
@@ -896,7 +2048,7 @@
     "id": "adcfe4db3f0050bfe42fb0f0fe62aa61",
     "title": "病中呈谢四先生",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "微疾系公忧，驰顾不待车。",
@@ -927,7 +2079,7 @@
     "id": "adcfe4db3f0050bfc3f8e06ad90cc96e",
     "title": "春日游台中公园",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "娇鸟啼花报花开，大堤裙屐嬉春来。垂杨四面栏不住，远山飞入池中台。",
@@ -943,7 +2095,7 @@
     "id": "adcfe4db3f0050bf854746de18f91349",
     "title": "过竹沪吊宁靖王",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "玉带歌残瘴海曲，一坏竹沪烟芜绿。欲吊先朝宁靖王，杜鹃飞上冬青哭。",
@@ -964,7 +2116,7 @@
     "id": "adcfe4db3f0050bf81133d7635e20409",
     "title": "夏日田家杂兴三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "雨过村落凉，柴门绿槐影。",
@@ -981,7 +2133,7 @@
     "id": "adcfe4db3f0050bf81133d761e3c0a49",
     "title": "夏日田家杂兴三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "早稻既登场，晚禾种犹未。",
@@ -998,7 +2150,7 @@
     "id": "adcfe4db3f0050bf81133d76fd60ab5f",
     "title": "夏日田家杂兴三首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "海畔农家流，多佃富家土。",
@@ -1015,7 +2167,7 @@
     "id": "adcfe4db3f0050bf46629d4d26aa92ba",
     "title": "北投温泉",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "十戴闻泉名，北望神长往。",
@@ -1039,7 +2191,7 @@
     "id": "adcfe4db3f0050bf8a31cb4f30e195f2",
     "title": "哭三兄",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "去年儿哭母，今年弟哭兄。",
@@ -1078,7 +2230,7 @@
     "id": "adcfe4db3f0050bf8ff015af9a979021",
     "title": "避债台歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "慷慨久无焚券事，男儿奈何称债帅。璧返珠还仓卒难，追呼短尽英雄气。",
@@ -1092,7 +2244,7 @@
     "id": "adcfe4db3f0050bfef489291998937d5",
     "title": "弃妇词",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "茑萝耐松柏，空自结绸缪。",
@@ -1109,7 +2261,7 @@
     "id": "adcfe4db3f0050bf40b2b288798b0775",
     "title": "春日游青桐林，次槐庭韵",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "行尽九曲溪，山鸟邀我吟。",
@@ -1127,7 +2279,7 @@
     "id": "adcfe4db3f0050bf08f3c0844b5262e3",
     "title": "庚戌栎社春会，南北诗家毕至，喜而作歌，即呈在座诸君子",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "男儿当画凌烟阁，横草功成比褒鄂。",
@@ -1154,7 +2306,7 @@
     "id": "adcfe4db3f0050bf8c4d47a78771fbf0",
     "title": "黄梅曲",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "亭子红罗堂玉照，美人倚竹娟娟笑。别后西湖客渐疏，梦中庾岭人同调。",
@@ -1168,7 +2320,7 @@
     "id": "adcfe4db3f0050bfc6f5997cb945344a",
     "title": "宿筱云山庄，怀厚庵",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "松石依然在，重来宿画楼。",
@@ -1185,7 +2337,7 @@
     "id": "adcfe4db3f0050bf918a65ae188f93e4",
     "title": "钓龙台歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "钓龙台，生苍苔。闽越主，安在哉？当年草昧无人境，全闽天地王亲开。",
@@ -1199,7 +2351,7 @@
     "id": "adcfe4db3f0050bf31c8b6f3d81dcfd4",
     "title": "闻悔之病，携妓骆云莲走访，醉中赋赠",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "君家卦山西，山东我乡里。",
@@ -1222,7 +2374,7 @@
     "id": "adcfe4db3f0050bf775b6813d3300172",
     "title": "戏为抱狮图歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "熊罴咆我东，虎豹号我西。我后鬼长啸，我前狨又啼。",
@@ -1240,7 +2392,7 @@
     "id": "adcfe4db3f0050bf21a2d65e23a71c78",
     "title": "次韵寄赠梁任公先生启超",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "歌风空忆汉天子，大地烟尘窜蛇豕。",
@@ -1292,7 +2444,7 @@
     "id": "adcfe4db3f0050bf015f0d096f990415",
     "title": "汉高祖",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "轵道降王拜马头，关中形势掌中收。",
@@ -1305,7 +2457,7 @@
     "id": "adcfe4db3f0050bf53db8c2ab9d50321",
     "title": "杨宅赏菊醉后作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "陶公隐柴桑，逸兴托秋菊。",
@@ -1326,7 +2478,7 @@
     "id": "adcfe4db3f0050bf88435af192e01b05",
     "title": "吴通事歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "武峦山边鬼昼哭，年年豺虎厌人肉。",
@@ -1341,7 +2493,7 @@
     "id": "adcfe4db3f0050bf0c8d68cc9d47744f",
     "title": "和昌谷浩歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "琪花玉树三山地，几度黄尘换清水？",
@@ -1358,7 +2510,7 @@
     "id": "adcfe4db3f0050bfd9cd373a74047798",
     "title": "和昌谷梦天",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "鳞云砌就蔚蓝色，玉犬吠花天乍白。",
@@ -1371,7 +2523,7 @@
     "id": "adcfe4db3f0050bf8dcefad57ae6b2f6",
     "title": "和昌谷金铜仙人辞汉歌",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "汉宫不见偷桃客，青雀西飞也无迹。",
@@ -1386,7 +2538,7 @@
     "id": "adcfe4db3f0050bf853f05d8059fab93",
     "title": "追怀刘壮肃公",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "乾坤东港谁家地，金碧楼台笼海气。",
@@ -1403,7 +2555,7 @@
     "id": "adcfe4db3f0050bfc6fa1179929d7f86",
     "title": "挽陈瘦云",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "仙人偷下紫清殿，手琢娲皇石为砚。千金买赋笔如飞，噫气生风笑成电。",
@@ -1418,7 +2570,7 @@
     "id": "adcfe4db3f0050bf6bfdceb71fe50249",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "五伦始夫妇，伉俪谁不笃。",
@@ -1435,7 +2587,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7112945b9",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "外家儒而医，订婚自总角。",
@@ -1452,7 +2604,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7e0915510",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "岁在马羊间，亲见陵为谷。",
@@ -1469,7 +2621,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7da53044c",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "自汝入我门，周年即坐蓐。",
@@ -1486,7 +2638,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7329e9839",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "妾生两娇女，佩萸年甫六。",
@@ -1503,7 +2655,7 @@
     "id": "adcfe4db3f0050bf6bfdceb76e053a70",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我行神州久，世运叹衰叔。",
@@ -1520,7 +2672,7 @@
     "id": "adcfe4db3f0050bf6bfdceb73b37592d",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "从来富家妇，安坐事梳掠。",
@@ -1537,7 +2689,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7be55fa13",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我自分家来，岁入仅千斛。",
@@ -1554,7 +2706,7 @@
     "id": "adcfe4db3f0050bf6bfdceb764e2fd10",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "天道云福善，茫昧究难度！",
@@ -1571,7 +2723,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7933aee9c",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "自我归故乡，三迁事田牧。",
@@ -1588,7 +2740,7 @@
     "id": "adcfe4db3f0050bf6bfdceb75b510159",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "忽忽六年中，母逝汝又续。",
@@ -1605,7 +2757,7 @@
     "id": "adcfe4db3f0050bf6bfdceb78da5e70a",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我不从佛教，乡邻多怪愕。",
@@ -1622,7 +2774,7 @@
     "id": "adcfe4db3f0050bf6bfdceb7fc74a8ea",
     "title": "哭内子谢氏端",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "汝本儒家女，四诫从少熟。",
@@ -1636,10 +2788,10 @@
     ]
   },
   {
-    "id": "adcfe4db3f0050bf6098b2189d79ab61",
+    "id": "adcfe4db3f0050bf6098b218dca007cb",
     "title": "飓风后作",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "甲寅闰五月，二十日巳刻。",
@@ -1660,7 +2812,7 @@
       "水势知若何，吉凶两难测。",
       "姬人谋欲遁，摒挡颇劳剧。",
       "包裹叙与珥，并我破书册。",
-      "一任其所为，实告恐相嚇。",
+      "一任其所为，实告恐相吓。",
       "逃难谁暇携，枉费忙永夕。",
       "北溪水更大，走路况难觅。",
       "南北若交攻，我家付河伯。",
@@ -1699,7 +2851,7 @@
     "id": "adcfe4db3f0050bf18e820cc703b720b",
     "title": "初见雪",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我年四十一，今日初见雪。",
@@ -1721,7 +2873,7 @@
     "id": "adcfe4db3f0050bf7f9b6e603d2fc36a",
     "title": "哭谢颂臣先生",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "我欲哭谢公，匝月诗不成。失我忘年之老友，使我执笔未下泪先零。",
@@ -1743,7 +2895,7 @@
     "id": "adcfe4db3f0050bffb44d60c86d83731",
     "title": "子夜歌四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "郎如兔丝草，侬似女萝枝。",
@@ -1754,7 +2906,7 @@
     "id": "adcfe4db3f0050bffb44d60c3dc9d6e6",
     "title": "子夜歌四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "与郎离别来，泪点长洗面。",
@@ -1765,7 +2917,7 @@
     "id": "adcfe4db3f0050bffb44d60c51a6216f",
     "title": "子夜歌四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "虚度春时节，三年直到今。",
@@ -1776,7 +2928,7 @@
     "id": "adcfe4db3f0050bffb44d60c3f74fcb9",
     "title": "子夜歌四首",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "手写婵妍影，殷勤远寄将。",
@@ -1787,7 +2939,7 @@
     "id": "adcfe4db3f0050bf94dbaa9fb62c23d6",
     "title": "将进酒",
     "authorName": "林朝崧",
-    "authorId": "adcfe4db3f0050bf7e9e346db432f34c",
+    "authorId": "adcfe4db3f0050bf7e9e346de9fb23e9",
     "dynasty": "清",
     "content": [
       "白日短短驹过隙，人生上寿不满百。等闲断送黑头春，漏尽钟鸣叹何益？",
@@ -1936,7 +3088,7 @@
     ]
   },
   {
-    "id": "adcfe4db3f1d8fbfa53cb9c8994649bd",
+    "id": "adcfe4db3f1d8fbfa53cb9c88abff65f",
     "title": "游华藏庵",
     "authorName": "杜依中",
     "authorId": "adcfe4db3f1d8fbfd1457b72d1457b72",
@@ -1944,7 +3096,7 @@
     "content": [
       "百年尘劫里，过眼一风灯。",
       "解脱人皆佛，清闲我亦僧。",
-      "升沈原有故，梦觉果何凭。",
+      "升沉原有故，梦觉果何凭。",
       "借得蒲团力，消磨障几层。"
     ]
   },
@@ -2558,7 +3710,7 @@
     ]
   },
   {
-    "id": "adcfe4db3f3ab921c679d46575818a11",
+    "id": "adcfe4db3f3ab921c679d465d8f2ac2f",
     "title": "丁卯六月上浣六日陶社消夏第一集",
     "authorName": "王其元",
     "authorId": "adcfe4db3f3ab921d1457b72d1457b72",
@@ -2574,7 +3726,7 @@
       "衰周既无寒，暴秦宁有燠。",
       "我辈非热中，安用趋炎熇。",
       "吾澄开社坛，泰半号名宿。",
-      "自经离乱后，无复旂鼓簇。",
+      "自经离乱后，无复旗鼓簇。",
       "居者未安安，亡者徒仆仆。",
       "存者望门投，殁者举家哭。",
       "翛然社主人，差幸客免逐。",
@@ -4415,7 +5567,7 @@
     ]
   },
   {
-    "id": "adcfe4db3f72719f290789d9e50ee7dd",
+    "id": "adcfe4db3f72719f290789d9a67b6758",
     "title": "春感",
     "authorName": "王季珠",
     "authorId": "adcfe4db3f72719fd1457b72d1457b72",
@@ -4423,7 +5575,7 @@
     "content": [
       "冰雹雷霆博早春，阴阳调剂属何人。",
       "乌鸢攫肉馋蝼蚁，枭獍登台泣凤麟。",
-      "莫假威棱恢汉宇，徒烦书檄嚇番臣。",
+      "莫假威棱恢汉宇，徒烦书檄吓番臣。",
       "明明庚戌非庚子，只怕童谣又当真。"
     ]
   },
@@ -4623,7 +5775,7 @@
     ]
   },
   {
-    "id": "adcfe4db3f72719f93a5a71db7bf5924",
+    "id": "adcfe4db3f72719f93a5a71df0b2430c",
     "title": "六十诞辰，戚友咸劝称觞，余以值此世变，何敢再受亲友庆祝，作述怀诗八首以见志",
     "authorName": "王季珠",
     "authorId": "adcfe4db3f72719fd1457b72d1457b72",
@@ -4632,7 +5784,7 @@
       "生丁末造固无何，怪怪奇奇视古多。",
       "番妇来宾迓凤辇，校儿合队唱蛮歌。",
       "显凭历史翻陈案，暗讳和戎倒太阿。",
-      "五道发皇推火德，灯光嚇退月姮娥。"
+      "五道发皇推火德，灯光吓退月姮娥。"
     ]
   },
   {
@@ -9114,6 +10266,17 @@
     ]
   },
   {
+    "id": "adcfe4db41d6ce1ae756c066052d303a",
+    "title": "对雪",
+    "authorName": "骆绮兰",
+    "authorId": "adcfe4db41d6ce1ad1457b72d1457b72",
+    "dynasty": "清",
+    "content": [
+      "登楼对雪懒吟诗，闲倚栏杆有所思。",
+      "莫怪世人容易老，青山也有白头时。"
+    ]
+  },
+  {
     "id": "adcfe4db41dfa52b6a20e5f4cf816df7",
     "title": "秋夜",
     "authorName": "王奇士",
@@ -10833,7 +11996,7 @@
     ]
   },
   {
-    "id": "adcfe4db42b0ee245028aabc37e32099",
+    "id": "adcfe4db42b0ee245028aabc10cd8296",
     "title": "拟古",
     "authorName": "王拯",
     "authorId": "adcfe4db42b0ee24f0bbac6fba9a56ce",
@@ -10846,7 +12009,7 @@
       "其众罗千百，狰狞拥貔貅。",
       "有时颇击贼，愧我群兜鍪。",
       "城阙使居间，解之乏良筹。",
-      "饱附饥食人，若能身束修。",
+      "饱附饥食人，若能身束脩。",
       "橐藏既罄如，能弗事赂赇。",
       "东家翁头白，西家儿鬓髹。",
       "牵来各闭置，嗒若鱼中钩。",
@@ -11027,13 +12190,13 @@
     ]
   },
   {
-    "id": "adcfe4db42b0ee245028aabced0355cb",
+    "id": "adcfe4db42b0ee245028aabc0ec51f38",
     "title": "拟古",
     "authorName": "王拯",
     "authorId": "adcfe4db42b0ee24f0bbac6fba9a56ce",
     "dynasty": "清",
     "content": [
-      "前年战桑乾，今岁河北道。关山惜奔命，将率各衰老。",
+      "前年战桑干，今岁河北道。关山惜奔命，将率各衰老。",
       "昔人重守关，巍峨几城堡。指挥英雄士，机疾若风扫。",
       "堂堂大都邑，头足急相保。参商又列将，江湖遂如燎。",
       "哀哀塞垣卒，得遣已残脑。十人九伤病，面目各黄槁。",
@@ -11827,7 +12990,7 @@
     ]
   },
   {
-    "id": "adcfe4db4312a4ac2b1934cd0ca5d7a1",
+    "id": "adcfe4db4312a4ac2b1934cdc68161e6",
     "title": "又酬傅处士次韵",
     "authorName": "顾炎武",
     "authorId": "adcfe4db4312a4ac69d658d06a81681a",
@@ -11842,7 +13005,7 @@
       "【其二】",
       "愁听关塞遍吹笳，不见中原有战车。",
       "三户已亡熊绎国，一成犹启少康家。",
-      "苍龙日暮还行雨，老树春深更著花。",
+      "苍龙日暮还行雨，老树春深更着花。",
       "待得汉廷明诏近，五湖同觅钓鱼槎。"
     ],
     "comment": [
@@ -12589,7 +13752,7 @@
     ]
   },
   {
-    "id": "adcfe4db4312a4ac534a3b0d52961e72",
+    "id": "adcfe4db4312a4ac534a3b0d6c125a4f",
     "title": "又酬傅处士次韵二首（其二）",
     "authorName": "顾炎武",
     "authorId": "adcfe4db4312a4ac69d658d06a81681a",
@@ -12597,7 +13760,7 @@
     "content": [
       "愁听关塞遍吹笳，不见中原有战车。",
       "三户已亡熊绎国，一成犹启少康家。",
-      "苍龙日暮还行雨，老树春深更著花。",
+      "苍龙日暮还行雨，老树春深更着花。",
       "待得汉廷明诏近，五湖同觅钓鱼槎。"
     ]
   },
@@ -13372,1339 +14535,6 @@
     "content": [
       "天宝传头竟属谁，四条弦子断肠时。",
       "蛮靴窄袖当垆女，今日公然识段师。"
-    ]
-  },
-  {
-    "id": "adcfe4db43b066f1a17543ad0b5e9d89",
-    "title": "岁寒和紫田居士韵",
-    "authorName": "张士达",
-    "authorId": "adcfe4db43b066f1d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "阅尽芳菲岁已终，闭门如在万山中。",
-      "居心自比青松劲，题句难赓白雪工。",
-      "远岫云回南至日，长江风送北来鸿。",
-      "梅花驿使传春讯，莫负消寒绿酒筒。"
-    ]
-  },
-  {
-    "id": "adcfe4db43b30a0906d4d12607cbcecc",
-    "title": "雨夜有怀",
-    "authorName": "李忠鲠",
-    "authorId": "adcfe4db43b30a09d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "三径云俱黑，高斋镫自青。",
-      "江湖牵远梦，风雨到空庭。",
-      "如此凄清夜，何堪阔别径。",
-      "孤眠不成寐，望断子云亭。"
-    ]
-  },
-  {
-    "id": "adcfe4db43b30a0990f1867d6276ac39",
-    "title": "秋草",
-    "authorName": "李忠鲠",
-    "authorId": "adcfe4db43b30a09d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "几日蘼芜径尽荒，萧条画出野人庄。",
-      "绿波空想江南影，青冢先迎塞上凉。",
-      "千里相思愁细雨，六朝遗恨付斜阳。",
-      "篱边水曲都如此，何况西风木叶狂。"
-    ]
-  },
-  {
-    "id": "adcfe4db43b30a09b2f6c46b265c7baf",
-    "title": "秋郊暮望",
-    "authorName": "李忠鲠",
-    "authorId": "adcfe4db43b30a09d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "萧萧黄叶落渔篷，小立官桥怅晚风。",
-      "堤蓼亦知秋寂寞，一枝留向水边红。"
-    ]
-  },
-  {
-    "id": "adcfe4db43b4b21665ca3e98f5f76213",
-    "title": "寄周澹岩幽居",
-    "authorName": "陈元禄",
-    "authorId": "adcfe4db43b4b216d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "径仄少人过，萧萧生薜萝。",
-      "青山当户远，黄叶闭门多。",
-      "阮籍惟宜酒，陶潜许放歌。",
-      "科头倚秋树，幽梦正婆娑。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb8231004a03e29e8a8d5",
-    "title": "留别丁二仲乔",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "结带感殊乡，征帆又夕阳。",
-      "诗歌中酒意，身手少年场。",
-      "梅雨留人早，兰云入梦香。",
-      "始知今桂海，别有古河梁。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb8231004a03e9d6a5daa",
-    "title": "留别丁二仲乔",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "荔浦同舟约，经春燕不归。",
-      "孤篷岂吾愿，别泪满君衣。",
-      "爱日盟心密，餐霞世侣稀。",
-      "相期云汉外，明德慰调饥。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb823455e94227a012da4",
-    "title": "苍梧道中怀唐大茝君",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "禄养今闻五斗难，更无枳棘可栖鸾。",
-      "词人温尉才都减，羁客唐衢泪不干。",
-      "尽室天涯成俩帅，名卿世业问园官。",
-      "别来春雨残花里，独醉应怜革带宽。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb823fcb245e7f6e45d86",
-    "title": "江上纪程",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "明波瑟瑟浪如环，晓泊江州正闭关。",
-      "万顷碧烟飞入梦，不知满眼是庐山。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb8231209cd676448e2e2",
-    "title": "同人宴张宛邻丈于憩园次夕复饮此",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "夙轸谢知音，羁怀媚幽谷。",
-      "未知昨景迁，迭使游踪续。",
-      "栖鸟识歌新，空径闻屐熟。",
-      "月从海上来，光艳胜秉烛。",
-      "瞬往即难追，晷移何太促。",
-      "幸有沽酒人，与之期信宿。",
-      "美人抚寒柯，揽袖泪盈菊。",
-      "不惜尺寸心，岂徒眩凡瞩。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb823bbe33b60d4ac9023",
-    "title": "行至富庄驿夜坐怀刘青园",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "征车迟不行，骤行良非已。",
-      "云待故人来，相期渺秋水。",
-      "翘首空日夕，振鞭遽至此。",
-      "明晨隔山岳，歧路所从始。",
-      "三载饥渴怀，何由慰之子。",
-      "远尊有湿衣，近烛无乾蕊。",
-      "铎梦堕黄埃，寒蛩催夜起。",
-      "题诗泪盈壁，君来请君视。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb823a606e67983ea286a",
-    "title": "送季娴妹于归",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "南国有嘉稻，丛生陇亩间。析根各移植，厥实乃始繁。",
-      "托体为昆弟，骨脉相牵援。内外虽有殊，恩谊终无偏。",
-      "女子既已长，一旦施衿鞶。遣行入他姓，同生若弃捐。",
-      "成人固应尔，能无摧肺肝。矧翳吾与汝，手足何茕单。",
-      "兄妹各一人，少小承欢颜。送子将于归，神凄涕泪潸。",
-      "痛念我慈父，昔日俱爱怜。我母秉义方，育子勤且艰。",
-      "吾长汝最稚，相差逾十年。中间弟及妹，幼弱遭摧残。",
-      "惜哉汝次兄，学成身力孱。中殇弃其室，魂魄居岱巅。",
-      "六人只存二，护汝如芝兰。提携兼诲诱，相爱无间言。",
-      "汝生多淑德，质端不在妍。敏慧爱诗书，请益日几番。",
-      "性情伉以直，辞语讷且娴。我父宰允吾，汝生已在官。",
-      "继复刺粤西，万里随征鞍。嗟予求微名，京兆秋风抟。",
-      "定省违晨昏，赖汝勤加餐。六年始得举，驰归霜隔天。",
-      "我父不及待，弃我归重泉。悲苦欲追殉，犹恨身体顽。",
-      "汝能侍父疾，送父凭素棺。宛转慰慈母，辛咽不忍宣。",
-      "以此两相较，百倍胜我贤。我父为廉吏，身后无薄田。",
-      "我从墨缞中，舌耕裹青毡。远游越五岁，负米思江壖。",
-      "母衰仗汝侍，欲去犹迁延。有别长依依，有泪同涟涟。",
-      "汝能识我意，百事使我安。爱嫂若事姊，亲悦若比肩。",
-      "偕之奉母养，俾母忘忧煎。嗟嗟家多故，择婿良独难。",
-      "汝笄又数春，我虑愁如瘅。今年策明良，我若星离躔。",
-      "身言甘就试，幸厕令长班。致此胡足喜，禄仕如抱关。",
-      "所欣天阙下，为汝得伯鸾。峨峨天水君，皎皎青琅玕。",
-      "吐言金玉屑，走笔龙蛇蟠。卅年困骥足，守进天所悭。",
-      "一朝凌风翔，乡赋振羽翰。计偕当仲春，先后来幽燕。",
-      "夙契感离思，乍合生忧端。共伤倦游久，怅彼帏居鳏。",
-      "比部二曹郎，戚友情相褰。为通两家好，愿作朱陈欢。",
-      "问名未十日，献赋登金銮。我喜几欲狂，远过身高骞。",
-      "问其何以故，遂忘食与眠。念予少兄弟，爱汝使之然。",
-      "但惜桂苑才，试以烹小鲜。临廷仰帝简，作宰匡庐边。",
-      "乞假得归娶，人羡锦衣还。请期既纳采，即咏《桃夭》篇。",
-      "清门殊世俗，繁费皆可删。奁资一何薄，安得琼瑛盘。",
-      "裁作四时衣，采绣亦斓斑。珠丝悬络索，双鬓垂螺环。",
-      "约发玳瑁簪，缀以翡翠钿。缬带紫罗襦，玉绾黄金镮。",
-      "琐琐饰众目，不足十万钱。布多杂彩少，箧面陈缃纨。",
-      "吁嗟慈母意，欲语眉先攒。爱女思丰盈，怜子方贫寒。",
-      "我今亦何为，终日起长叹。先人只一女，随兄久迍邅。",
-      "兹当吉礼成，心力敢不殚。尺帛一囊粟，即日甘分颁。",
-      "筹思无可赠，赠汝三尺笺。笺中书韵语，滴泪和墨研。",
-      "汝身虽强力，汝体多劳㾓。冷燠小有妨，喘嗽辄纠缠。",
-      "嗣今须护摄，勿使日削朘。喜阳怒乃阴，损益气所干。",
-      "顺时遣郁悒，遇物谢忿悁。不逮事舅姑，既往莫可攀。",
-      "岁时奉家祭，粢盛重洁蠲。将事必以诚，亲手濯豆笾。",
-      "持家此为首，凡百敬慎先。夫子姑良朋，爱结今生缘。",
-      "和顺久愈谐，谦畏斯无愆。刚则济以柔，狭乃规以宽。",
-      "有无俱黾勉，得失无欺谩。抚视前室女，曲意使安便。",
-      "人生凡所遇，安得期万全。人或忤我意，坦悦相周旋。",
-      "境或小不遇，检躬惟益虔。汝为宰官妇，切戒奢与专。",
-      "奢为天所忌，专为人所姗。外政期勿闻，阃阈若有阑。",
-      "耀首辞珠玑，饫口乐瓢箪。镫火夜愔愔，束帛朝戋戋。",
-      "古人重循吏，其室无佩环。异物不足贵，清明乃共传。",
-      "积衣千万袟，暖身惟一绵。陈簋方丈满，饱腹惟一饘。",
-      "贪侈亦何需，徒为招祸綖。子孙贵读书，富足易轻儇。",
-      "幼齿乘高车，长大为执鞭。皆由贻以患，置抄使疾颠。",
-      "概兹皆当懔，毋为俗虑牵。汝岂丛尤悔，吾情过拘挛。",
-      "申申为此语，日省庶励旃。奴婢务矜恤，勿令生烦冤。",
-      "尤宜教以正，事上静以颛。好恶无偏向，乃克泯其奸。",
-      "孤茕务悯念，分惠及杯棬。尤宜将以敬，慎勿邀誉焉。",
-      "好誉谄乃进，虚壑何能填。言一漏者万，聊为明拳拳。",
-      "词陋意则深，可如金石镌。补汝德未足，勖汝意未坚。",
-      "取言贵切近，女诫拟重编。至若母家内，思忆毋沈绵。",
-      "母年虽七旬，旧患幸已痊。康乐享期颐，福祐期明媊。",
-      "汝嫂性虽愚，孝敬能乾乾。诸倒习占毕，质分堪陶甄。",
-      "吾将官闽越，界通江右山。他时谋省觐，笋轿来归遄。",
-      "汝心颇足慰，宜禁泪潺湲。望汝光两门，仪行昭蘋蘩。",
-      "秋气正淑清，香发庭桂丹。锵锵八鸾驾，吉庆贺团栾。",
-      "此诗勿再诵，诵者增悲酸。藏之琉璃匣，真气芬旃檀。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb823edbee11c38d5c200",
-    "title": "杨忠悯公空谷流泉琴歌",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "朱弦乍拂松风鸣，素丝夜泛清商声。枯桐寿世三百载，先生手泽天人惊。",
-      "君不见在山泉清出山浊，壮气泠泠满空谷。杂耳淫哇未易除，雅操苍凉一何促。",
-      "先生忠谊贯金石，余蕴兼能达音律。精思梦谒虞帝廷，亲受重华五音节。",
-      "正乐原宜先正君，庙堂时事方纷纭。青词独煽冰山势，白简能酬玉阙恩。",
-      "一疏将军误，再疏丞相怒。枷锁风吹彻骨香，刚肠百炼金难铸。",
-      "我观先生论制乐，选竹调丝自镌削。首和葭管次和琴，纬以埙篪合以籥。",
-      "此琴疑即手所裁，铭文小篆书雷回。虬枝蟠跗色坚润，绿髹瑶轸生冰埃。",
-      "端襟试鼓流泉意，簇吕钟宫皆入细。激越同惊变徵音，绀云紫雪凝天地。",
-      "摩挲漆字悄三叹，自古龙门伤直干。至人欲为《猗兰操》，浩气空存《广陵散》。",
-      "姓字今如星斗光，伟哉人琴两不亡。袖笼湘水浸寒月，虚籁空山印碧血。"
-    ]
-  },
-  {
-    "id": "adcfe4db43beb8238227155617314d34",
-    "title": "送支子翔凤翱出都",
-    "authorName": "方履篯",
-    "authorId": "adcfe4db43beb823d2541440e0ab531e",
-    "dynasty": "清",
-    "content": [
-      "秋阴三日寒威遍，落叶萧疏隔轻霰。",
-      "支君别我去江淮，清泪凝沙掩君面。",
-      "少年走马凌燕云，争说名花满芳甸。",
-      "千里心交似尔稀，一生诗骨无人见。",
-      "肝胆文章百不宜，散雪抟沙何所恋。",
-      "嗟君飘泊天东南，予亦苍凉赋游倦。",
-      "但识羁栖胜奔走，失侣哀鸣不如雁。",
-      "双毂盘峰激石湍，扁舟破浪催银箭。",
-      "傥怜燕市十丈尘，为剪吴淞石尺练。"
-    ]
-  },
-  {
-    "id": "adcfe4db43c22a5792947d9ea1915757",
-    "title": "官舍夜吟",
-    "authorName": "穆得元",
-    "authorId": "adcfe4db43c22a57d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "广文官独冷，僻地恰相宜。",
-      "塞近迎寒早，山深得月迟。",
-      "课书频剪烛，看剑几倾卮。",
-      "吾自寻吾乐，良宵一咏诗。"
-    ]
-  },
-  {
-    "id": "adcfe4db43c4e36f16b92929e70a09a0",
-    "title": "闻诸襄七在金华有述",
-    "authorName": "邓牧",
-    "authorId": "adcfe4db43c4e36fd1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "玉堂仙人居士俦，丹床鸾鹤参遨游。",
-      "万言直泻一杯水，三顾屡回重瞳眸。",
-      "朅来吴越成春秋，往欲从之何缘由。",
-      "劳思未已仰天笑，金华山高灵草幽。"
-    ]
-  },
-  {
-    "id": "adcfe4db43e21ce76db63d1be51edde8",
-    "title": "曹仁宪谨荣寿",
-    "authorName": "黄秉衡",
-    "authorId": "adcfe4db43e21ce7d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "卅年政迹普和祥，医世方原寿世方。",
-      "拟买新丝争绣佛，遥吹古笛正飞觞。",
-      "凤山翘切双凫远，蟒甲群歌五马良。",
-      "今日胶庠齐拜祝，使君家本在河阳。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f48803b164a7160a67",
-    "title": "蓬门",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "骨傲岂随俗，宁攀山鬼邻。",
-      "舒云聊作帐，集叶戏为茵。",
-      "凤岭知难效，鹿门且耐贫。",
-      "残篇任意读，不羡骑辚辚。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4447c99f9fad38618",
-    "title": "病中喜新月",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "促织频催懒，寒衣犹未成。",
-      "起床忘骨瘦，著履觉身轻。",
-      "青帝飘飘散，姮娥冉冉情。",
-      "秋怀无所处，共月结新盟。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4847ca223f9a206ba",
-    "title": "贫病有感",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "才已行贫运，偏增新病魔。",
-      "镫花虚拟结，鹊语几番讹。",
-      "针指能生睡，诗篇强自哦。",
-      "寒风吹瘦骨，酌茗亦阳和。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f45d0898d9a42bde4f",
-    "title": "明妃梦回汉宫次浮翠轩吴夫人韵",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "一自明妆出未央，空留遗恨在昭阳。",
-      "琵琶曲尽关山泪，环佩声归塞上霜。",
-      "宿雁残更移晓幕，依人落月下空床。",
-      "旧时纵有三秋怨，不及穹窿此夜长。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4bdcc26068ee644e0",
-    "title": "代外赠别毛大可",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "西泠月落板桥霜，衰柳长堤只自伤。",
-      "几日穷愁兼别怨，一帆秋色带斜阳。",
-      "浮云影逐离亭路，归雁声凄碧草塘。",
-      "学采芙蓉江上去，黯然回首恨茫茫。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f47868b8698e82bd97",
-    "title": "代睿子怀玉尺弟",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "凋残花萼失芳丛，嗟尔天涯我孰同。",
-      "鸿雁序离悲夜月，鹡鸰诗就泣东风。",
-      "萦牵梦隔西江杳，沦落音难越水通。",
-      "景物触怀思切切，何时携手叹飘蓬。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4945b70c0da2f7b8c",
-    "title": "邻妇",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "鸟声初啭堕花春，静女幽妆采落蘋。",
-      "脸映芙蕖娇且艳，眉修清月淡无尘。",
-      "一泓秋水留西子，半幅轻绡写洛神。",
-      "秀色共餐饥可乐，不才忝已在东邻。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f42a7ddbc47091b087",
-    "title": "雨中桃花",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "寒风微透入凄清，过雨夭桃色易倾。",
-      "莺湿羽衣怜艳冶，苔伤花影谱心旌。",
-      "飞烟乍掩炉峰失，新草萎残曲径茕。",
-      "拾得落云天已暮，远林遥听堕春声。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4fadbe0c5b3f921bc",
-    "title": "吴岩子徵和起句原韵",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "榻占西湖第一楼，垂帘落影咽云流。",
-      "含香燕入歌声里，避月花飞点案头。",
-      "鹫岭青来描锦字，蒹葭碧处系春舟。",
-      "阮公清啸江生笔，赢得轻烟纸上幽。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4fadbe0c54617f802",
-    "title": "吴岩子徵和起句原韵",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "长堤梅格渐生香，叠入奚童旧锦囊。",
-      "离绪征帆寒雁远，移文秀笔淡山光。",
-      "花含碧玉裁清佩，云映芝眉剪绿裳。",
-      "解得苑莺调柳色，束红凝目望华章。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f4ebff8c2022487e3f",
-    "title": "为龚汝黄题黄皆令画",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "孤亭秋树色，即是云深处。",
-      "写此数峰青，倒逐扁舟去。"
-    ]
-  },
-  {
-    "id": "adcfe4db43ebe9f45653d8008321c777",
-    "title": "宫怨",
-    "authorName": "王端淑",
-    "authorId": "adcfe4db43ebe9f4d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "长门春锁月溶溶，绣柱金铺翠自封。",
-      "忽听马啼惊欲曙，多年不候景阳钟。"
-    ]
-  },
-  {
-    "id": "adcfe4db44020a635b3e0616b76e2591",
-    "title": "侍母点消寒图",
-    "authorName": "孔淑成",
-    "authorId": "adcfe4db44020a63d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "堂上传呼停绣襦，慈萱看此掌中珠。",
-      "鹤眠积雪三三径，猩点消寒九九图。",
-      "月影清如今夜好，梅花香似去年无。",
-      "眼前索笑随昆妹，博得欢颜韵不孤。"
-    ]
-  },
-  {
-    "id": "adcfe4db44067243cef7b9d05b5292c0",
-    "title": "玉屏山寺",
-    "authorName": "马祜",
-    "authorId": "adcfe4db44067243d1457b72831c2f88",
-    "dynasty": "清",
-    "content": [
-      "谷口时来往，松风一径深。",
-      "浓春树皆绿，亭午寺犹阴。",
-      "山色清入骨，溪声静客心。",
-      "偶然逢石坐，无语独披襟。"
-    ]
-  },
-  {
-    "id": "adcfe4db44067243d92b45d17a39b966",
-    "title": "同人饮澄响堂",
-    "authorName": "马祜",
-    "authorId": "adcfe4db44067243d1457b72831c2f88",
-    "dynasty": "清",
-    "content": [
-      "何意翠微里，柴扉为客开。",
-      "间云百态出，旧雨一时来。",
-      "鸟乱空山响，花明宿雨催。",
-      "陶然同朗咏，狂醉倒金罍。"
-    ]
-  },
-  {
-    "id": "adcfe4db440672435d99052c565e370c",
-    "title": "偕周笔峰买舟之吴门",
-    "authorName": "马祜",
-    "authorId": "adcfe4db44067243d1457b72831c2f88",
-    "dynasty": "清",
-    "content": [
-      "绿杨吹雪满河干，烟水茫茫客路难。",
-      "白舫乘风容我共，冰弦邀月为君弹。",
-      "山移断岸孤帆过，潮落空江二月寒。",
-      "此去吴阊花正满，计程好向虎丘看。"
-    ]
-  },
-  {
-    "id": "adcfe4db44067243abb0f07eb547899c",
-    "title": "相如入都过晤邗江旅寓",
-    "authorName": "马祜",
-    "authorId": "adcfe4db44067243d1457b72831c2f88",
-    "dynasty": "清",
-    "content": [
-      "昔年吟醉皖江楼，弹指俄惊十六秋。",
-      "可奈相逢又相别，满天风雨过真州。"
-    ]
-  },
-  {
-    "id": "adcfe4db44147d342df510cfa4cf8535",
-    "title": "登黄鹤楼",
-    "authorName": "尹艺",
-    "authorId": "adcfe4db44147d34d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "鹤踪一去古今愁，如此湖山如此楼。",
-      "风景收来全楚月，笛声吹裂大江秋。",
-      "晋唐几日皆陈迹，环颢何年纪再游。",
-      "我亦有拳椎不碎，携樽酣酒最高头。"
-    ]
-  },
-  {
-    "id": "adcfe4db4416856eba1ca57d907a5472",
-    "title": "送鹤舲之菉港",
-    "authorName": "褚成烈",
-    "authorId": "adcfe4db4416856ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "客中愁寂寞，大雪送君行。",
-      "去路云山乱，扁舟琴剑轻。",
-      "寒风吹别酒，旧雨感离情。",
-      "惆怅江干望，林烟两岸平。"
-    ]
-  },
-  {
-    "id": "adcfe4db4425be88256d01711118bbfc",
-    "title": "瀛台赐鱼和赵少宰韵",
-    "authorName": "徐潮",
-    "authorId": "adcfe4db4425be888d420fa30efbe980",
-    "dynasty": "清",
-    "content": [
-      "冰覆霜鳞色瑾瑜，承恩齐向苑中趋。",
-      "临流欲跃千髻集，绕树争携万木呼。",
-      "波饫蓬池名最美，影连绯袋宠先殊。",
-      "还须共识和羹意，免得庖人越俎虞。"
-    ]
-  },
-  {
-    "id": "adcfe4db442b079f0dfc8626ec7784d2",
-    "title": "寄怀云珠五姊",
-    "authorName": "汪清",
-    "authorId": "adcfe4db442b079fd1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "薰风别后又飞霜，一度思量一断肠。",
-      "只道相逢秋月白，那堪空对菊花黄。",
-      "纵多儿女添新爱，何似茱萸插故乡。",
-      "况复高堂思念甚，倚门终日盼归航。"
-    ]
-  },
-  {
-    "id": "adcfe4db442b079ff98ccaf545f04190",
-    "title": "寄怀许玉清",
-    "authorName": "汪清",
-    "authorId": "adcfe4db442b079fd1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "尺素裁成倩雁驰，聊将心事报君知。",
-      "家无长物愁难遣，病为痴情悔已迟。",
-      "偶借新诗消俗虑，自怜瘦骨异当时。",
-      "半闺珍重休惆怅，好寄平安慰所思。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9e11d78094e5bd1d9f",
-    "title": "帽峰山",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "空山如笠散秋烟，屐齿西风寄远天。",
-      "抱郭南流双水汇，压城高出一峰圆。",
-      "芳销百草愁啼鴂，叶落初林急暮蝉。",
-      "旧日亭台灰劫后，整冠何处听姚弦。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9e768c86f54366c3af",
-    "title": "题画海棠",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "天然秾艳写冰绡，翠袖朱唇绝世娇。",
-      "空谷佳人春睡足，竹边似听雨潇潇。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9ee75f711aa3d04506",
-    "title": "晚登正气歌阁旁有李文定公孝源望乡台石后则文定弟僧一超塔也",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "杰阁双林开，余辉薄天树。",
-      "炯炯含元精，巍巍托飞步。",
-      "缅惟经始时，西台泪空注。",
-      "遥招柴市魂，近息崖门怒。",
-      "物议滋狐疑，孤怀阻犹豫。",
-      "正直髯将军，一气群贤聚。",
-      "遂以忠臣心，永作法王护。",
-      "下眺望乡台，夷齐旧隐处。",
-      "在昔辟蚕丛，至今剩铁墓。",
-      "四山何苍苍，惆怅夕阳暮。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9e739c799e8e8cf1cf",
-    "title": "将游丹霞由相江进艇夜泊仁化江石",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "春草青未歇，春水流尚浅。",
-      "曲折溯清湍，逶迤漾轻艑。",
-      "出门惬嘉游，旷焉胸怀展。",
-      "飞鸟时去来，闲云自舒卷。",
-      "落日生野烟，前溪忽已远。",
-      "石壁截横江，群峰势回转。",
-      "眷兹丘壑情，人事惭仰俯。",
-      "停舟渔火中，明月独相款。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9e946249d82358b5a7",
-    "title": "下海山门观双沼新荷还入方丈小坐读图音和尚诗兼贻圆公",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "半日霞表游，济胜偶然遂。",
-      "直溜孤杖支，迅下双屐坠。",
-      "远公兴未阑，导我乐泉卉。",
-      "石沼披荷钱，田田小团翠。",
-      "崖阴清足娱，山光净堪对。",
-      "携将清净心，还入雪云内。",
-      "宗风已流衍，图史亦森蔚。",
-      "新诗芙蕖初，天葩谢雕绘。",
-      "高空消六尘，潇洒得三昧。",
-      "眷言依宝洲，十笏永寤寐。"
-    ]
-  },
-  {
-    "id": "adcfe4db442cfb9e458f3acd43432324",
-    "title": "同诸子游芙蓉山",
-    "authorName": "陈王猷",
-    "authorId": "adcfe4db442cfb9ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "出郭见佳色，始得春山青。汩汩武溪水，滔滔初欲平。",
-      "渺渺惬神契，超超违俗情。风日况暄和，缓步徐览登。",
-      "渐与江城隔，屡自冈峦升。芙蓉削千仞，高无尘壒生。",
-      "康容去我久，留此泉源清。朅来饫云腴，忽若御风行。",
-      "至味乃淡泊，大道绝扰营。寥阒空山中，时闻天籁声。",
-      "我意本能适，欣然怀耦耕。虽乏买山物，宁负丘壑盟。",
-      "逍遥且为乐，聊复招友朋。辛苦仙人灶，徒存千载名。",
-      "汉道士康容曾于此山烧丹，灶迹犹存。"
-    ]
-  },
-  {
-    "id": "adcfe4db44313428189810485ccb0b2e",
-    "title": "临川雨夜",
-    "authorName": "于鹏翰",
-    "authorId": "adcfe4db44313428d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "寒雨潇潇夜，偏来客邸多。",
-      "蕉声残漏滴，竹户野云过。",
-      "潦倒荒陶径，风尘惭邵窝。",
-      "倚床将假寐，何处赋离歌。"
-    ]
-  },
-  {
-    "id": "adcfe4db44408265580fb3d14948ec6d",
-    "title": "送曹怀朴司马谨谢病归里",
-    "authorName": "郭襄锦",
-    "authorId": "adcfe4db44408265d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "笙歌满路酒盈卮，父老攀辕惜别时。",
-      "生佛愿教长作主，春风易惹远相思。",
-      "一清已觉人难效，五载都嫌住未迟。",
-      "底事苍生方系望，渊明归去漫题辞。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992eff1a7c38",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "征帆摇曳海无波，回首沧桑一掷梭。",
-      "前后三从此地入，安危几度险中过。",
-      "顽民革面干戈戢，诸将承恩节钺多。",
-      "独有书生仍故我，白头杖策待如何。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992e7d77e4d7",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "东港由来各一天，兴朝覆载独无偏。",
-      "地袤南北二千里，人乐耕渔四十年。",
-      "习染渐浇争靡丽，民风尚力杂机权。",
-      "当时载笔空愁思，满目烟花正斗妍。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992ed49a463b",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "地震民讹桐不华，处堂燕雀自喧哗。",
-      "无端半夜风尘起，几处平明旌旆遮。",
-      "牧竖横篙穿赤甲，将军战血漫黄沙。",
-      "传闻最是游公壮，登岸漂然不顾家。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992e415ee40d",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "万顷洪涛沙线潆，参差竹树亦干城。",
-      "非关群盗全无策，漫说元戎有胜兵。",
-      "风自西来知顺逆，船从浅入任纵横。",
-      "潮头顷刻高寻丈，天佑皇图孰与争。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992e28f79a2b",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "沙碛甘泉信有神，庙谟宏远古无伦。",
-      "鲲身合战齐群力，西港分奇仗虎臣。",
-      "草窃顿消冰见晛，天兵到处雨清尘。",
-      "等闲一月全台定，何似有苗格七旬。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992e4d96c2b3",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "刀劫火轮万象凋，黑风红雨又漂摇。",
-      "才看肆赦衔丹凤，怨听蠲租下九霄。",
-      "疮病人扶村灶冷，拊循力尽长官憔。",
-      "转移薄俗从今日，只在先皇十六条。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992e595faabb",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "绝岛重洋古秽墟，弃留曾费几踌躇。",
-      "原资保障安封内，宁屑刀锥增币馀。",
-      "乱后赋须仍旧额，法宽农治好新畬。",
-      "眼看硗确草莱尽，尺寸何当军国储。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c53377992eeda3bdeb",
-    "title": "鹿耳门即事",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "南从虎尾北鸡笼，建邑当年议颇同。",
-      "地逼诸番宜扼吭，址因故镇更称雄。",
-      "天心悔祸民更始，帝德昭明日在东。",
-      "寄语王官好著意，无忘前事旷天工。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c56dfcfc8198a4752c",
-    "title": "檨圃",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "小圃茅斋曲径通，参天老树郁青葱。",
-      "地高不怕秋来雨，暑极偏饶午后风。",
-      "海外云山新画卷，窗间花草旧诗筒。",
-      "莫愁纸尽无挥洒，才种芭蕉绿满丛。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c58c3b37619ab0cfac",
-    "title": "玉山歌",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "须弥山北水晶宫，天开图画自璁珑。不知何年飞海东，幻成三个玉芙蓉。",
-      "庄严色相俨三公，皓白须眉冰雪容。夹辅日月拄穹窿，俯视众山皆群工。",
-      "帝天不许俗尘通，四时长遣白云封。偶然一见杳难逢，唯有霜寒月在冬。",
-      "灵光片刻曜虚空，万象清明旷发蒙。须臾云起碧纱笼，依旧虚无缥缈中。",
-      "山下蚂蟥如蚁丛，蝮蛇如斗捷如风。婆娑大树老飞虫，攒肌吮血断人踪。",
-      "自古未有登其峰，于戏，虽欲从之将焉从。"
-    ]
-  },
-  {
-    "id": "adcfe4db444297c51785ff9574712789",
-    "title": "丁酉1717正月初五夜罗山署中大风次早风歇饮酒纪之以诗",
-    "authorName": "陈梦林",
-    "authorId": "adcfe4db444297c51485100397d98119",
-    "dynasty": "清",
-    "content": [
-      "海西蛰起蛟龙怒，昨夜海吼风不住。",
-      "风声入耳骇人闻，风势如痴复如飓。",
-      "客子残灯半灭明，闭门欹枕空百虑。",
-      "山房四柱柱影摇，有时风欲挟之去。",
-      "万马蹄奔剑戟鸣，虎豹搏噬急雨注。",
-      "往来嘈杂不成眠，一夜梦魂无宿处。",
-      "平明起视浮云决，风力渐微声渐歇。",
-      "呼童暖酒赏春朝，似怯寒吹帘幔彻。",
-      "因忆去年腊月初，番仔渡头朔风烈。",
-      "番社纷纷乱卷茅，竹树倒披梢半折。",
-      "耳鼻填沙眼怕开，行人却走马蹩躠。",
-      "山溪狂似海波潮，溪水冷于轴头铁。",
-      "双犊乱流车苦迟，番儿强挽肤破裂。",
-      "下马停车权息肩，店舍无烟酒不热。",
-      "番儿力尽冻且僵，呼起聊为哺与啜。",
-      "可怜幅布半围身，青钱那惜恣饕餮。",
-      "此时如我敢言寒，犹有敝裘重补缀。",
-      "况复今朝风已春，窗明几净椒盘新。",
-      "水仙香发绿尊满，春冷无眠奚足嚚。",
-      "风波自古仗忠信，念尔孤篷海上人。"
-    ]
-  },
-  {
-    "id": "adcfe4db44477b3a163249909b0edc36",
-    "title": "秋兴",
-    "authorName": "王西溥",
-    "authorId": "adcfe4db44477b3ad1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "蒹葭露白蓼花红，市散溪桥立晚风。",
-      "蝙蝠堕檐疑病鸟，蜘蛛补网待秋虫。",
-      "古人骸骨千年至，造化炉锤万物铜。",
-      "佛笈仙经披览遍，两闲何地著虚空。",
-      "桑下分甘遍子孙，老翁性不耐愁烦。",
-      "高撑瘦骨巡檐鹤，牢锁秋心入笠豚。",
-      "箧笥之中纨扇弃，君亲而外布衣尊。",
-      "遥知边塞风尘静，天马西来贡大宛。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e6db2cee80da40ad4",
-    "title": "恭挽崇庆州牧赠中宪大夫常老先生三首其二",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "清溪一曲抱山村，里号栖霞产异人。",
-      "鹏奋九天云路近，星沈万里血光新。",
-      "孤忠耿耿蜀山月，遗恨绵绵昔岭春。",
-      "张许有灵应把臂，丹诚共诉不嫌频。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e6db2cee8debdcd58",
-    "title": "恭挽崇庆州牧赠中宪大夫常老先生三首其二",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "长驱未得歼蛮戎，夕岭军中落将星。",
-      "带甲雄师色尽墨，储粮佳士气如霆。",
-      "忠魂不逐虫沙没，大节常昭汗简青。",
-      "泪洒西风蜀父老，浣花溪畔吊英灵。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e723b15b7dd6e40d5",
-    "title": "题爱吟草殉节录后",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "穷经国士解谈兵，缓带经裘事远征。",
-      "诗赋不疏戎马地，纲常自镇死生情。",
-      "爱吟遗著生前草，忠节高标殁后旌。",
-      "此日魂游何处所，墓门松柏自峥嵘。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e723b15b76dc42ed7",
-    "title": "题爱吟草殉节录后",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "诗正清新酒正醇，风流儒雅乐天真。",
-      "谁知花县称名士，不意沙场作难臣。",
-      "辽海石麟常对月，锦江竹马漫迎春。",
-      "至今西土归王化，稍慰当年报主身。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e0ddc215ac019fb17",
-    "title": "读殉节录",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "瑶编读罢忆纯臣，血字幽光映册新。",
-      "不有莱峰传盛节，千秋知己更何人。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e0ddc215a353eb592",
-    "title": "读殉节录",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "廿六人中独擅名，纲常为重一身轻。",
-      "大呼逆竖风云变，纸上如闻咤叱声。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e0ddc215a5e304d1e",
-    "title": "读殉节录",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "崇庆忠贞光国步，武功文笔遍儒林。",
-      "奋髯读罢频挥泪，激起平生节义心。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824e0ddc215a721b65ce",
-    "title": "读殉节录",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "丰碑高出浣花云，名入昭忠俎豆芬。",
-      "又得张君传信史，先生真不负铭勋。"
-    ]
-  },
-  {
-    "id": "adcfe4db444a824ee4c02298233c4404",
-    "title": "恭挽崇庆州牧赠中宪大夫常老先生三首其一",
-    "authorName": "王朝元",
-    "authorId": "adcfe4db444a824ed1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "辽海深无极，一望无涯涘。",
-      "长白巫闾山，遥遥东西峙。",
-      "郁积与磅礴，生我常夫子。",
-      "正气得之天，节概砺于己。",
-      "磨砺数十年，学而优则仕。",
-      "甘棠荫充邑，弦歌遍闾里。",
-      "逆蛮肆跳梁，天兵下边垒。",
-      "奉檄典粮储，愿为天子使。",
-      "妖气翳日月，祸变仓卒起。",
-      "奋剑击凶酋，烈超介冑士。",
-      "致身报君恩，靡他诚自矢。",
-      "取义与成仁，庶几无愧已。",
-      "至今昔岭间，杀气迷烟水。",
-      "君灵何昭回，长庚此其是。",
-      "把酒奠秋风，魂兮归桑梓。",
-      "忠孝既两全，谁云身己死。",
-      "恩恤祀昭忠，荣荫及孙子。",
-      "千载永不磨，历历标青史。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de32198246910026b77df",
-    "title": "望支硎山",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "大士圆通路，岩廊一望间。",
-      "浅深环法水，高下尽灵山。",
-      "孤塔白能立，群松翠可攀。",
-      "支公何处是，日暮采烟还。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de321b432baee203c209c",
-    "title": "惜花",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "喜雨催花开，怨雨催花谢。",
-      "问雨雨不知，花开花陵藉。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de321b432baee4b00ef62",
-    "title": "惜花",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "落花飞满衣，似有留人意。",
-      "何处无情风，依然吹落地。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de3214ac06ef278f81716",
-    "title": "旅夜闻笛",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "乡梦难成付酒杯，谁家长笛耳边催。",
-      "愁人不听伤心曲，说与邻家莫送来。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de3217520e8e427f47daa",
-    "title": "文选楼",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "梁祚几何时，斯楼独存久。",
-      "痴哉大法王，舍身如敝帚。",
-      "可怜太子统，痛心独搔首。",
-      "国事日已非，才华空八斗。",
-      "使之践帝位，不至台城丑。",
-      "著意在诗书，满腹苍龙吼。",
-      "小事谬而死，贤不永其寿。",
-      "文快贤士心，楼播词人口。",
-      "今古重斯文，遗像垂孝友。",
-      "瞻礼尽同人，相看自不朽。"
-    ]
-  },
-  {
-    "id": "adcfe4db444de3216af05c4b4fa0a1dc",
-    "title": "惜花其三",
-    "authorName": "李经垓",
-    "authorId": "adcfe4db444de321d1457b72d1457b72",
-    "dynasty": "清",
-    "content": [
-      "昨朝花正好，今日花已老。",
-      "借问爱花人，落花扫不扫。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa148182faed4a1b089",
-    "title": "论诗（其二）",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "appreciation": "赏析一\n赵翼论诗提倡创新，反对机械模拟，此诗就体现了这一点。为了说明诗风代变的道理，诗人举出了诗歌史上的两位大诗人，唐代的李白与杜甫为例。以为即使是李、杜这样的大诗人，他们的诗作因流传千年，播于众口，已经不再给人以新鲜感了。以历史发展的眼光来看，各个时代都有其标领风骚的人物，不必惟古人是从。“江山代有才人出，各领风骚数百年”是广为传诵的名句。\n赏析二\n诗的前两句以李白、杜甫的诗为例来说理：“李杜诗篇万口传，至今已觉不新鲜”，李白、杜甫的诗歌万古流传，无人能与之相比，然而，就是如此伟大的诗篇，至今也觉得不新鲜了。可见，“江山代有才人出，各领风骚数百年”，国家代代都有有情的人出现，他们各自的影响也不过几百年而已。作者认为诗歌应随着时代不断发展，诗人在创作上应求变创新，而不要刻意模仿，跟在古人后面亦步亦趋。\n第一、二句诗人指出，即使是李白、杜甫这样伟大的诗人，他们的诗篇也有历史局限性。第三、四句诗人呼唤创新意识，希望诗歌写作要有时代精神和个性特点，大胆创新，反对沿袭守旧。世人常常用这句诗来赞美人才辈出，或表示一代新人替换旧人，或新一代的崛起，就如滚滚长江，无法阻拦。",
-    "content": [
-      "李杜诗篇万口传，至今已觉不新鲜。",
-      "江山代有才人出，各领风骚数百年。"
-    ],
-    "translation": "李白和杜甫的诗篇曾经被成千上万的人传颂，\n如今读起来感觉已经没有什么新意了。\n国家代代都有很多有才华的诗人，\n他们的诗篇文章以及名气都会流传数百年（流芳百世）。",
-    "intro": "此诗反映了作者诗歌创作贵在创新的主张。他认为诗歌随时代不断发展，诗人在创作的时候也应求新求变，并非只有古人的作品才是最好的，每个时代都有属于自己的风格的诗人。写出了后人继承前人。本诗虽语言直白，但寓意深刻。“江山代有才人出，各领风骚数百年。”一句表达了文学创作随着时代变化发展的主题思想与中心。\n赵翼论诗提倡创新，反对机械模式。他通过对诗家李白、杜甫成就的回顾，以历史发展的眼光来看，各个时代都有其标领风骚的人物，不必为古人是从。诗歌也应随着时代不断发展。",
-    "annotation": [
-      "论诗：选自《瓯（ōu）北集》卷二八（上海古籍出版社1997年版）。《论诗》五首，都是七言绝句。本篇是第二首，传诵最广。",
-      "李杜：指唐代大诗人李白、杜甫(此处指大李杜，小李杜指李商隐和杜牧。）",
-      "江山代有才人出：国家代代都有很多有才情的人。才人，有才华的人。",
-      "风骚：指《诗经》中的“国风”和屈原的《离骚》。后来把关于诗文写作的诗叫做“风骚”。这里指在文学上有成就的“才人”的崇高地位和深远影响。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa135465b778140e6be",
-    "title": "再出古北口",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "紫塞秋风紧，凌寒踏晓霜。",
-      "潦余沙尽白，关外柳先黄。",
-      "饮马长城窟，呼鹰古战场。",
-      "平生登览兴，敢惜鬓毛苍。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa1a47323ff25c5b7c8",
-    "title": "赠吴鉴南民部",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "痴绝吴民部，诗才迥不群。",
-      "官贫常数米，客到便论文。",
-      "似舅何无忌，为郎扬子云。",
-      "沈冥宁用叹，佳句已流闻。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa1892a17d062c9d67d",
-    "title": "太湖口守风",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "泊舟罗步港，风势正喧豗。",
-      "白浪无人渡，青山似马来。",
-      "野香花信报，春色烧痕回。",
-      "隐隐祥符寺，遥听粥鼓催。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa184a725c7c81738ef",
-    "title": "西湖晤袁子才喜赠",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "不曾识面早相知，良会真诚意外奇。",
-      "才可必传能有几，老犹得见未嫌迟。",
-      "苏堤二月如春水，杜牧三生鬓有丝。",
-      "一个西湖一才子，此来端不枉游资。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa1debdc9464f74a929",
-    "title": "和友人落花诗",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "绮窗一枕小游仙，肠断秾华过去缘。",
-      "薄命生遭风雨妒，多情枉受蝶蜂怜。",
-      "更无一语归何处，再欲相逢动隔年！",
-      "绿已成荫芳草歇，鬓丝愁绝杜樊川。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa18afa68b6cdb0db05",
-    "title": "拟秋狝应制",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "大狝行边辇路清，塞垣风紧峭寒生。",
-      "九天秋肃貙刘信，万帐宵岩虎卫兵。",
-      "上驷别群棚烙字，头鹅验获箭书名。",
-      "太平肄武军容盛，双纛黄龙矗幔城。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa164826c88f4b6d98a",
-    "title": "重过灵岩山馆",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "灵岩山馆好菟裘，老友重过泪暗流。",
-      "嗣祖早亡犹是福，武安若在恐难留。",
-      "春风亭树花谁看，落日林峦鸟自投。",
-      "终是生平风雅报，及身得免唤朱游。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa13626ce0e7ef94881",
-    "title": "漫兴",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "富贵何曾有尽期，胡为行者竞如驰。",
-      "日虽夸父身能逐，山岂愚公力可移。",
-      "绝顶楼台人倦后，满堂袍笏戏阑时。",
-      "与君醒眼从旁看，漏尽钟鸣最可思。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa13384db1b62ca4a7b",
-    "title": "奉命出守镇安岁杪出都便道归省途次纪恩感遇之作",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "一出芦沟迹渐遥，当年从此上云霄。",
-      "重来恰是回头路，欲去还同拗项桥。",
-      "敢以身微忘恋阙，或凭政最更登朝。",
-      "露寒鳷鹊曾游地，回首巢痕故未消。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa139c660b782332acf",
-    "title": "留别经略",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "稍踏边尘识险夷，忍辞苦口语临歧。",
-      "一江沈锁公无渡，千里持粮士有饥。",
-      "上将在谋争要著，南人不反竖降旗。",
-      "惟应预拟平蛮颂，待取秋风露布驰。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa1502d04635a03dffb",
-    "title": "慈元殿",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "中土无家寄海隅，数椽椒寝莽榛芜。",
-      "遗踪漫拟阳人聚，块肉曾携赵氏孤。",
-      "臣妾佥名羞作表，公卿负扆俨成图。",
-      "最怜涕泣临危语，何减唐宫麦饭呼。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa1dae375da3b1a4953",
-    "title": "题元遗山集",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "身阅兴亡浩劫空，两朝文献一衰翁。",
-      "无官未害餐周粟，有史深愁失楚弓。",
-      "行殿幽兰悲夜火，故都乔木泣秋风。",
-      "国家不幸诗家幸，赋到沧桑句便工。"
-    ],
-    "intro": "题遗山诗是由清代赵翼所作的七言古诗，表达了作者对国家变换沧桑的感叹。",
-    "annotation": [
-      "元遗山集：金末元初元好问之诗文集。元好问字裕之，号遗山。事迹见本书作家小传。诗中评论元好问入元后辑存金代文献之志节与诗作之成功，知人论世，切中肯綮。",
-      "身阅兴亡：言元好问曾经历金元易代之变。",
-      "浩劫空：大灾难，破坏严重。佛家谓世界由成、住到坏、空为四劫，空指世界毁灭。后遂以“劫”指灾难。",
-      "“两朝文献一衰翁”句：谓元好问集两朝文献于一身。金亡于哀宗天兴二年，元好问已四十馀岁，此后近三十年，致力于搜集整理金代文献，编有《壬辰杂编》、《中州集》，并作有大量诗文，为一代文宗。",
-      "“无官未害餐周粟”句：元好问在金为尚书省左司员外郎，入元不仕，无损大节。周粟，周武王灭商后，殷商贵族伯夷、叔齐隐居首阳山，采薇而食，不食周粟，最后饿死。（参看《史记·伯夷列传》）元好问虽未如伯夷、叔齐之饿死，但却未仕元，故曰“未害”。",
-      "“有史深愁失楚弓”句：谓元好问担心有金一代文献之遗亡。失楚弓，据《孔子家语》载：楚共王出游，遗失一良弓，从人要寻找，他说：“楚人失弓，楚人得之，又何求焉！”孔子认为楚共王心胸还不大，说：“人遗之，人得之，何楚也。”这里以“楚弓”喻金代文献。",
-      "“行殿幽兰悲夜火，故都乔木泣秋风”句：拟想金亡后宫殿凄凉，抒亡国之悲。",
-      "行殿：行宫，指金之南京汴梁。作者《汴京杂咏》中咏金亡事一首有“幽兰轩已火光红”句，幽兰似为金汴京行宫轩名；夜火，鬼火。",
-      "故都：指金中都燕京。金迁汴梁前之京都。",
-      "乔木：高大树木，多用以喻故国、故里。《文选》颜延之《还至梁城作》：“故国多乔木。”李善注：“《论衡》曰：‘观乔木，知旧都。’”",
-      "“国家不幸诗家幸，赋到沧桑句便工”句：作者《瓯北诗话·卷八》评元好问：“值金源亡国，以社稷丘墟之感。发为慷慨悲歌，有不求工而自工者。此固地为之也，时为之也。”这里即用其意。赋，吟咏、描写；沧桑，沧海桑田之省文，此指金之易代。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa19baab51fbbc3b759",
-    "title": "和友人拂水山庄感赋原韵",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "飞瀑依然万点多，当年养望此岩阿。",
-      "空山竟不生薇蕨，破屋徒怜补薜萝。",
-      "人笑褚公犹齿冷，家还江令已头皤。",
-      "如何领袖山林席，名节翻输一翠蛾。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa160473ea6d8a7e782",
-    "title": "归田即事",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "柴扉近俯绿杨湾，回首风尘此倦还。",
-      "老境逼来将白发，宦途尽处是青山。",
-      "署门客散无投刺，退院僧高自掩关。",
-      "只有梦魂难恝处，君恩犹未削朝班。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa160473ea66a5b8a44",
-    "title": "归田即事",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "豚栅鸡栖一亩宫，呼来儿女脱青红。",
-      "怜他未惯蓬茅宅，笑我原来田舍翁。",
-      "麈尾可挥非祖物，菜根须咬趁童蒙。",
-      "短檠镫火长镵柄，闲与诸雏话旧风。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa160473ea6af16575d",
-    "title": "归田即事",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "少日曾贪面百城，而今万卷送浮生。",
-      "一身去职如花落，两眼观书尚月明。",
-      "鸿爪春泥思往迹，马蹄秋水得闲情。",
-      "天留老笔非无用，要与熙朝写太平。"
-    ]
-  },
-  {
-    "id": "adcfe4db44551aa160473ea64fbf8f38",
-    "title": "归田即事",
-    "authorName": "赵翼",
-    "authorId": "adcfe4db44551aa1515ab26c155fa095",
-    "dynasty": "清",
-    "content": [
-      "新葺茅庐在水南，拟栽修竹翠毵毵。",
-      "持斋怕入远公社，习静便同弥勒龛。",
-      "诗就多兼唐小说，客来与作晋清谈。",
-      "所惭懒废无才思，输与山阴老学庵。"
     ]
   }
 ]
