@@ -1,5 +1,5 @@
 # poetry-source
-![example](example.jpg)
+![example](https://poetry.snowtraces.com/example.jpg)
 
 ## 项目结构
 <pre>
