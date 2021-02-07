@@ -34,9 +34,11 @@
         getDownloadUrl: function(csvData) {
             var _utf = "\uFEFF"; // 为了使Excel以utf-8的编码模式，同时也是解决中文乱码的问题
             if (window.Blob && window.URL && window.URL.createObjectURL) {
-                var csvData = new Blob([_utf + csvData], {
-                    type: 'text/csv'
-                });
+                if (typeof csvData === 'string') {
+                    var csvData = new Blob([_utf + csvData], {
+                        type: 'text'
+                    });
+                }
                 return URL.createObjectURL(csvData);
             }
             // return 'data:attachment/csv;charset=utf-8,' + _utf + encodeURIComponent(csvData);
