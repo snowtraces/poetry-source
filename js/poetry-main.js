@@ -68,7 +68,7 @@
         },
         bindEventHub() {
             eventHub.on('clickSearchResult', (data) => {
-                let url = `/source/${file_path_idx[data.file]}`
+                let url = `${global_base_path}/source/${file_path_idx[data.file]}`
                 $.get(url).then(result => {
                     return result[data.index]
                 }).then(data => {

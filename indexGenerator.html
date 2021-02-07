@@ -17,6 +17,7 @@
     <script src="./js/index/file_path_idx.js"></script>
     <script>
         let log = console.log.bind(console)
+        let global_base_path = '/code/project/poetry-source'
 
         // 异步请求
         let httpRequest = function (url) {
@@ -59,26 +60,41 @@
         let fullIndex = {}
         let fileCount = file_path_idx.length
         let dealFileCount = 0
+        let baseDict = {
+            category: { DYNASTY: 'dynasty', AUTHOR: 'author' },
+            dynasty: { counter: 0, dict: {} },
+            author: { counter: 0, dict: {} }
+        }
+
+        function getDictIndex(category, key) {
+            if (!baseDict[category].dict[key]) {
+                // 未包含
+                baseDict[category].counter += 1
+                baseDict[category].dict[key] = baseDict[category].counter
+            }
+            return baseDict[category].counter
+        }
+
         function buildFullIndex() {
             file_path_idx.forEach((path, f_idx) => {
-                httpRequest(`/source/${path}`).then(data => {
+                httpRequest(`${global_base_path}/source/${path}`).then(data => {
                     // console.log(path)
                     // console.log(data.length)
                     let currIndex = {}
                     data.map((item, i_idx) => {
-                        if (is_main_index) {
-                            if (main_author.includes(item.authorName)) {
-                                currIndex[
-                                    `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
-                                ] = `${f_idx}-${i_idx}`
-                            }
-                        } else {
+                        if (!is_main_index || main_author.includes(item.authorName)) {
+                            let dynasty_code = getDictIndex(baseDict.category.DYNASTY, item.dynasty)
+                            let author_code = getDictIndex(baseDict.category.AUTHOR, item.authorName)
+
+                            // currIndex[
+                            //     `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
+                            // ] = `${f_idx}-${i_idx}`
                             currIndex[
-                                `${item.dynasty}-${item.title}-${item.authorName}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
+                                `${dynasty_code}-${item.title}-${author_code}-${item.content ? item.content[0].substr(0, contentCutIndex(item.content[0])) : ''}`
                             ] = `${f_idx}-${i_idx}`
                         }
-
                     })
+
                     return currIndex
                 }).then(idx_list => {
                     Object.assign(fullIndex, idx_list)
@@ -86,6 +102,25 @@
                 })
             });
         }
+
+        function rebuild() {
+            let result = {}
+            Object.keys(search_data_index).forEach(key => {
+                let metas = key.split('-');
+                let dynastyCode = metas[0];
+                let authorCode = metas[2];
+                metas[0] = base_dict.dynasty.dict[dynastyCode]
+                metas[2] = base_dict.author.dict[authorCode]
+                result[metas.join('-')] = search_data_index[key]
+            })
+        }
+
+        // object key value 翻转
+        const invertKeyValues = obj =>
+            Object.keys(obj).reduce((acc, key) => {
+                acc[obj[key]] = key;
+                return acc;
+            }, {});
 
         download.onclick = function () {
             fullIndex = {}
@@ -98,10 +133,29 @@
                 } else {
                     clearInterval(timer);
                     log("已解析完成..." + dealFileCount + "/" + fileCount)
+
+                    // baseDict 翻转 
+                    baseDict.dynasty.dict = invertKeyValues(baseDict.dynasty.dict)
+                    baseDict.author.dict = invertKeyValues(baseDict.author.dict)
+
                     saveData.setDataConver({
                         name: `${is_main_index ? 'main' : 'full'}_data_index.js`,
-                        data: 'search_data_index = ' + JSON.stringify(fullIndex)
+                        data:
+`search_data_index = ${JSON.stringify(fullIndex)};
+base_dict = ${JSON.stringify(baseDict)};
+let result = {}
+Object.keys(search_data_index).forEach(key => {
+    let metas = key.split('-');
+    let dynastyCode = metas[0];
+    let authorCode = metas[2];
+    metas[0] = base_dict.dynasty.dict[dynastyCode]
+    metas[2] = base_dict.author.dict[authorCode]
+    result[metas.join('-')] = search_data_index[key]
+})
+search_data_index = result
+`
                     })
+                    log(baseDict)
                 }
             }, 500)
 
@@ -121,11 +175,11 @@
         function sqlBuilder(tableName, titleList, data, defaultMap) {
             let columnSeg = titleList.map(title => `\`${title}\``).join(', ')
             return data.map(
-                    item => titleList.map(
-                        title => item[title] ? `'${sqlNormalize(item[title])}'` : 
-                            defaultMap[title] ? `'${sqlNormalize(defaultMap[title])}'` : 'null'
-                    ).join(', ')
-                )
+                item => titleList.map(
+                    title => item[title] ? `'${sqlNormalize(item[title])}'` :
+                        defaultMap[title] ? `'${sqlNormalize(defaultMap[title])}'` : 'null'
+                ).join(', ')
+            )
                 .map(seg => `insert into ${tableName} (${columnSeg}) values (${seg});`)
                 .join('\n');
         }
@@ -148,19 +202,19 @@
             let sql_file_idx = 0
             file_path_idx.forEach((path, f_idx) => {
                 let kindCN = path.substr(0, 1)
-                httpRequest(`/source/${path}`).then(data => sqlBuilder('t_work', titleList, data, {kindCN: kindCN}))
-                .then(sql => {
-                    dealFileCount++
-                    sqlList.push(sql)
-                    if (dealFileCount === fileCount) {
-                        saveData.setDataConver({
-                            name: `work_${sql_file_idx}.sql`,
-                            data: sqlList.join('\n')
-                        })
-                        sql_file_idx++
-                        sqlList = []
-                    }
-                })
+                httpRequest(`${global_base_path}/source/${path}`).then(data => sqlBuilder('t_work', titleList, data, { kindCN: kindCN }))
+                    .then(sql => {
+                        dealFileCount++
+                        sqlList.push(sql)
+                        if (dealFileCount === fileCount) {
+                            saveData.setDataConver({
+                                name: `work_${sql_file_idx}.sql`,
+                                data: sqlList.join('\n')
+                            })
+                            sql_file_idx++
+                            sqlList = []
+                        }
+                    })
             });
         }
 

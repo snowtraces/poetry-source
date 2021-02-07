@@ -11,9 +11,15 @@
 
 <body style="margin:0">
   <script>
-    if (location.protocol === 'http:' && !location.hostname.match(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/)) {
+    if (
+      location.protocol === 'http:'
+      && !location.hostname.match(/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/)
+      && location.hostname !== 'localhost'
+    ) {
       location.href = 'https:' + location.href.substring(window.location.protocol.length)
     }
+    // let global_base_path = '/code/project/poetry-source'
+    let global_base_path = ''
   </script>
 
   <main>
@@ -35,13 +41,13 @@
   <div id="BG"> </div>
   <canvas id="bgcanv" width="256" height="256" hidden> </canvas>
   <script src="./js//util/function.js"></script>
-  
+
   <script src="./js/event-hub.js"></script>
   <script src="./js/search-tool.js"></script>
   <script src="./js/poetry-main.js"></script>
   <script src="./js/aside-bar.js"></script>
   <script src="./js/color-selector.js"></script>
-  
+
   <script src="./js/background.js"></script>
   <script src="./js/index/file_path_idx.js"></script>
 </body>
