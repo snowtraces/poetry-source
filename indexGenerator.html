@@ -72,7 +72,7 @@
                 baseDict[category].counter += 1
                 baseDict[category].dict[key] = baseDict[category].counter
             }
-            return baseDict[category].counter
+            return baseDict[category].dict[key]
         }
 
         function buildFullIndex() {
@@ -135,8 +135,10 @@
                     log("已解析完成..." + dealFileCount + "/" + fileCount)
 
                     // baseDict 翻转 
+                    log(baseDict)
                     baseDict.dynasty.dict = invertKeyValues(baseDict.dynasty.dict)
                     baseDict.author.dict = invertKeyValues(baseDict.author.dict)
+                    log(baseDict)
 
                     saveData.setDataConver({
                         name: `${is_main_index ? 'main' : 'full'}_data_index.js`,
@@ -155,7 +157,6 @@ Object.keys(search_data_index).forEach(key => {
 search_data_index = result
 `
                     })
-                    log(baseDict)
                 }
             }, 500)
 
