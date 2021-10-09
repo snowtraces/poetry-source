@@ -1,19 +1,26 @@
 * {
-    margin: 0; 
+    margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-ul, ol {
+ul,
+ol {
     list-style: none;
     padding: 0;
 }
 
-html, body, #BG {
+html,
+body,
+#BG {
     height: 100%;
 }
 
 body {
     position: relative;
+}
+
+.hide {
+    display: none;
 }
 
 #BG {
@@ -42,12 +49,12 @@ main #poetry {
     border-radius: 5px;
     color: #fff;
     writing-mode: vertical-lr;
-    transition: all .3s;
+    transition: all 0.3s;
     max-height: calc(100vh - 64px);
 }
 
 main #poetry .title-wraper {
-    font-family: KaiTi ;
+    font-family: KaiTi;
     padding-right: 10px;
 }
 
@@ -58,32 +65,32 @@ main #poetry .title-wraper .poetryTitle {
 
 main #poetry .title-wraper .poetryAuthor {
     font-size: 15px;
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.6);
     margin-top: 5px;
 }
 
 main #poetry .poetryParagraph p {
     padding: 2px 5px 0 12px;
-    font-family: KaiTi ;
+    font-family: KaiTi;
     font-size: 22px;
     letter-spacing: 2px;
-    border-right: 1px solid rgba(255, 255, 255, .5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
     display: table;
     line-height: 1.5em;
 }
 
 /* aside */
-aside{
+aside {
     position: fixed;
     top: 0;
     right: 0;
     height: 100%;
     width: 0;
-    background: rgba(0, 0 ,0, .9);
-    box-shadow: 0 0 5px 1px rgba(0, 0 ,0, .5);
-    transition: all .3s;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
 }
-aside.active{
+aside.active {
     width: 40vw;
 }
 #search-wrapper .searchResult {
@@ -93,22 +100,22 @@ aside.active{
     overflow: hidden;
     font-family: KaiTi;
     font-size: 19px;
-    margin-top: 16px; 
+    margin-top: 16px;
 }
 #search-wrapper .searchResult li {
     padding: 5px;
     border-radius: 3px;
     overflow: hidden;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     white-space: nowrap;
     cursor: pointer;
 }
 #search-wrapper .searchResult li:hover {
-    background: rgba(255, 255, 255, .1)
+    background: rgba(255, 255, 255, 0.1);
 }
 #search-wrapper .searchResult li > .author {
     margin-left: 10px;
-    color: rgba(255, 255, 255, .6); 
+    color: rgba(255, 255, 255, 0.6);
 }
 #search-wrapper #keyword {
     padding: 5px 8px;
@@ -124,15 +131,14 @@ aside.active{
     padding: 12px;
     bottom: 0;
     right: 100%;
-    background: rgba(0, 0, 0, .2); 
+    background: rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-#asideBar > *{
+#asideBar > * {
     display: none;
     line-height: 32px;
     width: 32px;
     height: 32px;
-    
 }
 
 #asideBar > *.active {
@@ -140,7 +146,7 @@ aside.active{
 }
 
 #asideBar > * > svg {
-    fill: rgba(255, 255, 255, .4);
+    fill: rgba(255, 255, 255, 0.4);
     width: 32px;
     height: 32px;
 }
@@ -149,25 +155,44 @@ aside.active{
 #github {
     color: #c6cbd1;
     position: absolute;
-    top: 20px;
+    top: 60px;
     right: 100%;
     margin-right: 20px;
     line-height: 1;
     font-size: 12px;
 }
 
-#github:hover {
-    color: #959da5;
+#github:hover path {
+    fill: #959da5;
 }
 
 #github path {
-    fill: currentColor;
+    fill: #c6cbd1;
+}
+
+/* download */
+#download {
+    position: absolute;
+    top: 20px;
+    right: 100%;
+    margin-right: 20px;
+    line-height: 1;
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #c6cbd1;
+    cursor: pointer;
+}
+
+#download:hover {
+    background-color: #959da5;
 }
 
 /* color */
 #color-selector {
     position: absolute;
-    top: 75px;
+    top: 105px;
     right: 100%;
     margin-right: 24px;
     line-height: 1;
@@ -178,15 +203,16 @@ aside.active{
     width: 20px;
     height: 20px;
     margin-bottom: 5px;
-    opacity: .35;
+    opacity: 0.35;
     border-radius: 2px;
-    transition: all .2s;
+    transition: all 0.2s;
 }
-#color-selector > div.active, #color-selector > div:hover {
-    opacity: .75;
+#color-selector > div.active,
+#color-selector > div:hover {
+    opacity: 0.75;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     aside.active {
         width: 300px;
     }

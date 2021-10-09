@@ -1,6 +1,11 @@
 # poetry-source
 ![example](https://poetry.snowtraces.com/example.jpg)
 
+## TODO
+- 标签化
+- 数据拆分
+- 数据索引
+
 ## 项目结构
 <pre>
 ├─source
