@@ -48,9 +48,13 @@
                 this.view.toggle()
             })
             $.bindEvent('#download', 'click', () => {
+                let scaleTimes = 2
+
                 let canvas = document.createElement('canvas');  //准备空画布
-                canvas.width = SVG.width.baseVal.value;
-                canvas.height = SVG.height.baseVal.value
+                let _with = SVG.width.baseVal.value
+                let _height = SVG.height.baseVal.value
+                canvas.width = _with * scaleTimes;
+                canvas.height = _height * scaleTimes
 
                 let context = canvas.getContext('2d');  //取得画布的2d绘图上下文
                 context.globalCompositeOperation = "multiply"
@@ -65,7 +69,6 @@
                     context.fillStyle = pattern
                     context.clearRect(0, 0, canvas.width, canvas.height)
                     context.fillRect(0, 0, canvas.width, canvas.height)
-                    // context.drawImage(bgImg, 0, 0);
 
                     // 2. 图片
                     let svgXml = BG.innerHTML;
@@ -73,7 +76,7 @@
                     image.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(svgXml))); //给图片对象写入base64编码的svg流
 
                     image.onload = function () {
-                        context.drawImage(image, 0, 0);
+                        context.drawImage(image, 0, 0, _with, _height, 0, 0, canvas.width, canvas.height);
 
                         let a = document.createElement('a');
                         a.href = canvas.toDataURL('image/png');  //将画布内的信息导出为png图片数据
