@@ -4,7 +4,7 @@
         el: '#poetry',
         template: `
         <svg id='main-svg' xmlns='http://www.w3.org/2000/svg' height="\${data.maxHeight + data.padding * 2}" width="\${data.maxWidth + data.padding * 2}" >
-        <rect id="svg-bg" x="0" y="0" height="\${data.maxHeight + data.padding * 2}" width="\${data.maxWidth + data.padding * 2}" rx="5" ry="5" fill="rgba(13, 57, 111, 0.75)" />
+        <rect id="svg-bg" x="0" y="0" height="\${data.maxHeight + data.padding * 2}" width="\${data.maxWidth + data.padding * 2}" rx="5" ry="5" fill="\${data.color}"/>
          \${data.title}
          \${data.authorName}
          \${data.content}
@@ -64,11 +64,12 @@
         },
         load(data) {
             // 1. 解析数据，生成svg结构
+            let _data = {}
 
             // 分段处理
             let content = []
             data.content.forEach(p => {
-                let pArray = p.match(/[^。！]+[。！？]/g);
+                let pArray = p.match(/[^。！？]+[。！？]/g);
                 if (pArray && pArray.length > 0) {
                     pArray.forEach(_p => content.push(_p))
                 } else {
@@ -81,22 +82,23 @@
             let _padding = 64;
             content = content.map(_p => this.clear(_p))
 
-            data.padding = _padding
-            data.content = content
-            data.maxHeight = Math.max(...content.map(_p => this.clearHeight(_p, _height)), data.title.length * _height)
+            _data.padding = _padding
+            _data.content = content
+            _data.maxHeight = Math.max(...content.map(_p => this.clearHeight(_p, _height)), data.title.length * _height)
 
             let idx = _padding;
-            data.title = `<text style="writing-mode: vertical-lr;fill: #fff; padding: 2px 5px 0 12px; letter-spacing: 2px; line-height: 1.5em;" x="${idx = idx + 14}" y="${_padding}" font-size="25" font-family="KaiTi" font-weight="700">${this.clear(data.title)}</text>`
-            data.authorName = `<text style="writing-mode: vertical-lr;fill: #fff; padding: 2px 5px 0 12px; letter-spacing: 2px; line-height: 1.5em;opacity:0.75" x="${idx = idx + _width / 2}" y="${_padding + 5}" font-size="15" font-family="KaiTi" fill="#fff">${this.clear(data.authorName)}</text>`
-            data.content = data.content.map(_p =>
+            _data.title = `<text style="writing-mode: vertical-lr;fill: #fff; padding: 2px 5px 0 12px; letter-spacing: 2px; line-height: 1.5em;" x="${idx = idx + 14}" y="${_padding}" font-size="25" font-family="KaiTi" font-weight="700">${this.clear(data.title)}</text>`
+            _data.authorName = `<text style="writing-mode: vertical-lr;fill: #fff; padding: 2px 5px 0 12px; letter-spacing: 2px; line-height: 1.5em;opacity:0.75" x="${idx = idx + _width / 2}" y="${_padding + 5}" font-size="15" font-family="KaiTi" fill="#fff">${this.clear(data.authorName)}</text>`
+            _data.content = _data.content.map(_p =>
                 `<text style="writing-mode: vertical-lr;fill: #fff; padding: 2px 5px 0 12px; letter-spacing: 2px; line-height: 1.5em;" x="${idx = idx + _width}" y="${_padding}" font-size="22" font-family="KaiTi" fill="#fff">${_p}</text>
                 <line style="opacity: 0.75" x1="${idx + _width / 2 - 5}" x2="${idx + + _width / 2 - 5}" y1="${_padding}" y2="${_padding + this.clearHeight(_p, _height)}" stroke="#fff" fill="none" stroke-width="1"/>
                 `
             ).join("")
 
-            data.maxWidth = idx + _width / 2 - _padding
+            _data.maxWidth = idx + _width / 2 - _padding
+            _data.color = `rgba(${color._r}, ${color._g}, ${color._b}, ${color._a || .8})`
 
-            this.view.render(data)
+            this.view.render(_data)
         },
         clear(instring) {
             return instring.replace(/(，|。|？|！|、)/g, ' ').trim()
@@ -111,17 +113,6 @@
                 $.get(url).then(result => {
                     return result[data.index]
                 }).then(data => {
-                    let content = []
-                    data.content.forEach(p => {
-                        let pArray = p.match(/[^。！]+[。！？]/g);
-                        if (pArray && pArray.length > 0) {
-                            pArray.forEach(_p => content.push(_p))
-                        } else {
-                            content.push(p)
-                        }
-                    })
-                    data.content = content
-
                     this.load(data)
                     this.model.setLastData(data)
                 })

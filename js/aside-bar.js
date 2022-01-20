@@ -87,8 +87,9 @@
                             context.globalCompositeOperation = "source-over"
 
                             let textStyle = window.getComputedStyle(poetry, false)
-                            context.drawImage(textImage, 0, 0, textStyle.width.substring(0, 3), textStyle.height.substring(0, 3),
-                                64, 64, textStyle.width.substring(0, 3) * scaleTimes, textStyle.height.substring(0, 3) * scaleTimes);
+                            let textHeight = textStyle.height.substring(0, textStyle.height.length - 2)
+                            let textWidth = textStyle.width.substring(0, textStyle.width.length - 2)
+                            context.drawImage(textImage, 0, 0, textWidth, textHeight, 64, 64, textWidth * scaleTimes, textHeight * scaleTimes);
 
                             let a = document.createElement('a');
                             a.href = canvas.toDataURL('image/png');  //将画布内的信息导出为png图片数据
