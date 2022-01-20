@@ -3854,7 +3854,7 @@ function chunkloader(xmin, xmax) {
             MEM.xmin = MEM.xmin - MEM.cwid;
         }
 
-        for (var i = 0; i < Math.min(plan.length, 8) ; i++) {
+        for (var i = 0; i < Math.min(plan.length, 8); i++) {
             if (plan[i].tag == "mount") {
                 add({
                     tag: plan[i].tag,
@@ -4136,5 +4136,4 @@ for (var i = 0; i < reso / 2 + 1; i++) {
 }
 var img = canvas.toDataURL("image/png");
 document.getElementById("BG").style.backgroundImage = "url(" + img + ")";
-poetry.style.background = `rgba(${color._r}, ${color._g}, ${color._b}, 
-    ${color._a || .8})`
+document.getElementById("svg-bg").setAttribute("fill", `rgba(${color._r}, ${color._g}, ${color._b}, ${color._a || .8})`)

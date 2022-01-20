@@ -43,7 +43,7 @@ main {
     z-index: 0;
 }
 
-main #poetry {
+/* main #poetry {
     padding: 64px;
     margin: 0 32px 32px 0;
     border-radius: 5px;
@@ -77,6 +77,12 @@ main #poetry .poetryParagraph p {
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     display: table;
     line-height: 1.5em;
+} */
+
+main #poetry {
+    margin: 0 32px 32px 0;
+    /* writing-mode: vertical-lr; */
+    transition: all 0.3s;
 }
 
 /* aside */

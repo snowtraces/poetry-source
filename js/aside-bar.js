@@ -78,10 +78,23 @@
                     image.onload = function () {
                         context.drawImage(image, 0, 0, _with, _height, 0, 0, canvas.width, canvas.height);
 
-                        let a = document.createElement('a');
-                        a.href = canvas.toDataURL('image/png');  //将画布内的信息导出为png图片数据
-                        a.download = `portey-${new Date().toISOString()}.png`;  //设定下载名称
-                        a.click(); //点击触发下载
+                        // 3. 文字
+                        let textSvg = poetry.innerHTML;
+                        let textImage = new Image();
+                        textImage.src = 'data:image/svg+xml;base64,' + window.btoa(unescape(encodeURIComponent(textSvg))); //给图片对象写入base64编码的svg流
+
+                        textImage.onload = function () {
+                            context.globalCompositeOperation = "source-over"
+
+                            let textStyle = window.getComputedStyle(poetry, false)
+                            context.drawImage(textImage, 0, 0, textStyle.width.substring(0, 3), textStyle.height.substring(0, 3),
+                                64, 64, textStyle.width.substring(0, 3) * scaleTimes, textStyle.height.substring(0, 3) * scaleTimes);
+
+                            let a = document.createElement('a');
+                            a.href = canvas.toDataURL('image/png');  //将画布内的信息导出为png图片数据
+                            a.download = `portey-${new Date().toISOString()}.png`;  //设定下载名称
+                            a.click(); //点击触发下载
+                        }
                     }
                 }
 
