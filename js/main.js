@@ -50,7 +50,7 @@ function syncLoad(urlList, loadFunction) {
 }
 
 window.onload = function () {
-    syncLoad(cssList, loadCss)
+    // syncLoad(cssList, loadCss)
     syncLoad(jsList, loadScript)
 }
 
