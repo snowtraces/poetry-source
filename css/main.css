@@ -161,7 +161,7 @@ aside.active {
 #github {
     color: #c6cbd1;
     position: absolute;
-    top: 60px;
+    top: 100px;
     right: 100%;
     margin-right: 20px;
     line-height: 1;
@@ -179,7 +179,7 @@ aside.active {
 /* download */
 #download {
     position: absolute;
-    top: 20px;
+    top: 60px;
     right: 100%;
     margin-right: 20px;
     line-height: 1;
@@ -195,10 +195,29 @@ aside.active {
     background-color: #959da5;
 }
 
+/* speech */
+#speech {
+    position: absolute;
+    top: 20px;
+    right: 100%;
+    margin-right: 20px;
+    line-height: 1;
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #c6cbd1;
+    cursor: pointer;
+}
+
+#speech:hover {
+    background-color: #959da5;
+}
+
 /* color */
 #color-selector {
     position: absolute;
-    top: 105px;
+    top: 145px;
     right: 100%;
     margin-right: 24px;
     line-height: 1;

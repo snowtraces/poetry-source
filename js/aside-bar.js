@@ -101,6 +101,9 @@
 
             })
 
+            $.bindEvent('#speech', 'click', () => {
+                window.eventHub.emit('speech')
+            })
         },
         bindEventHub() {
 

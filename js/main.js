@@ -17,7 +17,7 @@ let cssList = [
     './css/main.css',
 ]
 
-let version = developModel ? new Date().getTime() : '20220120';
+let version = developModel ? new Date().getTime() : '20221028';
 
 function loadScript(url) {
     let script = document.createElement('script');

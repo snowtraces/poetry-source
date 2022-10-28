@@ -117,6 +117,36 @@
                     this.model.setLastData(data)
                 })
             })
+
+            eventHub.on('speech', () => {
+                // 朗读中则停止
+                if (speechSynthesis.speaking) {
+                    speechSynthesis.cancel();
+                    return
+                }
+
+                let voices = speechSynthesis.getVoices()
+                if (voices.length === 0) {
+                    voices = speechSynthesis.getVoices()
+                }
+
+                function speakbyvoice(text, voice) {
+                    var utter = new SpeechSynthesisUtterance(text)
+                    for (let v of voices) {
+                        if (v.name.includes(voice)) {
+                            utter.voice = v
+                            break
+                        }
+                    }
+                    utter.rate = 0.8
+                    speechSynthesis.speak(utter)
+                    return utter
+                }
+                let data = this.model.fetchLastData()
+                speakbyvoice(
+                    `${data.title}, ${data.authorName}, ${data.content}`
+                    , "Xiaoxiao")
+            })
         }
     }
 
