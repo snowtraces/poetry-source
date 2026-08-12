@@ -30,3 +30,27 @@ test("serves the interactive debug page at the root route", async () => {
   assert.match(body, /\/v1\/works\/random/);
   assert.match(body, /\/v1\/authors\/.*\/works/);
 });
+
+test("returns 429 before routing when the IP rate limit is exceeded", async () => {
+  let calls = 0;
+  const request = new Request("https://poetry-api.snowtraces.com/v1/health", {
+    headers: { "CF-Connecting-IP": "203.0.113.10" }
+  });
+  const response = await worker.fetch(request, {
+    ALLOWED_ORIGIN: "*",
+    IP_RATE_LIMITER: {
+      async limit({ key }) {
+        calls += 1;
+        assert.equal(key, "poetry-source:ip:203.0.113.10");
+        return { success: false };
+      }
+    }
+  });
+  const body = await response.json();
+
+  assert.equal(calls, 1);
+  assert.equal(response.status, 429);
+  assert.equal(response.headers.get("retry-after"), "60");
+  assert.equal(response.headers.get("x-ratelimit-limit"), "60");
+  assert.equal(body.error.code, "RATE_LIMITED");
+});

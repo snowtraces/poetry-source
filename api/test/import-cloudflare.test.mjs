@@ -21,8 +21,13 @@ test("generates D1 SQL without explicit transaction statements", () => {
   try {
     const manifest = run({ sourceDir, outputDir, format: "sql", chunkSize: 10 });
     assert.equal(manifest.records.works, 1);
+    assert.deepEqual(manifest.statistics.by_dynasty, [{ dynasty: "唐", count: 1 }]);
+    assert.deepEqual(manifest.statistics.dynasties, ["唐"]);
     const sql = fs.readFileSync(path.join(outputDir, "works-0001.sql"), "utf8");
     assert.doesNotMatch(sql, /BEGIN TRANSACTION|COMMIT;/);
+    const summarySql = fs.readFileSync(path.join(outputDir, "dataset-meta.sql"), "utf8");
+    assert.match(summarySql, /'summary'/);
+    assert.match(summarySql, /\\"works\\":1/);
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

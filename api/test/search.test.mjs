@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import { toFtsQuery, toSearchText, tokenizeSearchText } from "../src/search.mjs";
+import worker from "../src/index.mjs";
 
 test("tokenizes Chinese text into characters and bigrams", () => {
   const tokens = tokenizeSearchText("静夜思");
@@ -16,4 +17,15 @@ test("keeps Latin words as searchable tokens", () => {
 
 test("returns null for an empty query", () => {
   assert.equal(toFtsQuery("，。  "), null);
+});
+
+test("rejects single-character full-text work queries", async () => {
+  const response = await worker.fetch(
+    new Request("https://poetry-api.snowtraces.com/v1/works?q=静"),
+    { ALLOWED_ORIGIN: "*", DB: { prepare() { throw new Error("DB should not be queried"); } } }
+  );
+  const body = await response.json();
+
+  assert.equal(response.status, 400);
+  assert.equal(body.error.code, "QUERY_TOO_SHORT");
 });

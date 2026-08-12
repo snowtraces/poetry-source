@@ -92,6 +92,12 @@ GET /v1/works?page_size=50&cursor=eyJyb3dfaWQiOjUwfQ
 
 当 `next_cursor` 为 `null` 时，表示没有下一页。客户端不要解析或自行生成 cursor。
 
+### IP 限流
+
+公开 API 按 Cloudflare 识别的来源 IP 限流：默认每个 IP 每 60 秒最多 60 次请求。超过限制返回 `429 RATE_LIMITED`，并附带 `Retry-After: 60`。限流判断在 D1 查询前执行，用于降低突发流量对免费查询额度的影响。
+
+IP 共享网络中的多个用户会共用额度；限流状态由 Cloudflare 在边缘位置维护，属于保护性限制，不作为精确计费统计。客户端收到 `429` 时应等待 `Retry-After` 后再重试，并避免立即并发重发。
+
 ## 3. 接口列表
 
 | 方法 | 路径 | 说明 |
@@ -155,7 +161,7 @@ curl https://poetry-api.snowtraces.com/v1/health
 }
 ```
 
-`works`、`authors` 和统计数量会随 D1 导入进度变化。`manifest` 在未写入数据集清单时为 `null`。
+`works`、`authors` 和统计数量来自导入时写入 `dataset_meta` 的静态摘要；重新导入数据后应重新执行生成的 `dataset-meta.sql`。`manifest` 在未写入数据集清单时为 `null`。
 
 ## 6. 朝代列表
 
@@ -196,7 +202,7 @@ GET /v1/works?q=静夜思&page_size=20
 GET /v1/works?author_id=4cf43776293040fcb4a5289506997f04
 ```
 
-`q` 最长 64 个字符。中文搜索会进行分词，多个搜索词按同时满足处理。`dynasty` 最长 32 个字符，`author_id` 最长 128 个字符。
+`q` 长度为 2～64 个字符。中文搜索会进行分词，多个搜索词按同时满足处理；作品全文搜索不接受单字符查询。`dynasty` 最长 32 个字符，`author_id` 最长 128 个字符。
 
 列表中的作品摘要字段：
 
@@ -313,10 +319,14 @@ GET /v1/authors/dc5616e999928c1e2cfd45600e095e05/works?type=ci&cursor=...
 | 400 | `INVALID_TYPE` | `type` 不支持 |
 | 400 | `INVALID_CURSOR` | cursor 无效 |
 | 400 | `QUERY_TOO_LONG` | `q` 超过 64 个字符 |
+| 400 | `QUERY_TOO_SHORT` | 作品全文搜索 `q` 少于 2 个字符 |
 | 400 | `INVALID_DYNASTY` | 朝代参数过长 |
 | 400 | `INVALID_AUTHOR_ID` | 作者 ID 参数过长 |
 | 404 | `NOT_FOUND` | 资源或匹配数据不存在 |
 | 405 | `METHOD_NOT_ALLOWED` | 只允许 GET |
+| 429 | `RATE_LIMITED` | 来源 IP 超过请求频率限制 |
+| 503 | `RATE_LIMIT_UNAVAILABLE` | 限流服务暂时不可用 |
+| 503 | `DATASET_META_UNAVAILABLE` | 预计算数据集摘要不可用 |
 | 500 | `CORRUPT_PAYLOAD` | D1 中的 JSON 数据损坏 |
 | 500 | `INTERNAL_ERROR` | 服务内部错误 |
 

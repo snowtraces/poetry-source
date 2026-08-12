@@ -262,7 +262,62 @@ function ensureOutputDir(outputDir, force) {
   }
 }
 
-function createManifest(sourceDir, workCount, authorCount, generatedFiles) {
+function createSummary() {
+  return {
+    works: 0,
+    authors: 0,
+    byType: new Map(),
+    byDynasty: new Map()
+  };
+}
+
+function addSummaryCount(map, value) {
+  map.set(value, (map.get(value) ?? 0) + 1);
+}
+
+function addWorkToSummary(summary, row) {
+  summary.works += 1;
+  addSummaryCount(summary.byType, row.type);
+  addSummaryCount(summary.byDynasty, row.dynasty);
+}
+
+function addAuthorToSummary(summary) {
+  summary.authors += 1;
+}
+
+function compareSqlText(left, right) {
+  return left < right ? -1 : left > right ? 1 : 0;
+}
+
+function finalizeSummary(summary) {
+  const byType = [...summary.byType.entries()]
+    .sort(([left], [right]) => compareSqlText(left, right))
+    .map(([type, count]) => ({ type, count }));
+  const byDynasty = [...summary.byDynasty.entries()]
+    .sort(([left], [right]) => compareSqlText(left, right))
+    .map(([dynasty, count]) => ({ dynasty, count }));
+
+  return {
+    works: summary.works,
+    authors: summary.authors,
+    by_type: byType,
+    by_dynasty: byDynasty,
+    dynasties: byDynasty.filter(({ dynasty }) => dynasty !== "").map(({ dynasty }) => dynasty)
+  };
+}
+
+function writeSummarySql(outputDir, summary) {
+  const filename = "dataset-meta.sql";
+  const value = JSON.stringify(summary);
+  fs.writeFileSync(
+    path.join(outputDir, filename),
+    `INSERT OR REPLACE INTO dataset_meta (key, value) VALUES ('summary', ${sqlLiteral(value)});\n`,
+    "utf8"
+  );
+  return filename;
+}
+
+function createManifest(sourceDir, workCount, authorCount, generatedFiles, summary) {
   const entries = sourceEntries(sourceDir);
   const byVariant = {};
   const byType = {};
@@ -294,6 +349,7 @@ function createManifest(sourceDir, workCount, authorCount, generatedFiles) {
       works: workCount,
       authors: authorCount
     },
+    statistics: summary,
     generated_files: generatedFiles,
     notes: [
       "base files are retained in the source archive and are treated as the canonical payload when they duplicate canonical records",
@@ -317,10 +373,12 @@ function writeSqlSeed(sourceDir, outputDir, chunkSize) {
   let authorChunkIndex = 0;
   let workStatements = [];
   let authorStatements = [];
+  const summary = createSummary();
 
   for (const row of iterateWorkRows(sourceDir)) {
     workStatements.push(insertSql("works", WORK_COLUMNS, row));
     workCount += 1;
+    addWorkToSummary(summary, row);
     if (workStatements.length >= chunkSize) {
       generatedFiles.push(writeChunk(outputDir, "works", ++workChunkIndex, workStatements));
       workStatements = [];
@@ -333,6 +391,7 @@ function writeSqlSeed(sourceDir, outputDir, chunkSize) {
   for (const row of iterateAuthorRows(sourceDir)) {
     authorStatements.push(insertSql("authors", AUTHOR_COLUMNS, row));
     authorCount += 1;
+    addAuthorToSummary(summary);
     if (authorStatements.length >= chunkSize) {
       generatedFiles.push(writeChunk(outputDir, "authors", ++authorChunkIndex, authorStatements));
       authorStatements = [];
@@ -364,7 +423,7 @@ function writeSqlSeed(sourceDir, outputDir, chunkSize) {
   );
   generatedFiles.push(verifyFilename);
 
-  return { workCount, authorCount, generatedFiles };
+  return { workCount, authorCount, generatedFiles, summary: finalizeSummary(summary) };
 }
 
 function writeNdjsonSeed(sourceDir, outputDir) {
@@ -374,15 +433,18 @@ function writeNdjsonSeed(sourceDir, outputDir) {
   const authorHandle = fs.openSync(authorsPath, "w");
   let workCount = 0;
   let authorCount = 0;
+  const summary = createSummary();
 
   try {
     for (const row of iterateWorkRows(sourceDir)) {
       fs.writeSync(workHandle, `${JSON.stringify(row)}\n`);
       workCount += 1;
+      addWorkToSummary(summary, row);
     }
     for (const row of iterateAuthorRows(sourceDir)) {
       fs.writeSync(authorHandle, `${JSON.stringify(row)}\n`);
       authorCount += 1;
+      addAuthorToSummary(summary);
     }
   } finally {
     fs.closeSync(workHandle);
@@ -392,7 +454,8 @@ function writeNdjsonSeed(sourceDir, outputDir) {
   return {
     workCount,
     authorCount,
-    generatedFiles: ["works.ndjson", "authors.ndjson"]
+    generatedFiles: ["works.ndjson", "authors.ndjson"],
+    summary: finalizeSummary(summary)
   };
 }
 
@@ -420,11 +483,16 @@ export function writeSeed({ sourceDir, outputDir, format = "sql", chunkSize = 50
     generatedFiles.push(...ndjsonCounts.generatedFiles);
   }
 
+  if (format === "sql" || format === "both") {
+    generatedFiles.push(writeSummarySql(absoluteOutputDir, counts.summary));
+  }
+
   const manifest = createManifest(
     absoluteSourceDir,
     counts.workCount,
     counts.authorCount,
-    generatedFiles
+    generatedFiles,
+    counts.summary
   );
   const manifestPath = path.join(absoluteOutputDir, "manifest.json");
   fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, "utf8");

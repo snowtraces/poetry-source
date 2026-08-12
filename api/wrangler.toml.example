@@ -5,6 +5,15 @@ compatibility_date = "2026-08-07"
 [vars]
 ALLOWED_ORIGIN = "*"
 
+# Use a unique positive integer for this Cloudflare account.
+[[ratelimits]]
+name = "IP_RATE_LIMITER"
+namespace_id = "2026081201"
+
+  [ratelimits.simple]
+  limit = 60
+  period = 60
+
 [[d1_databases]]
 binding = "DB"
 database_name = "poetry-source"

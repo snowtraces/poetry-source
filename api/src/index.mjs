@@ -1,9 +1,11 @@
-import { toFtsQuery } from "./search.mjs";
+import { normalizeSearchText, toFtsQuery } from "./search.mjs";
 
 const API_PREFIX = "/v1";
 const WORK_TYPES = new Set(["poetry", "ci", "qu", "other"]);
 const MAX_PAGE_SIZE = 50;
 const MAX_QUERY_LENGTH = 64;
+const RATE_LIMIT_PER_IP = 60;
+const RATE_LIMIT_PERIOD_SECONDS = 60;
 const DEBUG_EXAMPLES = [
   {
     section: "健康检查",
@@ -177,16 +179,57 @@ function response(request, env, data, meta = {}, status = 200, options = {}) {
   return new Response(JSON.stringify({ data, meta, error: null }), { status, headers });
 }
 
-function errorResponse(request, env, status, code, message) {
+function errorResponse(request, env, status, code, message, extraHeaders = {}) {
   const headers = {
     "Content-Type": "application/json; charset=utf-8",
-    ...corsHeaders(request, env)
+    ...corsHeaders(request, env),
+    ...extraHeaders
   };
   return new Response(JSON.stringify({
     data: null,
     meta: {},
     error: { code, message }
   }), { status, headers });
+}
+
+function clientIp(request) {
+  return request.headers.get("CF-Connecting-IP") || "unknown";
+}
+
+async function enforceRateLimit(request, env) {
+  // Local unit tests and `wrangler dev` without the binding remain usable.
+  // Production config declares IP_RATE_LIMITER, so D1 is protected before route handling.
+  if (!env.IP_RATE_LIMITER?.limit) return null;
+
+  try {
+    const result = await env.IP_RATE_LIMITER.limit({
+      key: `poetry-source:ip:${clientIp(request)}`
+    });
+    if (result.success) return null;
+    return errorResponse(
+      request,
+      env,
+      429,
+      "RATE_LIMITED",
+      `rate limit exceeded: at most ${RATE_LIMIT_PER_IP} requests per ${RATE_LIMIT_PERIOD_SECONDS} seconds per IP`,
+      {
+        "Cache-Control": "no-store",
+        "Retry-After": String(RATE_LIMIT_PERIOD_SECONDS),
+        "X-RateLimit-Limit": String(RATE_LIMIT_PER_IP),
+        "X-RateLimit-Period": String(RATE_LIMIT_PERIOD_SECONDS)
+      }
+    );
+  } catch (error) {
+    console.error("rate limit check failed", error);
+    return errorResponse(
+      request,
+      env,
+      503,
+      "RATE_LIMIT_UNAVAILABLE",
+      "rate limit service unavailable",
+      { "Cache-Control": "no-store", "Retry-After": "60" }
+    );
+  }
 }
 
 function escapeHtml(value) {
@@ -498,6 +541,48 @@ function detailFromRow(row, includePinyin) {
   return data;
 }
 
+function parseDatasetMetaValue(value) {
+  if (!value) return null;
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+}
+
+function isDatasetSummary(value) {
+  return Boolean(
+    value &&
+    Number.isInteger(value.works) &&
+    Number.isInteger(value.authors) &&
+    Array.isArray(value.by_type) &&
+    Array.isArray(value.by_dynasty) &&
+    Array.isArray(value.dynasties)
+  );
+}
+
+function requireDatasetSummary(datasetMeta) {
+  if (!isDatasetSummary(datasetMeta.summary)) {
+    throw new HttpError(
+      503,
+      "DATASET_META_UNAVAILABLE",
+      "precomputed dataset summary is unavailable"
+    );
+  }
+  return datasetMeta.summary;
+}
+
+async function readDatasetMeta(env) {
+  const result = await env.DB.prepare(
+    "SELECT key, value FROM dataset_meta WHERE key IN ('summary', 'manifest')"
+  ).all();
+  const values = new Map((result.results || []).map((row) => [row.key, row.value]));
+  return {
+    summary: parseDatasetMetaValue(values.get("summary")),
+    manifest: parseDatasetMetaValue(values.get("manifest"))
+  };
+}
+
 function workWhere(url, { includeCursor = true } = {}) {
   const conditions = ["1 = 1"];
   const bindings = [];
@@ -523,6 +608,13 @@ function workWhere(url, { includeCursor = true } = {}) {
   if (q) {
     const ftsQuery = toFtsQuery(q);
     if (ftsQuery) {
+      if (Array.from(normalizeSearchText(q)).length < 2) {
+        throw new HttpError(
+          400,
+          "QUERY_TOO_SHORT",
+          "q must contain at least 2 characters for full-text search"
+        );
+      }
       conditions.push("w.row_id IN (SELECT rowid FROM works_fts WHERE works_fts MATCH ?)");
       bindings.push(ftsQuery);
     }
@@ -669,36 +761,21 @@ async function getAuthor(request, env, id) {
 }
 
 async function getMeta(request, env) {
-  const results = await env.DB.batch([
-    env.DB.prepare("SELECT COUNT(*) AS total FROM works"),
-    env.DB.prepare("SELECT type, COUNT(*) AS count FROM works GROUP BY type ORDER BY type"),
-    env.DB.prepare("SELECT dynasty, COUNT(*) AS count FROM works GROUP BY dynasty ORDER BY dynasty"),
-    env.DB.prepare("SELECT COUNT(*) AS total FROM authors"),
-    env.DB.prepare("SELECT value FROM dataset_meta WHERE key = 'manifest'")
-  ]);
-  const manifestRow = results[4]?.results?.[0];
-  let manifest = null;
-  if (manifestRow?.value) {
-    try {
-      manifest = JSON.parse(manifestRow.value);
-    } catch {
-      manifest = null;
-    }
-  }
+  const datasetMeta = await readDatasetMeta(env);
+  const summary = requireDatasetSummary(datasetMeta);
   return response(request, env, {
-    works: results[0]?.results?.[0]?.total || 0,
-    authors: results[3]?.results?.[0]?.total || 0,
-    by_type: results[1]?.results || [],
-    by_dynasty: results[2]?.results || [],
-    manifest
+    works: summary.works,
+    authors: summary.authors,
+    by_type: summary.by_type,
+    by_dynasty: summary.by_dynasty,
+    manifest: datasetMeta.manifest
   }, {}, 200, { cacheSeconds: 3600 });
 }
 
 async function getDynasties(request, env) {
-  const result = await env.DB.prepare(
-    "SELECT DISTINCT dynasty FROM works WHERE dynasty <> '' ORDER BY dynasty"
-  ).all();
-  return response(request, env, (result.results || []).map((row) => row.dynasty), {}, 200, {
+  const datasetMeta = await readDatasetMeta(env);
+  const summary = requireDatasetSummary(datasetMeta);
+  return response(request, env, summary.dynasties, {}, 200, {
     cacheSeconds: 3600
   });
 }
@@ -746,6 +823,8 @@ export default {
     }
 
     try {
+      const rateLimitResponse = await enforceRateLimit(request, env);
+      if (rateLimitResponse) return rateLimitResponse;
       return await route(request, env);
     } catch (error) {
       if (error instanceof HttpError) {

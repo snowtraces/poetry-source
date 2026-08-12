@@ -14,7 +14,7 @@
 | API 健康检查 | <https://poetry-api.snowtraces.com/v1/health> |
 | API 文档 | [`api/API.md`](./api/API.md) |
 
-API 根地址会打开调试页面，列出接口示例、参数说明和实时响应。接口当前为公开只读服务，不需要登录或 API Key。
+API 根地址会打开调试页面，列出接口示例、参数说明和实时响应。接口当前为公开只读服务，不需要登录或 API Key，并按来源 IP 限制请求频率。
 
 ## 项目内容
 

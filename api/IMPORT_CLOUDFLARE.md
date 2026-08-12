@@ -8,3 +8,4 @@ node scripts/import-source-cloudflare.mjs --source ..\source --out .data\seed-cf
 ```
 
 该入口同时忽略 `source/其他`，并把 SQL 分块生成为可直接交给 `wrangler d1 execute --remote --file` 的文件。
+生成的 `dataset-meta.sql` 保存导入时生成的静态统计，执行完作品和作者文件后再执行该文件。

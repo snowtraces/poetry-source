@@ -6,6 +6,8 @@
 
 这是基于仓库 `source/` 数据的 Cloudflare Workers + D1 API。导入脚本只读取现有数据，并把结果写到 `api/.data/seed-cf/`；该目录已被 Git 忽略。
 
+公开接口默认按来源 IP 限流：每 60 秒最多 60 次请求。超过限制返回 `429 RATE_LIMITED`，客户端应等待 `Retry-After` 后再重试。
+
 ## 本地检查
 
 ```powershell
@@ -66,8 +68,12 @@ Get-ChildItem .data\seed-cf\authors-*.sql | Sort-Object Name | ForEach-Object {
 
 ```powershell
 npx wrangler d1 execute poetry-source --remote --file .data\seed-cf\rebuild-fts.sql
+npx wrangler d1 execute poetry-source --remote --file .data\seed-cf\dataset-meta.sql
 npx wrangler d1 execute poetry-source --remote --file .data\seed-cf\verify.sql
 ```
+
+`dataset-meta.sql` 写入导入时生成的静态统计。API 会优先读取该摘要，避免
+`/v1/meta` 和 `/v1/dynasties` 在每次请求时执行全表统计。
 
 免费 D1 每日写入额度有限，首次导入应允许断点续传；如果当天额度耗尽，第二天从未执行的 SQL 文件继续即可。
 

@@ -34,8 +34,8 @@ CREATE TABLE IF NOT EXISTS authors (
   payload_json TEXT NOT NULL
 );
 
-CREATE INDEX IF NOT EXISTS authors_name
-  ON authors(name);
+CREATE INDEX IF NOT EXISTS authors_name_nocase
+ON authors(name COLLATE NOCASE);
 
 CREATE TABLE IF NOT EXISTS dataset_meta (
   key TEXT PRIMARY KEY,
