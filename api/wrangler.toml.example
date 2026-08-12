@@ -1,0 +1,12 @@
+name = "poetry-source-api"
+main = "src/index.mjs"
+compatibility_date = "2026-08-07"
+
+[vars]
+ALLOWED_ORIGIN = "*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "poetry-source"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"

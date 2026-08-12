@@ -1,0 +1,16 @@
+{
+  "name": "poetry-source-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "import": "node scripts/import-source-cloudflare.mjs",
+    "import:generic": "node scripts/import-source.mjs",
+    "import:ignore-other": "node scripts/import-source-ignore-other.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.34.0"
+  }
+}
