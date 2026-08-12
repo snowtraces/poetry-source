@@ -106,12 +106,12 @@ const DEBUG_EXAMPLES = [
   },
   {
     section: "作者",
-    title: "搜索李姓作者",
-    path: "/v1/authors?q=%E6%9D%8E&page_size=20",
-    displayPath: "/v1/authors?q=李&page_size=20",
-    description: "按作者姓名前缀查询作者。",
+    title: "精确查询李白",
+    path: "/v1/authors?q=%E6%9D%8E%E7%99%BD&page_size=20",
+    displayPath: "/v1/authors?q=李白&page_size=20",
+    description: "按作者姓名精确查询作者。",
     parameters: [
-      { name: "q", value: "李", description: "作者姓名前缀匹配" },
+      { name: "q", value: "李白", description: "作者姓名精确匹配" },
       { name: "page_size", value: "20", description: "每页数量，范围 1～50" }
     ]
   },
@@ -703,8 +703,8 @@ async function listAuthors(request, env, url) {
   const bindings = [];
   const conditions = ["1 = 1"];
   if (query) {
-    conditions.push("name LIKE ?");
-    bindings.push(`${query}%`);
+    conditions.push("name = ?");
+    bindings.push(query);
   }
   const cursor = parseCursor(url.searchParams.get("cursor"));
   if (cursor) {

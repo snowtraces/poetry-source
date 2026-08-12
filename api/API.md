@@ -264,14 +264,14 @@ GET /v1/works/random?type=poetry&dynasty=唐
 
 | 参数 | 类型 | 必填 | 说明 |
 |---|---|---|---|
-| `q` | string | 否 | 作者名前缀匹配，例如 `李` |
+| `q` | string | 否 | 作者姓名精确匹配，例如 `李白` |
 | `page_size` | integer | 否 | 默认 20，最大 50 |
 | `cursor` | string | 否 | 游标分页 |
 
 示例：
 
 ```text
-GET /v1/authors?q=李&page_size=20
+GET /v1/authors?q=李白&page_size=20
 ```
 
 列表字段：
